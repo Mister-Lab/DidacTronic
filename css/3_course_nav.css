@@ -1,0 +1,43 @@
+nav{
+  background: url("/img/Aop (6).png"); 
+  background-repeat: repeat-x;
+}
+
+// ____ Tabmenu __________________________________
+
+/* Style the tab */
+
+nav .container{
+  width: 500px;
+  margin: 0 auto;
+}
+
+nav ul.tabs{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+nav ul.tabs li{
+  background: none;
+
+  display: inline-block;
+
+  cursor: pointer;
+}
+
+nav ul.tabs li.current{
+  background: #ededed;
+  color: #222;
+}
+
+nav .tab-content{
+  display: none;
+ 
+
+}
+
+nav .tab-content.current{
+  display: inherit;
+}
+// ___________________________________________
+

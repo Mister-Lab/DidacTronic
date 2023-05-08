@@ -1,0 +1,91 @@
+.container {
+	padding: 1rem 2rem 0;
+	max-width: 80rem;
+	margin: 0 auto;
+}
+
+
+img { width: 100%; }
+
+.card,
+.media-object {
+	/* transform: scale(1);
+	transition: transform 0.25s ease-in-out; */
+}
+.shrink {
+	/* transform: scale(0); */	
+}
+.reverse .media-object {
+	/* flex-direction: row-reverse; */
+}
+.research-list .card .card-blurb {
+	display: none;
+}
+@media screen and (min-width: 40em) { 
+	.card-image.media-object-section {
+	  max-width: 40%;
+	}
+}
+
+
+
+.card{
+  overflow:hidden;
+  cursor:pointer;
+  box-shadow: 05px 05px 3px #ccc;
+}
+
+.card:hover{
+  box-shadow: 05px 05px 3px #aaa;
+  
+}
+
+.card:before{
+/*   content:" ";
+  display:block;
+  width:200px;
+  height:80px;
+  background:rgba(255, 255, 255, .1);
+  position:absolute;
+  top:-10px;
+  left:-200px;
+  transform:rotate(-45deg);
+  transition:all .15s ease-in-out; */  
+}
+
+.card:hover:before{
+  /* margin-left:300%; */
+  
+}
+
+.cell{
+	
+}
+
+h4{
+	
+  margin: 20px auto;
+  padding: 0;
+  width: auto;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  display:inline-block;
+  transition-property: transform;
+  transition: 0.25s ease;
+}
+h4::after {
+  content: '';
+  border-top: 4px solid #000;
+  width: 100%;
+  position: absolute;
+  display: block;
+  transform: rotateY(90deg);
+  transition:transform 0.25s linear;
+}
+h4:hover {
+  transform: scale(1);
+}
+h4:hover::after {
+  transform: rotate(0deg);
+}

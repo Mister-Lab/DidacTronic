@@ -1,0 +1,27 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+   font-family : Montserrat-Light ,Oswald, Verdana; 
+}
+
+/* _____________________ Pattern styles ________________________*/
+    .left-half {
+      background-color: #ff9e2c;
+      float: left;
+      width: 50%;
+    }
+
+    .right-half {
+      background-color: #b6701e;
+      float: left;
+      width: 50%;
+    }
+
+    /* ________________________ */
+    .responsive {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+    }

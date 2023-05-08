@@ -1,0 +1,5 @@
+En principe l'automate est le seul à être installé dans l'armoire électrique. Avant le bornier.
+pour les voyants du contrôleur on prends les infos au niveau des l'acquisition (repiquage).
+moore            =            mealy
+combinatoire     =        sequentielle
+table de verité = graphe d'état(table d'évolution)

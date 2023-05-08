@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+<title>Reference Designer Title </title>
+<script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+    
+        <script>
+            
+            function calc()
+            {
+           var n1 = parseFloat(document.getElementById('n1').value);
+           var n2 = parseFloat(document.getElementById('n2').value);
+                
+              
+                
+               
+                
+                    document.getElementById('result').value = n1+n2;
+                
+                
+                
+            }
+            
+        </script>
+        
+    </head>
+    <body>
+        
+        <input type="text" id="n1"/><br/><br/>
+        <input type="text" id="n2"/><br/><br/>
+        
+    
+        
+        <button onclick="calc();">=</button>
+        <input type="text" id="result"/>
+		
+		My first html Page.<i>This text is italics</i>
+
+$$x^2 = \frac{n^2+n}{2}$$
+		
+		
+		
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+
+		<input id="length" name="length" type="number" />
+<script>
+var w;
+var x = 5;
+var y = 2;
+var z = x + y;
+document.getElementById("demo1").innerHTML = z;
+w = parseFloat(length);
+document.getElementById("demo3").innerHTML = w;
+</script>
+<script>
+document.getElementById("demo2").innerHTML = 100 + 50 - 3;
+
+</script>
+
+
+        
+    </body>
+</html>

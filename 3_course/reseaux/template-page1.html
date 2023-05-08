@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+  <!--  _______________________________Metadata____________________________ -->
+	<title>eScience</title>
+	<meta charset="UTF-8">
+	<!-- <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" /> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="Mister Lab" content="Renov">
+	<meta name="robots" content="Site d'achat, de discussion et de mise en valeur de concepts industroniques">
+	<meta name="author" content="Mister Lab">
+	<meta http-equiv="refresh" content="500">
+	<meta name="description" content="Arretez de ne pas savoir ce que vous faites, pas comprendre les circuits electroniques de trop forcer les neurones et commencez a avoir de bonnes notes a l'ecole, devenir ingenieur, fabriquer vos machines !">
+	<meta name="keywords" content="Robotique, informatique, automatisme, electronique, apprendre, acheter">
+	<link type="pict/png" rel="shortcut icon"  href="./images/favicon.svg"/>
+  <!--  ___________________________CSS______________________________________ -->
+  <link rel="stylesheet" href="../../css/index.css">
+  <link rel="stylesheet" href="../../css/lesson.css">
+  <link rel="stylesheet" href="../../css/sidebar.css">
+  <link rel="stylesheet" href="../../css/main.css">
+  <link rel="stylesheet" href="../../css/3-summary.css">
+
+  
+
+  
+  <style>
+
+
+.container {  display: grid;
+  grid-template-columns: 1fr 0.5fr;
+  grid-template-rows: 10% 1fr 15%;
+  gap: 2em 2em;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "pretext pretext"
+    "text picture"
+    "postext postext";
+  width: 100%;
+  height: 800px;
+}
+
+.pretext { grid-area: pretext; }
+
+.postext { grid-area: postext; }
+
+.text { grid-area: text; }
+
+.picture { grid-area: picture; }
+
+
+
+
+
+.container2 {  display: grid;
+  grid-template-columns: 1fr 0.5fr;
+  grid-template-rows: 10% 0.5fr 1fr 15%;
+  gap: 2em 2em;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "pretext2 pretext2"
+    "text2 text2"
+    "picture2 picture2"
+    "postext2 postext2";
+  width: 100%;
+  height: 100%;
+}
+
+.pretext2 { grid-area: pretext2; }
+
+.picture2 { grid-area: picture2; }
+
+.postext2 { grid-area: postext2; }
+
+.text2 { grid-area: text2; }
+
+
+
+	</style>
+
+  <!--  ___________________________Javascript__________________________________ -->
+  <script src="../../js/zoomimg.js"></script>
+  <script src="../../js/2-courses-main.js"></script>
+
+</head>
+
+<body>
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">◄</a>
+    <a href="../../index.html#escience">eScience</a>
+    <a href="../../index.html#cours">Cours</a>
+    <a href="../../index.html#boutique">Boutique</a>
+    <a href="../../index.html#forum">Forum</a>
+  </div>
+  <button id="openbtn" onclick="openNav()">☰</button>Matière
+  <br>
+  <a href="0_sum-ele0.html" class="previous">← Précédent</a>
+  <a href="1_cha-slt-01.html" class="next">Suivant →</a>
+
+
+
+	
+
+<h1>titre 1</h1>
+  <div class="container">
+    <div class="pretext">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos velit reprehenderit maxime omnis sint. Pariatur a nisi eligendi iste recusandae ipsum perferendis, consectetur sequi est eaque earum ipsa itaque consequuntur.</div>
+    <div class="postext">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum perspiciatis quis maxime repellendus accusantium quae laudantium placeat, facere dolor consequatur saepe ab id iste nemo reiciendis similique ullam vitae mollitia!</div>
+    <div class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, quisquam nulla delectus laborum officiis dolore iste possimus esse eos doloremque, iusto ipsam asperiores impedit neque a, minus sunt beatae est.</div>
+    <div class="picture"><img src="img/Sans titre.png" alt=""></div>
+  </div>
+
+
+
+  <h1>titre 2</h1>
+           <div class="container2">
+                    <div class="pretext2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque aut et deserunt placeat? Hic ex iste recusandae odit, expedita voluptate error esse quis, illo magnam aperiam officia eveniet ullam repudiandae?</div>
+                    <div class="picture2"><img src="img/Sans titre2.png" alt=""></div>
+                    <div class="postext2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum atque id necessitatibus similique, esse nisi ipsam fugiat suscipit dolorem quas eaque, ab consequatur nostrum itaque reiciendis neque! Aspernatur, nihil excepturi?</div>
+                    <div class="text2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem praesentium libero obcaecati quibusdam perferendis nam explicabo atque iste cum eos nulla at provident, doloremque esse quam quaerat nobis ipsam omnis?</div>
+                  </div>
+  
+
+
+	
+	
+									<div id="modal01" class="modal" onclick="this.style.display='none'">
+											  <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+											  <div class="modal-content">
+												<img id="img01" class="img-modal-content" alt="">
+											  </div>
+									</div>
+									<div id="modal02" class="modal" onclick="this.style.display='none'">
+											  <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+											  <div class="modal-content">
+												<img id="img02" style="max-width:200%" alt="">
+											  </div>
+									</div>
+
+
+       
+
+  
+  
+    <script>
+  function openNav() {
+  				  document.getElementById("mySidebar").style.width = "250px";
+  				  document.getElementById("main").style.marginLeft = "250px";
+  				  document.getElementById("openbtn").style.visibility = 'hidden';
+  			}
+  			function closeNav() {
+  				  document.getElementById("mySidebar").style.width = "0";
+  				  document.getElementById("main").style.marginLeft= "0";
+  				document.getElementById("openbtn").style.visibility = 'visible';
+  			}
+  </script>
+
+  
+  
+  
+</body>
+
+</html>

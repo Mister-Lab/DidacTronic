@@ -1,0 +1,368 @@
+main {
+
+}
+/* _ Parallax _____________________________________________ */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+}
+
+.bgimg-1 {
+    background-image: url('../images/parallax1.png');
+} 
+
+.bgimg-2 {
+    background-image: url("../images/parallax2.gif");
+}
+
+.bgimg-3 {
+    background-image: url("../images/parallax3.jpg");
+}
+
+.card{
+    /*  overflow:hidden; */
+    cursor:pointer;
+    box-shadow: 03px 03px 3px #ccc;
+}
+
+/* _ Grid _________________________________________________ */
+.grid_1,
+.grid_2,
+.grid_3 {
+    display: grid;
+    gap: 10px;
+}
+
+.grid_1 {
+    width:100%;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid_2 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid_3 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid_1,
+.grid_2,
+.grid_3 > div{
+    background: #cccccc;
+    border: 1px solid #000000;
+   
+    padding: 8px;    
+  }
+
+
+.item_3_1 {
+  grid-row: 1 / span 2;
+}
+
+.item_g1 {
+ border: 1px solid #aaaaaa;
+  background: #999999;
+}
+.item_g1:hover {
+ border: 1px solid #000000;
+}
+
+.item_g2 {
+}
+
+.item_g3 {
+}
+
+.container_tb {
+  position: relative;
+}
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.container_tc {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.text-centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* _ Card grid_1 __________________________________________________ */
+
+.img_g1{
+    position: relative;
+    width:50%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%); 
+     /*  filter: blur(1px);
+    -webkit-filter: blur(1px); */
+}
+
+.img_g1:hover{
+
+  filter: blur(1px);
+    -webkit-filter: blur(1px); 
+}
+
+
+/* _ Card grid_2 __________________________________________________ */
+
+
+/* _ Card grid_3 __________________________________________________ */
+
+
+/* _ Card grid_4 __________________________________________________ */
+
+
+/* _ Card grid_5 __________________________________________________ */
+
+
+
+.reveal.active {
+  opacity: 1;
+}
+.active.fade-bottom {
+  animation: fade-bottom 1s ease-in;
+}
+.active.fade-left {
+  animation: fade-left 1s ease-in;
+}
+.active.fade-right {
+  animation: fade-right 1s ease-in;
+}
+@keyframes fade-bottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-left {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* _ Card grid_2 __________________________________________________ */
+
+.margin-bottom {
+    margin-bottom: 16px!important;
+}
+.border {
+    border: 1px solid #ccc!important;
+}
+/* .center {
+    text-align: center!important;
+} */
+.ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ul li {
+    padding: 8px 16px;
+   /*  border-bottom: 1px solid #ddd; */
+}
+
+.ul li:last-child {
+    border-bottom: none;
+}
+
+.black, .hover-black:hover {
+    color: #fff!important;
+    background-color: #000!important;
+}
+.light-grey, .hover-light-grey:hover, .light-gray, .hover-light-gray:hover {
+    color: #000!important;
+    background-color: #f1f1f1!important;
+}
+
+.dark-grey, .hover-dark-grey:hover, .dark-gray, .hover-dark-gray:hover {
+    color: #fff!important;
+    background-color: #616161!important;
+}
+
+.padding-16 {
+    padding-top: 16px!important;
+    padding-bottom: 16px!important;
+}
+
+.padding-24 {
+    padding-top: 24px!important;
+    padding-bottom: 24px!important;
+}
+
+.padding-32 {
+    padding-top: 32px!important;
+    padding-bottom: 32px!important;
+}
+-size: 24px!important;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.btn, .button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+
+button, html [type=button], [type=reset], [type=submit] {
+    -webkit-appearance: button;
+}
+button, select {
+    text-transform: none;
+}
+button, input {
+    overflow: visible;
+}
+button, input, select, textarea {
+    font: inherit;
+    margin: 0;
+}
+
+/* _ Button_a _______________________________________________ */
+
+.button_a {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button_a span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button_a span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button_a:hover span {
+  padding-right: 25px;
+}
+
+.button_a:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+#title {
+    width: 100%;
+    position: absolute;
+    padding: 0px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 27px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Open Sans', sans-serif;
+    z-index: 9999;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

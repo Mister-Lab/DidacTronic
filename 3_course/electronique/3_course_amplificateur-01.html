@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+    <head>
+        <title>DidacTronic</title>
+        <meta http-equiv="refresh" content="500">
+        <meta charset="UTF-8">
+        <!-- <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" /> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="Mister Lab" content="Renov">
+        <meta name="robots" content="Site d'achat, de discussion et de mise en valeur de concepts industroniques">
+        <meta name="author" content="Mister Lab">
+        <meta name="description" content="Arretez de ne pas savoir ce que vous faites, pas comprendre les circuits electroniques de trop forcer les neurones et commencez a avoir de bonnes notes a l'ecole, devenir ingenieur, fabriquer vos machines !">
+        <meta name="keywords" content="Robotique, informatique, automatisme, electronique, apprendre, acheter">
+
+		<link type="pict/png" rel="shortcut icon"  href="../../images/favicon.svg"/>
+        <link rel="shortcut icon" href="./images/favicon.svg" type="pict/png" />
+
+        <link rel="stylesheet" href="../../css/3_course_main.css">
+        <link rel="stylesheet" href="../../css/3_course_nav.css">
+        <link rel="stylesheet" href="../../css/3_course_footer.css">
+        <link rel="stylesheet" href="../../css/3_course_aside.css">
+        <link rel="stylesheet" href="../../css/3_course_header.css">
+       
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+        <script src="../../js/3_course_main.js"></script>
+        <script src="../../js/3_course_aside.js"></script>
+        <script src="../../js/3_course_footer.js"></script>
+        <script src="../../js/3_course_aside.js"></script>
+        <script src="../../js/3_course_nav.js"></script>
+    </head>
+
+    <body>
+        <header id="header">
+            <nav id="nav" style="background: url('img/fondec_ectro.svg'); background-repeat: no-repeat; width: 100%;">
+                <div>
+                    <span>
+                        <button id="openbtn" onclick="openAsidenav()">☰</button>
+                    </span>
+
+                    <span>Electrotechnique</span>
+                
+                </div>
+
+                <span class=""> 
+                    <center>
+                        <div class="container">
+                            <div id="tab-1" class="tab-content current">tab content1</div>
+                            <div id="tab-2" class="tab-content">tab content2</div>
+                            <div id="tab-3" class="tab-content">tab content3</div>
+
+                            <ul class="tabs">
+                                <li class="tab-link current" data-tab="tab-1">►</li>
+                                <li class="tab-link" data-tab="tab-2">►</li>
+                                <li class="tab-link" data-tab="tab-3">►</li>
+                            </ul>
+                        </div>
+                    </center>
+                </span>
+            </nav>
+        </header>
+
+        <aside id="aside" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeAsidenav()">◄</a>
+  
+            <ul class="ul_side">
+                <li><a href="#section-1">Section 1</a></li>
+                <li><a href="#section-2">Section 2</a></li>
+                <li><a href="#section-3">Section 3</a></li>
+                <li><a href="#section-4">Section 4</a></li>
+                <li><a href="#section-5">Section 5</a></li>
+                <li><a href="#section-6">Section 6</a></li>
+                <li><a href="#section-7">Section 7</a></li>
+                <li><a href="#section-8">Section 8</a></li>
+                <li><a href="#section-9">Section 9</a></li>
+            </ul>
+        </aside>
+
+        <header id="header">
+        </header>
+
+        <main id="main">
+            <div id="modal01" class="modal" onclick="this.style.display='none'">
+                <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <div class="modal-content">
+                        <img id="img01" style="max-width:100%">
+                    </div>
+            </div>
+
+            <section class="placeholder-content" id="section-1">
+                <div class="sticky-content">
+                    <h2 class="sticky-content-title">C'est quoi un amplificateur differentiel ?</h2>
+                </div>
+
+                <div class="placeholder-title">
+                    <div class="grid_A">
+                        <div class="pict">
+                            <figure >
+                                <img src="img/[-Ectro(-____(-AmpliOP-001-))].png"  onclick="onClick(this)" class="modal-hover-opacity " alt="Img 1"/>
+                                <figcaption>Fig.1 - Dual ended</figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="text_aside">
+                            <p>Un amplificateur différentiel composant actif qui amplifie la différence de <del>tension</del> potentiel existant entre deux points dont aucun n'est relié à la masse</p>   
+                            <p>Il est souvent utilisé dans les circuits électroniques de précision afin d'amplifier de petites différences de tension, telles que celles produites par des capteurs de température, de pression, de déplacement, etc.</p>
+                            <p>La sortie peut-être composé d'une ou deux broches. L’amplificateur symbolisé par la figure-1 est dit à sortie à référence commune. Dans ce cas, les entrées et la sortie sont prises par rapport à la même référence. Par contre celui de la figure-2 est dit à sortie flottante où la référence de la sortie est autre que celle des entrées.</p>
+                        </div>
+
+                      
+                    </div>                
+                </div>
+            </section>
+
+            <section class="placeholder-content" id="section-2">
+                <div class="sticky-content">
+                    <h2 class="sticky-content-title">Différentes configurations</h2>
+                </div>
+
+                <div class="placeholder-title">
+                    <div class="grid_A">
+                        <div class="pict">
+                            <figure >
+                                <img src="img/[-Ectro(-____(-AmpliOP-002-))].png"  onclick="onClick(this)" class="modal-hover-opacity " alt="Img 2"/>
+                                <figcaption>Fig.2 - Différentes configurations</figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="text_aside">
+                            <p>Un amplificateur différentiel composant actif qui amplifie la différence de tension entre deux entrées</p>   
+                            <p>Il est souvent utilisé dans les circuits électroniques de précision afin d'amplifier de petites différences de tension, telles que celles produites par des capteurs de température, de pression, de déplacement, etc.</p>
+                            <p>La sortie peut-être composé d'une ou deux broches. L’amplificateur symbolisé par la figure-1 est dit à sortie à référence commune. Dans ce cas, les entrées et la sortie sont prises par rapport à la même référence. Par contre celui de la figure-2 est dit à sortie flottante où la référence de la sortie est autre que celle des entrées.</p>
+                        </div>
+
+                        <div class="text_below">
+                           
+                            <p></p>
+                        </div>
+                    </div>                
+                </div>
+            </section>
+
+
+
+        </main>
+
+        <footer id="footer">
+            <div class="prevnext">
+                <span class="previous">
+                    <a href="0_sum-ele0.html" class="">← Précédent</a>
+                </span>
+
+                <span class="breadcrumbs">
+                    <ul class="collapsed">
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">First link</a></li>
+                      <li><a href="#">Second link</a></li>
+                      <li><a href="#">Another lengthier link</a></li>
+                      <li><a href="#">Final link in the hierarchy</a></li>
+                      <li>Current page</li>
+                    </ul> 
+                </span>   
+
+                <span class="next">
+                    <a href="1_cha-slt-01.html" class="">Suivant →</a>
+                </span>  
+            </div>
+        </footer>
+    </body>
+</html>

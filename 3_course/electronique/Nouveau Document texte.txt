@@ -1,0 +1,32 @@
+Un amplificateur différentiel tout en rejetant les signaux de même amplitude présents sur les deux entrées.
+
+
+
+
+
+
+
+C'est quoi un amplificateur opérationnel ? 
+__________________________________________
+
+
+Un amplificateur opérationnel (aussi appelé "ampli-op") est un composant électronique actif qui est utilisé pour amplifier des signaux électriques, effectuer des opérations mathématiques sur des signaux, ou encore comme bloc de construction pour créer des circuits électroniques plus complexes.
+
+Les amplificateurs opérationnels ont une entrée non-inverse, une entrée inverse et une sortie. Lorsqu'un signal est appliqué à l'entrée non-inverse, l'amplificateur opérationnel amplifie le signal et le renvoie à la sortie. La tension de sortie dépend de la différence de potentiel entre les deux entrées.
+
+Les amplificateurs opérationnels sont très couramment utilisés dans l'électronique analogique pour amplifier des signaux de faible amplitude, filtrer des signaux, réaliser des comparateurs de tension, des oscillateurs, des générateurs de fonctions, des régulateurs de tension, etc. Ils sont également utilisés dans l'électronique numérique pour réaliser des circuits logiques tels que les comparateurs de tension, les convertisseurs analogique-numérique, etc.
+
+
+Comment fonctionne un amplificateur opérationnel ?
+__________________________________________________
+
+Un amplificateur opérationnel (ou ampli-op) est un composant électronique qui permet d'amplifier un signal électrique. Il est largement utilisé dans les circuits électroniques pour amplifier des signaux de faible amplitude à des niveaux plus élevés, pour effectuer des opérations mathématiques (par exemple, addition, soustraction, multiplication, etc.) et pour fournir une impédance d'entrée élevée.
+
+L'ampli-op est composé de plusieurs transistors et de résistances connectées de manière spécifique pour former une boucle de rétroaction. Cette boucle permet à l'ampli-op de comparer la tension d'entrée à la tension de sortie, puis d'ajuster la sortie pour maintenir une relation constante entre les deux.
+
+Lorsqu'un signal est appliqué à l'entrée de l'ampli-op, il est amplifié et la sortie correspondante est générée en réponse. La magnitude de l'amplification est déterminée par la configuration de la boucle de rétroaction et peut être ajustée à l'aide de résistances externes.
+
+Les ampli-ops ont de nombreuses applications dans les domaines de l'électronique analogique et numérique. Ils peuvent être utilisés dans les amplificateurs audio, les filtres, les oscillateurs, les comparateurs, les convertisseurs analogique-numérique et numérique-analogique, et dans de nombreux autres circuits électroniques.
+
+
+ [-Ectro(-____(-0000-000-))]

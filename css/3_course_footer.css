@@ -1,0 +1,98 @@
+
+footer{
+   bottom: 0;
+}
+
+
+// ____ Prev Next  __________________________________
+div.prevnext {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "previous breadcrumbs next";
+}
+
+.previous { grid-area: previous; }
+
+.breadcrumbs { grid-area: breadcrumbs; }
+
+.next { grid-area: next; }
+
+// ____ Regular breadcrumbs_collapsed __________________________________
+ footer ul.collapsed  {
+    list-style-type: none;
+    margin: 20px;
+    margin: 0 auto ;
+    color: #333;text-align: center;
+}
+
+ footer ul.collapsed {
+    display: inline-block;
+    list-style-type: none;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    width: 70%;
+    padding-inline-start: 0px;
+    margin-inline: 05%;
+   text-align: center;
+}
+
+footer .collapsed li  {
+  display: inline-block;
+  position: relative;
+  padding: 0 2em 0 0;
+  margin: 0;
+}
+
+footer .collapsed  li:after {
+    content: '>';
+    position: absolute;
+    display: inline-block;
+    right: 0;
+    width: 2em;
+    text-align: center;
+  }
+footer .collapsed li:last-child {
+  font-weight: bold;
+}
+ .collapsed  li:last-child:after {
+    content: '';
+  }
+
+footer .collapsed a {
+  text-decoration: none;
+  display: inline-block;
+  color: #333;
+  white-space: nowrap;
+}
+  .collapsed a:hover {
+    text-decoration: underline;
+  }
+
+
+/* Collapsed breadcrumbs */
+
+.collapsed li {
+  overflow: hidden;
+}
+  .collapsed li:after {
+    background: rgb(227,227,227);
+    background: linear-gradient(90deg, rgba(227,227,227,0.4) 0%, rgba(227,227,227,1) 35%);
+    padding-left: 1em;
+  }
+
+.collapsed a {
+  max-width: 2em;
+  transition: max-width 300ms ease-in-out;
+}
+  .collapsed a:hover,
+  .collapsed a:focus,
+  .collapsed li:hover a {
+    max-width: 1000px;
+  }
+  .collapsed li:hover:after {
+    padding-left: 0em;
+    background: transparent;
+  }

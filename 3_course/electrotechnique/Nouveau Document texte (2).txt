@@ -1,0 +1,58 @@
+    <article></article>
+            <section></section>
+
+       Le courant passe dans la terre
+
+                         Un schéma de connexion à la terre, également appelé schéma de mise à la terre, est une représentation visuelle du système de mise à la terre électrique dans un bâtiment ou une structure. Il montre les chemins et les connexions entre les différents composants du système de mise à la terre, tels que les piquets de terre, les tapis de terre et les conducteurs de liaison.
+
+                        Le système de mise à la terre est un composant essentiel de toute installation électrique car il fournit un chemin à faible impédance vers la terre, assurant la dissipation sûre de tout courant de défaut et protégeant les personnes et les équipements contre les chocs électriques.
+
+                        Un schéma de connexion de mise à la terre est utilisé pour concevoir et vérifier le système de mise à la terre électrique d'un bâtiment ou d'une structure. Il permet de s'assurer que le système de mise à la terre est installé correctement, répond à toutes les normes de sécurité applicables et offre une protection adéquate contre les chocs électriques.
+
+                        Pour créer un schéma de connexion de mise à la terre, on peut utiliser un logiciel de dessin électrique spécialisé ou des outils de dessin simples, comme un crayon et une règle.
+                                           
+                                <p style="color: blue;">
+                                    Prenons l’exemple d’une machine à laver (c’est un cas fréquent).
+
+                                    Le moteur et le tambour de la machine à laver créent beaucoup de vibrations.
+
+                                    Il se peut qu’à force, au niveau de l’alimentation, un des conducteurs électriques comme la phase se détache un peu (ou se cisaille légèrement).
+
+                                    Si ce fil électrique touche la carcasse métallique, le courant va s’écouler dans cette carcasse.
+
+                                    Si cette même carcasse n’est pas reliée à la terre, le courant attendra un « moyen de s’échapper », une personne touchant la machine à laver par exemple.
+
+                                    Le courant électrique de fuite va s’échapper par le corps de la personne en question, en créant plus ou moins de dégâts selon l’intensité.
+                                </p>
+
+
+
+
+
+________________________
+
+Le courant passe dans la terre Un schéma de connexion à la terre, également appelé schéma de mise à la terre, est une représentation visuelle du système de mise à la terre électrique dans un bâtiment ou une structure. Il montre les chemins et les connexions entre les différents composants du système de mise à la terre, tels que les piquets de terre, les tapis de terre et les conducteurs de liaison. Le système de mise à la terre est un composant essentiel de toute installation électrique car il fournit un chemin à faible impédance vers la terre, assurant la dissipation sûre de tout courant de défaut et protégeant les personnes et les équipements contre les chocs électriques. Un schéma de connexion de mise à la terre est utilisé pour concevoir et vérifier le système de mise à la terre électrique d'un bâtiment ou d'une structure. Il permet de s'assurer que le système de mise à la terre est installé correctement, répond à toutes les normes de sécurité applicables et offre une protection adéquate contre les chocs électriques. Pour créer un schéma de connexion de mise à la terre, on peut utiliser un logiciel de dessin électrique spécialisé ou des outils de dessin simples, comme un crayon et une règle.
+Prenons l’exemple d’une machine à laver (c’est un cas fréquent). Le moteur et le tambour de la machine à laver créent beaucoup de vibrations. Il se peut qu’à force, au niveau de l’alimentation, un des conducteurs électriques comme la phase se détache un peu (ou se cisaille légèrement). Si ce fil électrique touche la carcasse métallique, le courant va s’écouler dans cette carcasse. Si cette même carcasse n’est pas reliée à la terre, le courant attendra un « moyen de s’échapper », une personne touchant la machine à laver par exemple. Le courant électrique de fuite va s’échapper par le corps de la personne en question, en créant plus ou moins de dégâts selon l’intensité.
+
+_______________________________
+
+
+
+
+
+Pour juger de l’état de dangerosité d’un courant, c’est la valeur la quantité d’électricité qu’il faut prendre en compte. Celle-ci n’est rien d’autre que le produit de l’intensité du courant par le temps. Un courant intense de durée très courte peut donc avoir les mêmes effets qu’un courant moins important mais de plus longue durée.
+
+Pour les fréquences inférieures à environ 100 kHz, la perception consiste en une sensation de fourmillement dans les doigts ou dans la main en contact avec l’objet. Pour des fréquences plus élevées, il y a sensation de chaleur. Électrode prise de terre, Pièce conductrice destinée à être mise en contact avec un milieu de conductivité différente. (On appelle respectivement anode et cathode l'électrode par laquelle le courant entre dans le milieu et sort du milieu.)
+
+Un autre paramètre doit également être pris en compte lors de l’apparition d’un court-circuit, c’est le pouvoir de fermeture du disjoncteur de protection électrique sur court-circuit. En effet, cette caractéristique est implicitement définie par le pouvoir de coupure. En considérant qu’un appareil doit être capable de fermer sur un court-circuit qu’il doit normalement couper. La sélectivité est une technique qui consiste à coordonner les protections de manière à ce qu’un défaut sur un circuit ne fasse déclencher que la protection électrique placée tout de suite en amont de ce défaut, évitant ainsi la mise hors service du reste de l’installation. La sélectivité améliore la continuité de service et la sécurité de l’installation. Sélectivité ampèremétrique Sélectivité chronométrique Sélectivité logique Elle se fait entre deux appareils qui communiquent via une liaison spécifique. sélectivité dite partielle Pouvoir de fermeture (Icm) = k*Icu
+
+Il existe trois façons pour réaliser la prise de terre: Un interrupteur différentiel est un appareil qui peut être ouvert (coupé) soit manuellement, soit par un système différentiel lorsqu'il détecte un défaut d'isolement. Il a un pouvoir de coupure équivalent à un interrupteur simple, c'est-à-dire que, normalement, il peut couper un courant équivalent au maximum de sa valeur nominale. Il ne peut en aucun cas couper sur court-circuit, qui risque de détruire ses contacts. La méthode à fond de fouille, en cercle La méthode tranché ou les conducteurs sont enfouis horizontalement. La méthode du piquet de terre, verticalement. protection des personnes contre les contacts indirects.
+
+
+
+
+
+
+
+
+

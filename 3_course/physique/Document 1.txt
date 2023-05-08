@@ -1,0 +1,51 @@
+Convertion joules en Kg?
+Bonjour , je voudrait savoir la force d’impact en kilo d'un plomb tiré d'une carabine de 32 joules a la sortie du canon (si le calcule est possible ) merci
+Mettre à jour: poids du projectile 0,25Grm , vitesse a la sortie du canon 350 M/s
+
+Meilleure réponse: Une force c'est en Newton, pas en "Kilo".
+
+Et non, on ne peut pas calculer la force de l'impact parce qu'elle dépend au minimum :
+- de la masse du projectile,
+- de sa vitesse au moment de l'impact (et il est freiné par l'air),
+- et du temps que met le projectile pour arriver à une vitesse nulle au moment de l'impact (en clair, la décélération subie).
+
+Le problème est insoluble parcequ'on ne peut pas convertir des joules (énergie) et kilogrammes (force). L'énergie correspond à une force qui déplace son point d'application sur une certaine distance. Donc en clair pour avoir des kg il faut savoir quelle distance parcourt le plomb quand il s'arrête. Bien entendu le calcul sera faux parceque le plomb ralentit dans l'air, et aussi parcequ'il se déforme sous l'effet du choc : la force ne sera jamais supérieure à celle qu'il faut pour l'écraser !
+
+Je suppose que tu fais référence aux "kilogrammes-forces", qui n'est plus une unité légale, mais qui parle plus aux non physiciens, par analogie avec le poids d'une masse.
+
+Si la distance est faible, l'énergie cinétique lors de l'impact reste de 32 J.
+La masse est sensiblement de 0,5 g. http://www.hyperprotec.com/p336/Plombs-4...
+L'impulsion lors du choc vaut donc
+
+p = m.V
+E = m.V²/2
+====
+> po = v(2.m.E) =179 g.m/s
+
+Et la force, si on peut l'estimer constante, s'exprime alors
+
+F = dp/dt = ?p/?t = po/?t < si, et seulement si, il n'y a pas rebond >
+m équivalente = po/(g.?t) ; g = 9,8 u.S.I.
+
+On voit donc que cette force dépend très grandement du temps d'arrêt, ?t, donc du matériau absorbant.
+
+Exemples :
+?t = 0,1 s > m équivalente = 0,179/(9,81*0,1) = 0,182 kg = 182 g [grammes]
+?t = 0,01 s > m équivalente = 1,82 kg [plaque d'acier, par exemple].
+
+=====
+m = 0,25 g ; V = 350 m/s
+> E = 0,25E-3*350^2 = 30,6 J et non 32 J.
+
+... mais tu peux refaire les calculs avec 0,25 g si ça présente un intérêt ...
+
+`
+Une force s'exprime en Newton, pas en kg...
+
+Le poids du projectile s'exprime lui aussi en Newton, mais pas en Grm dont je ne sais ce que cela signifie (Grm est une unité qui n'existe pas). Bref, une masse s'exprime en kg, et une force ou un poids s'exprime en Newton.
+
+La vitesse s'exprime en m/s (en minuscules).
+
+L'énergie cinétique du projectile s'exprime comme E = (1/2) m v², et si la masse du projectile est de 0,00025 kg et sa vitesse de 350 m/s, vaut 15,31 J, mais pas 32 J.
+
+La pression d'un impact, c'est en fait une force exercée sur une surface d'impact. Comme il manque des données (le diamètre du projectile), je ne peux pas en déduire la surface d'impact, et donc on ne peut pas déterminer la pression d'impact.
