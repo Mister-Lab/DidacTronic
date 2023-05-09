@@ -12,17 +12,19 @@
         <meta name="description" content="Arretez de ne pas savoir ce que vous faites, pas comprendre les circuits electroniques de trop forcer les neurones et commencez a avoir de bonnes notes a l'ecole, devenir ingenieur, fabriquer vos machines !">
         <meta name="keywords" content="Robotique, informatique, automatisme, electronique, apprendre, acheter">
 
-		<link type="pict/png" rel="shortcut icon"  href="../../images/favicon.svg"/>
+        <link type="pict/png" rel="shortcut icon"  href="../../images/favicon.svg"/>
         <link rel="shortcut icon" href="./images/favicon.svg" type="pict/png" />
 
-        <link rel="stylesheet" href="../../css/3_course_main.css">
-        <link rel="stylesheet" href="../../css/3_course_nav.css">
-        <link rel="stylesheet" href="../../css/3_course_footer.css">
-        <link rel="stylesheet" href="../../css/3_course_aside.css">
+        <link rel="stylesheet" href="../../css/3_course_global.css">
         <link rel="stylesheet" href="../../css/3_course_header.css">
-       
-        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <link rel="stylesheet" href="../../css/3_course_nav.css">
+        <link rel="stylesheet" href="../../css/3_course_aside.css">
+        <link rel="stylesheet" href="../../css/3_course_main.css">
+        <link rel="stylesheet" href="../../css/3_course_footer.css">
+        
         <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 
         <script src="../../js/3_course_main.js"></script>
         <script src="../../js/3_course_aside.js"></script>
@@ -32,34 +34,31 @@
     </head>
 
     <body>
-         <header id="header">
-            <nav id="nav" style="background: url('img/fondec_ectro.svg'); background-repeat: no-repeat; width: 100%;">
-                <div>
-                    <span>
-                        <button id="openbtn" onclick="openAsidenav()">☰</button>
-                    </span>
+        <header id="header">
+            <span>
+                <button id="openbtn" onclick="openAsidenav()">☰</button>
+            </span>
 
-                    <span>Electrotechnique</span>
-                
-                </div>
-
-                <span class=""> 
-                    <center>
-                        <div class="container">
-                            <div id="tab-1" class="tab-content current">tab content1</div>
-                            <div id="tab-2" class="tab-content">tab content2</div>
-                            <div id="tab-3" class="tab-content">tab content3</div>
-
-                            <ul class="tabs">
-                                <li class="tab-link current" data-tab="tab-1">►</li>
-                                <li class="tab-link" data-tab="tab-2">►</li>
-                                <li class="tab-link" data-tab="tab-3">►</li>
-                            </ul>
-                        </div>
-                    </center>
-                </span>
-            </nav>
+            <span>Electrotechnique</span>
         </header>
+
+        <nav id="nav" style="background: url('img/fondec_ectro.svg'); background-repeat: no-repeat; width: 100%;">
+            <span class=""> 
+                <center>
+                    <div class="container">
+                        <div id="tab-1" class="tab-content current"><a href="./3_course/electronique/3_course_composante-01.html"></a>Composante 1</div>
+                        <div id="tab-2" class="tab-content"><a href="./3_course/electronique/3_course_composante-02.html"></a>Composante 2</div>
+                        <div id="tab-3" class="tab-content"><a href="./3_course/electronique/3_course_composante-03.html"></a>Composante 3</div>
+
+                        <ul class="tabs">
+                            <li class="tab-link current" data-tab="tab-1">►</li>
+                            <li class="tab-link" data-tab="tab-2">►</li>
+                            <li class="tab-link" data-tab="tab-3">►</li>
+                        </ul>
+                    </div>
+                </center>
+            </span>
+        </nav>
 
         <aside id="aside" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeAsidenav()">◄</a>
@@ -77,15 +76,13 @@
             </ul>
         </aside>
 
-        <header id="header">
-        </header>
-
         <main id="main">
             <div id="modal01" class="modal" onclick="this.style.display='none'">
                 <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                    <div class="modal-content">
-                        <img id="img01" style="max-width:100%">
-                    </div>
+
+                <div class="modal-content">
+                    <img id="img01" style="max-width:100%">
+                </div>
             </div>
 
             <section class="placeholder-content" id="section-1">
@@ -100,18 +97,49 @@
                 <div class="placeholder-title">
                     <div class="grid_H">
                         <div class="pict_right_H">
-                            <img src="img/[-Ectro(-____(-Composante-000-))].png" class="imgsmall"  alt="Img 1"/>
+                            <img src="img/[-Ectro(-____(-Composante-000-))].png" class=""  alt="Img 1"/>
                         </div>
 
                         <div class="pict_left_H">
-                            <img src="img/[-Ectro(-____(-Composante-004-))].png" class="imgsmall_left"   alt="Img 1"/>
+                            <img src="img/[-Ectro(-____(-Composante-004-))].png" class=""   alt="Img 1"/>
                         </div>
 
                         <div class="text_middle_H">
                                 Une inductance monté en série elimine la composante dynamique du signal.
                                 Un condensateur monté en parallèle élimine la composante dynamique du signal.
-                              </div>
+                                Il sert d'interrupteur souvent connecté à la masse pour rejeter l'indésirable
+                        </div>
                     </div>
+                </div>
+
+                <center>
+                    <h3>Découplage</h3>
+                </center> 
+
+                <div class="placeholder-title">
+                    <div class="grid_I">
+                        <div class="pict_left_I">
+                            <img src="img/[-Ectro(-____(-Composante-001-))].png" class=""  alt="Img 1"/>
+                        </div>
+
+                        <div class="pict_right_I">
+                            <img src="img/[-Ectro(-____(-Composante-002-))].png" class=""  alt="Img 1"/>
+                        </div>
+
+                        <div class="text_left_I">
+                           Officia veritatis illo nihil ea quos architecto ipsum consequatur ab delectus inventore soluta nemo nobis necessitatibus sed quidem reprehenderit molestias libero sequi, dignissimos ducimus? Consectetur accusamus praesentium, molestiae error enim.
+                        </div>
+
+                        <div class="text_right_I">
+                          Repellendus architecto eligendi libero voluptates esse, officia eveniet asperiores voluptatum dolorum delectus, quod natus suscipit possimus. Iusto voluptatem, sit saepe neque rerum ad dolorum recusandae. Rem, nobis omnis vitae provident.
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="placeholder-content" id="section-1">
+                <div class="sticky-content">
+                    <h2 class="sticky-content-title">Composante statique Composante dynamique</h2>
                 </div>
 
                 <center>
@@ -122,11 +150,11 @@
                     <div class="grid_I">
 
                             <div class="pict_left_I">
-                                <img src="img/[-Ectro(-____(-Composante-001-))].png" class="imgsmall_left"  alt="Img 1"/>
+                                <img src="img/[-Ectro(-____(-Composante-005-))].png" class=""  alt="Img 1"/>
                             </div>
 
                             <div class="pict_right_I">
-                                <img src="img/[-Ectro(-____(-Composante-002-))].png" class="imgsmall"  alt="Img 1"/>
+                                <img src="img/[-Ectro(-____(-Composante-006-))].png" class=""  alt="Img 1"/>
                             </div>
 
                             <div class="text_left_I">
@@ -159,71 +187,25 @@
                     <div class="grid_I">
 
                             <div class="pict_left_I">
-                                <img src="img/[-Ectro(-____(-Composante-005-))].png" class="imgsmall_left"  alt="Img 1"/>
+                                <img src="img/[-Ectro(-____(-Composante-007-))].png" class=""  alt="Img 1"/>
                             </div>
 
                             <div class="pict_right_I">
-                                <img src="img/[-Ectro(-____(-Composante-006-))].png" class="imgsmall"  alt="Img 1"/>
+                                <img src="img/[-Ectro(-____(-Composante-008-))].png" class=""  alt="Img 1"/>
                             </div>
 
                             <div class="text_left_I">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet est quis odit, voluptatem, laudantium debitis numquam sit repellat quam iusto iure sapiente porro, officia beatae. Quod error unde dolorum saepe!
-                                Architecto, quo explicabo vitae voluptatem quaerat ullam et inventore adipisci, minima sint rem eveniet harum voluptatum, exercitationem beatae corrupti consectetur! Labore alias a, impedit dolore maiores dignissimos libero, iusto ut.
-                                Fuga dignissimos magni aliquam est veritatis sit eligendi inventore cupiditate doloribus assumenda error similique nesciunt ad sed dolore nostrum voluptas sint numquam sequi, tempore, temporibus nihil praesentium vero! Nesciunt, earum.
+                            Fuga dignissimos magni aliquam est veritatis sit eligendi inventore cupiditate doloribus assumenda error similique nesciunt ad sed dolore nostrum voluptas sint numquam sequi, tempore, temporibus nihil praesentium vero! Nesciunt, earum.
                                 Officia veritatis illo nihil ea quos architecto ipsum consequatur ab delectus inventore soluta nemo nobis necessitatibus sed quidem reprehenderit molestias libero sequi, dignissimos ducimus? Consectetur accusamus praesentium, molestiae error enim.
                             </div>
 
                             <div class="text_right_I">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus aperiam dolores quis. Commodi possimus corporis blanditiis consequatur libero iure eos, totam quisquam dignissimos ratione quae eveniet reprehenderit sint eligendi repellat?
-                                Officiis nulla, facilis veniam voluptatem nam, similique, accusantium ipsam quibusdam cum atque non vitae ratione fugit autem! Officiis nemo a cumque quo fugiat sit, dicta fuga, tenetur minima, minus deleniti.
-                                Tempora provident ipsam porro nobis autem perferendis odio dolore animi cum nostrum id, debitis temporibus fugit asperiores ullam dolores. Delectus ratione minus explicabo tempore nobis? Numquam velit, impedit quisquam voluptate.
+                               Tempora provident ipsam porro nobis autem perferendis odio dolore animi cum nostrum id, debitis temporibus fugit asperiores ullam dolores. Delectus ratione minus explicabo tempore nobis? Numquam velit, impedit quisquam voluptate.
                                 Repellendus architecto eligendi libero voluptates esse, officia eveniet asperiores voluptatum dolorum delectus, quod natus suscipit possimus. Iusto voluptatem, sit saepe neque rerum ad dolorum recusandae. Rem, nobis omnis vitae provident.
                             </div>
                     </div>
                 </div>
             </section>
-
-
-            <section class="placeholder-content" id="section-1">
-                <div class="sticky-content">
-                    <h2 class="sticky-content-title">Composante statique Composante dynamique</h2>
-                </div>
-
-                <center>
-                    <h3>Découplage</h3>
-                </center> 
-
-                <div class="placeholder-title">
-                    <div class="grid_I">
-
-                            <div class="pict_left_I">
-                                <img src="img/[-Ectro(-____(-Composante-005-))].png" class="imgsmall_left"  alt="Img 1"/>
-                            </div>
-
-                            <div class="pict_right_I">
-                                <img src="img/[-Ectro(-____(-Composante-006-))].png" class="imgsmall"  alt="Img 1"/>
-                            </div>
-
-                            <div class="text_left_I">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet est quis odit, voluptatem, laudantium debitis numquam sit repellat quam iusto iure sapiente porro, officia beatae. Quod error unde dolorum saepe!
-                                Architecto, quo explicabo vitae voluptatem quaerat ullam et inventore adipisci, minima sint rem eveniet harum voluptatum, exercitationem beatae corrupti consectetur! Labore alias a, impedit dolore maiores dignissimos libero, iusto ut.
-                                Fuga dignissimos magni aliquam est veritatis sit eligendi inventore cupiditate doloribus assumenda error similique nesciunt ad sed dolore nostrum voluptas sint numquam sequi, tempore, temporibus nihil praesentium vero! Nesciunt, earum.
-                                Officia veritatis illo nihil ea quos architecto ipsum consequatur ab delectus inventore soluta nemo nobis necessitatibus sed quidem reprehenderit molestias libero sequi, dignissimos ducimus? Consectetur accusamus praesentium, molestiae error enim.
-                            </div>
-
-                            <div class="text_right_I">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus aperiam dolores quis. Commodi possimus corporis blanditiis consequatur libero iure eos, totam quisquam dignissimos ratione quae eveniet reprehenderit sint eligendi repellat?
-                                Officiis nulla, facilis veniam voluptatem nam, similique, accusantium ipsam quibusdam cum atque non vitae ratione fugit autem! Officiis nemo a cumque quo fugiat sit, dicta fuga, tenetur minima, minus deleniti.
-                                Tempora provident ipsam porro nobis autem perferendis odio dolore animi cum nostrum id, debitis temporibus fugit asperiores ullam dolores. Delectus ratione minus explicabo tempore nobis? Numquam velit, impedit quisquam voluptate.
-                                Repellendus architecto eligendi libero voluptates esse, officia eveniet asperiores voluptatum dolorum delectus, quod natus suscipit possimus. Iusto voluptatem, sit saepe neque rerum ad dolorum recusandae. Rem, nobis omnis vitae provident.
-                            </div>
-                    </div>
-                </div>
-            </section>
-
-
-
-
         </main>
 
         <footer id="footer">

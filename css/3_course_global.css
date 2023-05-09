@@ -4,6 +4,9 @@ html {
 
 body{
    font-family : Montserrat-Light ,Oswald, Verdana; 
+   line-height: 1.6;
+   letter-spacing: 1.05px;
+     font-size: 150%;
 }
 
 /* _____________________ Pattern styles ________________________*/

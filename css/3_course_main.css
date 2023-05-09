@@ -27,9 +27,11 @@ main section .sticky-content {
   position: sticky;
   top: 0;
   z-index: 0;
-  background-color: #c9c9c9;
-  color: #FFFFFF;
-  padding: 0.1rem 2px;
+  background-color: #eee;
+  color: #000;
+  border-radius:50px;
+  padding-left: 10px;
+
 }
 
 main section .sticky-content-title {
@@ -102,10 +104,10 @@ main .tooltip:hover span {
 }
 
 .imgsmall {
-  float: right;
+
   cursor: zoom-in;
   width: 100%;
-  max-width: 400px;
+  
   height: auto;
 }
 
@@ -181,7 +183,7 @@ main .grid_A {
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas: "text_aside_A pict_A"
-    "text_below_A text_below_A";
+  "text_below_A text_below_A";
 }
 
 main .text_aside_A {
@@ -190,6 +192,13 @@ main .text_aside_A {
 
 main .pict_A {
   grid-area: pict_A;
+    width: 100%;
+  height: auto;
+}
+
+main .pict_A_img {
+  width: 100%;
+  height: auto;
 }
 
 main .text_below_A {
@@ -204,7 +213,7 @@ main .grid_B {
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas: "pict_B text_aside_B "
-    "text_below_B text_below_B";
+  "text_below_B text_below_B";
 }
 
 main .text_aside_B {
@@ -215,6 +224,11 @@ main .pict_B {
   grid-area: pict_B;
 }
 
+main .pict_B_img {
+  width: 100%;
+  height: auto;
+}
+
 main .text_below_B {
   grid-area: text_below_B;
 }
@@ -223,16 +237,21 @@ main .text_below_B {
 /* _______________ Lesson Grid C   grid1pictabove________________ */
 main .grid_C {
   display: grid;
-  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+
   gap: 0px 0px;
   grid-auto-flow: row;
-  grid-template-areas: "text_above_C text_above_C"
-    "pict_C pict_C";
+  grid-template-areas: "text_above_C"
+  "pict_C";
 }
 
 main .pict_C {
   grid-area: pict_C;
+}
+
+main .pict_C_img {
+  width: 50%;
+  height: auto;
 }
 
 main .text_above_C {
@@ -248,11 +267,16 @@ main .grid_D {
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas: "text_above_D"
-    "pict_D";
+  "pict_D";
 }
 
 main .text_above_D {
   grid-area: text_above_D;
+}
+
+main .pict_D_img {
+  width: 100%;
+  height: auto;
 }
 
 main .pict_D {
@@ -333,6 +357,11 @@ main .text_aside_G {
 
 main .pict_G {
   grid-area: pict_G;
+}
+
+main .pict_G_img {
+  width: 100%;
+  height: auto;
 }
 
 
