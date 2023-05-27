@@ -1,5 +1,6 @@
-main {
-
+main {position: absolute;
+    top: 100%;
+width: 100%;
 }
 /* _ Parallax _____________________________________________ */
 .bgimg-1, .bgimg-2, .bgimg-3 {
