@@ -172,23 +172,57 @@ main .tooltip:hover span {
 
 
 
-.BGred{
+
+/* _____________________________________________________________ */
+/* _____________________________________________________________ */
+
+/* _______________ General/Global________________ */
+
+main .BGred{
   background:red;
 }
 
 
-.BGgreen{
+main .BGgreen{
   background:green;
 }
 
-.BGblue{
+main .BGblue{
   background:blue;
+}
+
+main .BGred
+main .BGblue
+main .BGred{
+  width: auto;
+
+}
+main div.equation{
+  display: inline;
+  width: auto;
+
+}
+
+main > .p {
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.frame1{
+background: #aaaaaa;
+border-radius: 20px;
 }
 
 
 
-
-
+/*.MathJax {
+      line-height: 1.6;
+    letter-spacing: 1.05px;
+    font-size: 150%;
+}*/
 
 
 /* _____________________________________________________________ */

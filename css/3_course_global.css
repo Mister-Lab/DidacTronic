@@ -1,30 +1,35 @@
 html {
   scroll-behavior: smooth;
+  min-height: 100%; /* Look, it's not fixed anymore! */
+  display: flex;
+  flex-direction: column;
 }
 
+
 body{
-   font-family : Montserrat-Light ,Oswald, Verdana; 
-   line-height: 1.6;
-   letter-spacing: 1.05px;
-     font-size: 150%;
+  font-family : Montserrat-Light ,Oswald, Verdana; 
+  line-height: 1.6;
+  letter-spacing: 1.05px;
+  font-size: 150%;
+  flex-grow: 1;
 }
 
 /* _____________________ Pattern styles ________________________*/
-    .left-half {
-      background-color: #ff9e2c;
-      float: left;
-      width: 50%;
-    }
+.left-half {
+  background-color: #ff9e2c;
+  float: left;
+  width: 50%;
+}
 
-    .right-half {
-      background-color: #b6701e;
-      float: left;
-      width: 50%;
-    }
+.right-half {
+  background-color: #b6701e;
+  float: left;
+  width: 50%;
+}
 
-    /* ________________________ */
-    .responsive {
-      width: 100%;
-      max-width: 400px;
-      height: auto;
-    }
+/* ________________________ */
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}

@@ -1,11 +1,14 @@
 
 footer{
    bottom: 0;
+   position:fixed;
+   background: #eee;
+   width: 100%;
 }
 
 
 // ____ Prev Next  __________________________________
-div.prevnext {  display: grid;
+footer div.prevnext {  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   gap: 0px 0px;
@@ -47,19 +50,21 @@ footer .collapsed li  {
 }
 
 footer .collapsed  li:after {
-    content: '>';
-    position: absolute;
-    display: inline-block;
-    right: 0;
-    width: 2em;
-    text-align: center;
-  }
+  content: '>';
+  position: absolute;
+  display: inline-block;
+  right: 0;
+  width: 2em;
+  text-align: center;
+}
+
 footer .collapsed li:last-child {
   font-weight: bold;
 }
- .collapsed  li:last-child:after {
-    content: '';
-  }
+
+footer .collapsed  li:last-child:after {
+  content: '';
+}
 
 footer .collapsed a {
   text-decoration: none;
@@ -67,32 +72,36 @@ footer .collapsed a {
   color: #333;
   white-space: nowrap;
 }
-  .collapsed a:hover {
-    text-decoration: underline;
-  }
+
+footer  .collapsed a:hover {
+  text-decoration: underline;
+}
 
 
 /* Collapsed breadcrumbs */
 
-.collapsed li {
+footer .collapsed li {
   overflow: hidden;
 }
-  .collapsed li:after {
-    background: rgb(227,227,227);
-    background: linear-gradient(90deg, rgba(227,227,227,0.4) 0%, rgba(227,227,227,1) 35%);
-    padding-left: 1em;
-  }
 
-.collapsed a {
+footer .collapsed li:after {
+  background: rgb(227,227,227);
+  background: linear-gradient(90deg, rgba(227,227,227,0.4) 0%, rgba(227,227,227,1) 35%);
+  padding-left: 1em;
+}
+
+footer .collapsed a {
   max-width: 2em;
   transition: max-width 300ms ease-in-out;
 }
-  .collapsed a:hover,
-  .collapsed a:focus,
-  .collapsed li:hover a {
-    max-width: 1000px;
-  }
-  .collapsed li:hover:after {
-    padding-left: 0em;
-    background: transparent;
-  }
+
+footer .collapsed a:hover,
+footer .collapsed a:focus,
+footer .collapsed li:hover a {
+  max-width: 1000px;
+}
+
+footer .collapsed li:hover:after {
+  padding-left: 0em;
+  background: transparent;
+}
