@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 main {
+position: absolute;
+    top: 128%;
+    width: 100%;
 
 }
 /* _ Parallax _____________________________________________ */
@@ -11,15 +15,15 @@ main {
 }
 
 .bgimg-1 {
-    background-image: url('../images/parallax1.png');
-} 
+    background-image: url('../images/parallax2.gif');
+parallax1.png} 
 
 .bgimg-2 {
-    background-image: url("../images/parallax2.gif");
+    background-image: url("../images/par
 }
 
 .bgimg-3 {
-    background-image: url("../images/parallax3.jpg");
+    background-image: url("../images/parallax1.png");
 }
 
 .card{
@@ -37,8 +41,9 @@ main {
 }
 
 .grid_1 {
+    padding: 40px 0;
     width:100%;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
 }
 
 .grid_2 {
@@ -52,10 +57,9 @@ main {
 .grid_1,
 .grid_2,
 .grid_3 > div{
-    background: #cccccc;
-    border: 1px solid #000000;
-   
-    padding: 8px;    
+    
+
+ 
   }
 
 
@@ -65,7 +69,8 @@ main {
 
 .item_g1 {
  border: 1px solid #aaaaaa;
-  background: #999999;
+  background: #A5A5A5;
+ 
 }
 .item_g1:hover {
  border: 1px solid #000000;
@@ -82,12 +87,12 @@ main {
 }
 .text-block {
   position: absolute;
-  bottom: 20px;
-  right: 20px;
-  background-color: black;
+  bottom: 0px;
+  right: 0px;
+
   color: white;
   padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 5px;
 }
 
 
@@ -108,11 +113,13 @@ main {
 
 .img_g1{
     position: relative;
-    width:50%;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%); 
-     /*  filter: blur(1px);
-    -webkit-filter: blur(1px); */
+    width:100%;
+
+    filter: grayscale(80%);
+    -webkit-filter: grayscale(80%); 
+       
+      filter: blur(3px);
+    -webkit-filter: blur(3px);  /* */
 }
 
 .img_g1:hover{
@@ -134,7 +141,7 @@ main {
 /* _ Card grid_5 __________________________________________________ */
 
 
-
+/* _ Animation apparition __________________________________________________ */
 .reveal.active {
   opacity: 1;
 }
@@ -285,9 +292,9 @@ button, input, select, textarea {
 
 .button_a {
   border-radius: 4px;
-  background-color: #f4511e;
+  background-color: #F2F2F2;
   border: none;
-  color: #FFFFFF;
+  color: #000000;
   text-align: center;
   font-size: 28px;
   padding: 20px;

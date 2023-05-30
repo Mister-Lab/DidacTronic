@@ -1,8 +1,13 @@
 
 
 footer{
+<<<<<<< Updated upstream
   position: relative;
   bottom: 0;
+=======
+  position: absolute;
+  top: 265%;
+>>>>>>> Stashed changes
   width: 100%;
 }
 
@@ -34,7 +39,7 @@ p.footer{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
-    background-color: #000000;
+    background-color: #7f7f7f;
     height: 100%;
     padding: 15px;
     gap: 5px;

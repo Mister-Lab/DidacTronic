@@ -1,5 +1,13 @@
 /* _ Banner _______________________________________________ */
+<<<<<<< Updated upstream
 .canvas {
+=======
+header{
+margin-bottom: 40px;
+}
+
+#main-canvas{
+>>>>>>> Stashed changes
     position: absolute;
     top: 0;
     left: 0;
@@ -10,7 +18,12 @@
 
 #cover{
     position: absolute;
+<<<<<<< Updated upstream
     }
+=======
+    width: 100%;
+}
+>>>>>>> Stashed changes
 
 
 
@@ -18,6 +31,7 @@
 .carousel {
     position: absolute; 
     top: 0px;
+<<<<<<< Updated upstream
     left: 0;
     width: 100%;
     height:100%;
@@ -30,11 +44,23 @@
     position: relative;
     overflow: hidden;
     width: 100%;
+=======
+    width: 100%;
+}
+
+.carousel-inner {
+    overflow: hidden;
+>>>>>>> Stashed changes
 }
 
 .carousel-open:checked + .carousel-item {
     position: static;
     opacity: 100;
+<<<<<<< Updated upstream
+=======
+    width: 100%;
+    height: 100%;
+>>>>>>> Stashed changes
 }
 
 .carousel-item {
@@ -47,8 +73,13 @@
 
 .carousel-item img {
     display: block;
+<<<<<<< Updated upstream
     height: 100%;
     
+=======
+    width: 100%;
+    height: 100%;
+>>>>>>> Stashed changes
 }
 
 .carousel-control {

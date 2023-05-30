@@ -49,10 +49,45 @@ Un autre paramètre doit également être pris en compte lors de l’apparition 
 Il existe trois façons pour réaliser la prise de terre: Un interrupteur différentiel est un appareil qui peut être ouvert (coupé) soit manuellement, soit par un système différentiel lorsqu'il détecte un défaut d'isolement. Il a un pouvoir de coupure équivalent à un interrupteur simple, c'est-à-dire que, normalement, il peut couper un courant équivalent au maximum de sa valeur nominale. Il ne peut en aucun cas couper sur court-circuit, qui risque de détruire ses contacts. La méthode à fond de fouille, en cercle La méthode tranché ou les conducteurs sont enfouis horizontalement. La méthode du piquet de terre, verticalement. protection des personnes contre les contacts indirects.
 
 
+________________________________
+directive injonction consigne ordre
 
 
-
-
-
-
-
+ADJECTIVE 
+AFFECTIVE
+ AMPLECTIVE
+ AUTOCORRECTIVE
+ BIJECTIVE
+ COLLECTIVE
+ CONNECTIVE 
+CONVECTIVE 
+CORRECTIVE
+ DEFECTIVE
+ DETECTIVE
+ DIRECTIVE 
+EFFECTIVE
+ EJECTIVE
+ ELECTIVE
+ IMPERFECTIVE
+ INAFFECTIVE
+ INJECTIVE
+ INTERJECTIVE
+ INTERSUBJECTIVE 
+INTROJECTIVE
+ INTROSPECTIVE 
+INVECTIVE
+ OBJECTIVE
+ OMNIDIRECTIVE
+ PERFECTIVE
+ PERMSELECTIVE
+ PERSPECTIVE 
+PROFECTIVE 
+PROJECTIVE 
+PROSPECTIVE
+ PSYCHOAFFECTIVE 
+REFLECTIVE 
+RESPECTIVE
+ RETROSPECTIVE 
+SELECTIVE 
+SUBJECTIVE 
+SURJECTIVE
