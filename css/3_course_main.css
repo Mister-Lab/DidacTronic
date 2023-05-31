@@ -241,29 +241,29 @@ main .grid_A {
 }
 
 main .text_aside_A {
-  grid-area: text_aside_A;
+  grid-area: text_aside_A;text-align: justify;margin: 10px;
 }
 
 main .pict_A {
   grid-area: pict_A;
     width: 100%;
-  height: auto;
+  height: auto;margin: auto;
 }
 
 main .pict_A_img {
   width: 100%;
-  height: auto;
+  height: auto;margin: auto;
 }
 
 main .text_below_A {
-  grid-area: text_below_A;
+  grid-area: text_below_A;text-align: justify;margin: 10px;
 }
 
 /* _______________ Lesson Grid B grid1pictleft ________________ */
 main .grid_B {
   display: grid;
-  grid-template-columns: 0.5fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas: "pict_B text_aside_B "
@@ -271,28 +271,29 @@ main .grid_B {
 }
 
 main .text_aside_B {
-  grid-area: text_aside_B;
+  grid-area: text_aside_B;text-align: justify;margin: 10px;
 }
 
 main .pict_B {
-  grid-area: pict_B;
+  grid-area: pict_B;margin: auto;
+
 }
 
 main .pict_B_img {
   width: 100%;
-  height: auto;
+  height: auto;margin: auto;
 }
 
 main .text_below_B {
-  grid-area: text_below_B;
+  grid-area: text_below_B;text-align: justify;margin: 10px;
 }
 
 
 /* _______________ Lesson Grid C   grid1pictabove________________ */
 main .grid_C {
   display: grid;
-  grid-template-rows: 1fr 1fr;
-
+  grid-template-rows: auto auto;
+grid-template-columns:  ;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas: "text_above_C"
@@ -300,24 +301,24 @@ main .grid_C {
 }
 
 main .pict_C {
-  grid-area: pict_C;
+  grid-area: pict_C;margin: auto;
 }
 
 main .pict_C_img {
   width: 50%;
-  height: auto;
+  height: auto;margin: auto;
 }
 
 main .text_above_C {
-  grid-area: text_above_C;
+  grid-area: text_above_C;text-align: justify;margin: 10px;
 }
 
 
 /* _______________ Lesson Grid D grid3picthorizontal ________________ */
 main .grid_D {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas: "text_above_D"
@@ -325,7 +326,7 @@ main .grid_D {
 }
 
 main .text_above_D {
-  grid-area: text_above_D;
+  grid-area: text_above_D;text-align: justify;margin: 10px;
 }
 
 main .pict_D_img {
@@ -335,8 +336,8 @@ main .pict_D_img {
 
 main .pict_D {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
+  grid-template-columns: auto auto autor;
+  grid-template-rows: auto;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas: "img1_D img2_D img3_D";
@@ -359,21 +360,21 @@ main .img3_D {
 /* _______________ Lesson Grid E grid3pictveRtical ________________ */
 main .grid_E {
   display: grid;
-  grid-template-columns: 1fr 0.5fr;
-  grid-template-rows: 1fr;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas: "text_aside_E pict_E";
 }
 
 main .text_aside_E {
-  grid-area: text_aside_E;
+  grid-area: text_aside_E;text-align: justify;margin: 10px;
 }
 
 main .pict_E {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 0.25fr 0.25fr 0.25fr;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
   gap: 50px 0px;
   grid-auto-flow: row;
   grid-template-areas: "img1_E"
@@ -398,54 +399,54 @@ main .img3_E {
 /* _______________ Lesson Grid G ________________ */
 main .grid_G {
   display: grid;
-  grid-template-columns: 1fr 0.5fr;
-  grid-template-rows: 1fr;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas: "text_aside_G pict_G";
 }
 
 main .text_aside_G {
-  grid-area: text_aside_G;
+  grid-area: text_aside_G;text-align: justify;margin: 10px;
 }
 
 main .pict_G {
-  grid-area: pict_G;
+  grid-area: pict_G;margin: auto;
 }
 
 main .pict_G_img {
   width: 100%;
-  height: auto;
+  height: auto;margin: auto;
 }
 
 
 /* _______________ Lesson Grid H  ________________ */
 main .grid_H {
   display: grid;
-  grid-template-columns: 0.5fr 1fr 0.5fr;
-  grid-template-rows: 1fr;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas: "pict_right_H text_middle_H pict_left_H";
 }
 
 main .pict_right_H {
-  grid-area: pict_right_H;
+  grid-area: pict_right_H;margin: auto;
 }
 
 main .pict_left_H {
-  grid-area: pict_left_H;
+  grid-area: pict_left_H;margin: auto;
 }
 
 main .text_middle_H {
-  grid-area: text_middle_H;
+  grid-area: text_middle_H;text-align: justify;margin: 10px
 }
 
 /* _______________ Lesson Grid I  ________________ */
 main .grid_I {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas: "pict_left_I pict_right_I"
@@ -453,19 +454,19 @@ main .grid_I {
 }
 
 main .pict_left_I {
-  grid-area: pict_left_I;
+  grid-area: pict_left_I;margin: auto;
 }
 
 main .pict_right_I {
-  grid-area: pict_right_I;
+  grid-area: pict_right_I;margin: auto;
 }
 
 main .text_left_I {
-  grid-area: text_left_I;
+  grid-area: text_left_I;text-align: justify;margin: 10px;
 }
 
 main .text_right_I {
-  grid-area: text_right_I;
+  grid-area: text_right_I;text-align: justify;margin: 10px;
 }
 
 /* _____________________________________________________________ */

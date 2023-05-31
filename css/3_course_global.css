@@ -1,6 +1,6 @@
 html {
   scroll-behavior: smooth;
-  min-height: 100%; /* Look, it's not fixed anymore! */
+padding: 0 0 50px 0;
   display: flex;
   flex-direction: column;
 }
@@ -8,10 +8,10 @@ html {
 
 body{
   font-family : Montserrat-Light ,Oswald, Verdana; 
-  line-height: 1.6;
+ /* line-height: 1.6;
   letter-spacing: 1.05px;
   font-size: 150%;
-  flex-grow: 1;
+  flex-grow: 1;*/
 }
 
 /* _____________________ Pattern styles ________________________*/
