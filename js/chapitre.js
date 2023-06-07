@@ -1,16 +1,9 @@
-//-------------------------	
-	function hide(id)
-	{
-		if(document.getElementById(id))
-		{    //check the element exists and can be accessed
-		var ele = document.getElementById(id);    //get hold of the element
-		ele.style.display="none";}
-	}
+
 			
 //-------------------------	
 	function show(element,link) 
 	{
-		var elements = new Array("electro1","electro2","electro3","electro4","electro5","electro6");
+		var elements = new Array("Modbus","EtherCat","Profibus","electro4","electro5","electro6");
 
 		for (var i=0; i<elements.length; i++)
 		{

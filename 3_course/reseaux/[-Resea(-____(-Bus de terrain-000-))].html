@@ -1,0 +1,882 @@
+﻿<!DOCTYPE html>
+
+<html>
+	<head>
+		<!-- Metadata -->	
+		<title>eScience</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="eScience" content="Solutionneur" />
+		<meta name="LouMc" content="Renov" />
+		<meta name="copyright" content="97231" />
+		<meta name="robots" content="Ici on a rien inventé mais ont sait comment mettre en valeur." />
+		<link type="pict/png" rel="shortcut icon"  href="./images/favicon.svg"/>
+
+		<!-- CSS -->	
+		<link rel="stylesheet" href="../../css/topnav.css">
+		<link rel="stylesheet" href="../../css/index.css">
+		<link rel="stylesheet" href="../../css/lightbox.css">
+		<link rel="stylesheet" href="../../css/lesson.css">
+		<link rel="stylesheet" href="../../css/normalize.css">
+		<link rel="stylesheet" href="../../css/cours.css">
+		<link rel="stylesheet" href="../../css/prev_next.css">
+
+		<!-- <link rel="stylesheet" href="../../css/carousel.css"> -->
+		<link rel="stylesheet" href="../../css/sidebar.css">
+		<!-- <link rel="stylesheet" href="../../css/summary.css"> -->
+		<link rel="stylesheet" href="../../css/pagination.css">
+		<link rel="stylesheet" href="../../css/background.css">
+		<link rel="stylesheet" href="../../css/htmlbody.css">
+		<link rel="stylesheet" href="../../css/chapitre.css">
+<style>
+		table.blueTable {
+  border: 1px solid #1C6EA4;
+  background-color: #EEEEEE;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+
+}
+table.blueTable td, table.blueTable th {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;overflow-x: auto;
+}
+table.blueTable tbody td {
+  font-size: 13px;
+}
+table.blueTable tr:nth-child(even) {
+  background: #D0E4F5;
+}
+table.blueTable thead {
+  background: #1C6EA4;
+  background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  border-bottom: 2px solid #444444;
+}
+table.blueTable thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  border-left: 2px solid #D0E4F5;
+}
+table.blueTable thead th:first-child {
+  border-left: none;
+}
+
+table.blueTable tfoot td {
+  font-size: 14px;
+}
+table.blueTable tfoot .links {
+  text-align: right;
+}
+table.blueTable tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+
+table.blueTable td:nth-of-type(1){
+font-weight: bold;
+color: red;
+width: 200px;
+}
+</style>
+		<!-- ----------------------------Javascript---------------------------------- -->	
+		<script  src="../../js/zoomimg.js"></script>
+		<script  src="../../js/accordeon.js"></script>
+		<script type="text/javascript" language="javascript" src="../../js/chapitre.js"></script>
+
+		<script>
+			function openNav() {
+			document.getElementById("mySidebar").style.width = "250px";
+			document.getElementById("main").style.marginLeft = "250px";
+			document.getElementById("openbtn").style.visibility = 'hidden';}
+
+			function closeNav() {
+			document.getElementById("mySidebar").style.width = "0";
+			document.getElementById("main").style.marginLeft= "0";
+			document.getElementById("openbtn").style.visibility = 'visible';}
+		</script>
+
+	</head>
+
+
+	<body>
+
+		<div id="mySidebar" class="sidebar">
+
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">◄</a>
+			<a href="../../index.html#escience">eScience</a>
+			<a href="../../index.html#cours">Cours</a>
+			<a href="../../index.html#boutique">Boutique</a>
+			<a href="../../index.html#forum">Forum</a>
+			
+		</div>
+
+		<button id="openbtn" onclick="openNav()">☰</button>  
+
+		<br>
+
+		<a href="1_cha-slt-00.html" class="previous">← Précédent</a>
+		<a href="1_cha-slt-00.html" class="next">Suivant →</a>
+	
+
+		<div class="menu_accord">
+			<a id="1"  href="javascript:show('Modbus',1)">Modbus</a>
+			<a id="2"  href="javascript:show('EtherCat',2)">EtherCat</a>
+			<a id="3"  href="javascript:show('Profibus',3)">ProfiBus</a>
+			<a id="4"  href="javascript:show('electro4',4)"></a>
+			<a id="5"  href="javascript:show('electro5',5)">♦</a>
+			<a id="6"  href="javascript:show('electro6',6)">○</a>	
+			
+		</div>
+
+		<div id="container">
+			<div id="Modbus" style="display: none">
+				<table class="blueTable">
+					<thead>
+						<tr>
+						<th>Modbus</th>
+						<th>head2</th>
+						<th>head3</th>
+						</tr>
+					</thead>
+
+					<tbody>
+						<tr>
+							<td>ÉNERGIE</td>
+							<td>cell2_1</td>
+							<td>cell3_1</td><td>cell3_1</td>
+						</tr>
+						<tr>
+							<td>TOPOLOGIE</td>
+							<td>cell2_2</td>
+							<td>cell3_2</td>
+						</tr>
+						<tr>
+							<td>DISTANCE</td>
+							<td>cell2_3</td>
+							<td>cell3_3</td>
+						</tr>
+							<tr>
+							<td>DÉBIT</td>
+							<td>cell2_4</td>
+							<td>cell3_4</td>
+						</tr>
+						<tr>
+							<td>NOEUD</td>
+							<td>cell2_5</td>
+							<td>cell3_5</td>
+						</tr>
+						<tr>
+							<td>PROTOCOLE</td>
+							<td>cell2_6</td>
+							<td>cell3_6</td>
+						</tr>
+						<tr>
+							<td>PROPAGATION</td>
+							<td>cell2_7</td>
+							<td>cell3_7</td>
+						</tr>
+						<tr>
+							<td>HIÉRARCHIE</td>
+							<td>cell2_8</td>
+							<td>cell3_8</td>
+						</tr>
+						<tr>
+							<td>SÉCURITÉ</td>
+							<td>cell2_9</td>
+							<td>cell3_9</td>
+						</tr>
+						<tr>
+							<td>EXTENSION</td>
+							<td>cell2_10</td>
+							<td>cell3_10</td>
+						</tr>
+						<tr>
+							<td>ACCÈS</td>
+							<td></td>
+							<td>cell3_11</td>
+						</tr>
+						<tr>
+							<td>HORLOGE</td>
+							<td>cell2_13</td>
+							<td>cell3_13</td>
+						</tr>
+						<tr>
+							<td>NIVEAU CIM</td>
+							<td>cell2_14</td>
+							<td>cell3_14</td>
+						</tr>
+						<tr>
+							<td>CODAGE SIGNAUX</td>
+							<td>cell2_15</td>
+							<td>cell3_15</td>
+						</tr>
+						<tr>
+							<td>DATA</td>
+							<td>cell2_16</td>
+							<td>cell3_16</td>
+						</tr>
+						<tr>
+							<td>MEDIA</td>
+							<td>cell2_17</td>
+							<td>cell3_17</td>
+						</tr>
+						<tr>
+							<td>CONNEXION/TEUR</td>
+							<td>cell2_18</td>
+							<td>cell3_18</td>
+						</tr>
+						<tr>
+							<td>ÉQUIPMEENT</td>
+							<td>cell2_19</td>
+							<td>cell3_19</td>
+						</tr>
+						<tr>
+							<td>APPLICATION</td>
+							<td>cell2_20</td>
+							<td>cell3_20</td>
+						</tr>
+						<tr>
+							<td>MODEL OSI</td>
+							<td>cell2_22</td>
+							<td>cell3_22</td>
+						</tr>
+						<tr>
+							<td>ENVIRONNEMENT</td>
+							<td>cell2_23</td>
+							<td>cell3_23</td>
+						</tr>
+						<tr>
+							<td>NORME</td>
+							<td>cell2_23</td>
+							<td>cell3_23</td>
+						</tr>
+						<tr>
+							<td>link</td>
+							<td>cell2_23</td>
+							<td>cell3_23</td>
+						</tr>
+						<tr>
+							<td>trâme</td>
+							<td>cell2_23</td>
+							<td>cell3_23</td>
+						</tr>
+					</tbody>
+					<footer></footer>
+				</table>
+			</div>
+			
+			<div id="EtherCat" style="display: none">
+				<table class="blueTable">
+					<thead>
+						<tr>
+						<th>EtherCat</th>
+						<th>head2</th>
+						<th>head3</th>
+						</tr>
+					</thead>
+
+					<tbody>
+						<tr>
+							<td>cell1_1</td>
+							<td>cell2_1</td>
+							<td>cell3_1</td>
+						</tr>
+						<tr>
+							<td>cell1_2</td>
+							<td>cell2_2</td>
+							<td>cell3_2</td>
+						</tr>
+						<tr>
+							<td>cell1_3</td>
+							<td>cell2_3</td>
+							<td>cell3_3</td>
+						</tr>
+							<tr>
+							<td>cell1_4</td>
+							<td>cell2_4</td>
+							<td>cell3_4</td>
+						</tr>
+						<tr>
+							<td>cell1_5</td>
+							<td>cell2_5</td>
+							<td>cell3_5</td>
+						</tr>
+						<tr>
+							<td>cell1_6</td>
+							<td>cell2_6</td>
+							<td>cell3_6</td>
+						</tr>
+						<tr>
+							<td>cell1_7</td>
+							<td>cell2_7</td>
+							<td>cell3_7</td>
+						</tr>
+						<tr>
+							<td>cell1_8</td>
+							<td>cell2_8</td>
+							<td>cell3_8</td>
+						</tr>
+						<tr>
+							<td>cell1_9</td>
+							<td>cell2_9</td>
+							<td>cell3_9</td>
+						</tr>
+						<tr>
+							<td>cell1_10</td>
+							<td>cell2_10</td>
+							<td>cell3_10</td>
+						</tr>
+						<tr>
+							<td>cell1_11</td>
+							<td>cell2_11</td>
+							<td>cell3_11</td>
+						</tr>
+						<tr>
+							<td>cell1_13</td>
+							<td>cell2_13</td>
+							<td>cell3_13</td>
+						</tr>
+						<tr>
+							<td>cell1_14</td>
+							<td>cell2_14</td>
+							<td>cell3_14</td>
+						</tr>
+						<tr>
+							<td>cell1_15</td>
+							<td>cell2_15</td>
+							<td>cell3_15</td>
+						</tr>
+						<tr>
+							<td>cell1_16</td>
+							<td>cell2_16</td>
+							<td>cell3_16</td>
+						</tr>
+						<tr>
+							<td>cell1_17</td>
+							<td>cell2_17</td>
+							<td>cell3_17</td>
+						</tr>
+						<tr>
+							<td>cell1_18</td>
+							<td>cell2_18</td>
+							<td>cell3_18</td>
+						</tr>
+						<tr>
+							<td>cell1_19</td>
+							<td>cell2_19</td>
+							<td>cell3_19</td>
+						</tr>
+						<tr>
+							<td>cell1_20</td>
+							<td>cell2_20</td>
+							<td>cell3_20</td>
+						</tr>
+						<tr>
+							<td>cell1_22</td>
+							<td>cell2_22</td>
+							<td>cell3_22</td>
+						</tr>
+						<tr>
+							<td>cell1_23</td>
+							<td>cell2_23</td>
+							<td>cell3_23</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>				
+				
+			<div id="Profibus" style="display: none">
+				<table class="blueTable">
+					<thead>
+						<tr>
+						<th>ProfiBus</th>
+						<th>head2</th>
+						<th>head3</th>
+						</tr>
+					</thead>
+
+					<tbody>
+						<tr>
+							<td>cell1_1</td>
+							<td>cell2_1</td>
+							<td>cell3_1</td>
+						</tr>
+						<tr>
+							<td>cell1_2</td>
+							<td>cell2_2</td>
+							<td>cell3_2</td>
+						</tr>
+						<tr>
+							<td>cell1_3</td>
+							<td>cell2_3</td>
+							<td>cell3_3</td>
+						</tr>
+							<tr>
+							<td>cell1_4</td>
+							<td>cell2_4</td>
+							<td>cell3_4</td>
+						</tr>
+						<tr>
+							<td>cell1_5</td>
+							<td>cell2_5</td>
+							<td>cell3_5</td>
+						</tr>
+						<tr>
+							<td>cell1_6</td>
+							<td>cell2_6</td>
+							<td>cell3_6</td>
+						</tr>
+						<tr>
+							<td>cell1_7</td>
+							<td>cell2_7</td>
+							<td>cell3_7</td>
+						</tr>
+						<tr>
+							<td>cell1_8</td>
+							<td>cell2_8</td>
+							<td>cell3_8</td>
+						</tr>
+						<tr>
+							<td>cell1_9</td>
+							<td>cell2_9</td>
+							<td>cell3_9</td>
+						</tr>
+						<tr>
+							<td>cell1_10</td>
+							<td>cell2_10</td>
+							<td>cell3_10</td>
+						</tr>
+						<tr>
+							<td>cell1_11</td>
+							<td>cell2_11</td>
+							<td>cell3_11</td>
+						</tr>
+						<tr>
+							<td>cell1_13</td>
+							<td>cell2_13</td>
+							<td>cell3_13</td>
+						</tr>
+						<tr>
+							<td>cell1_14</td>
+							<td>cell2_14</td>
+							<td>cell3_14</td>
+						</tr>
+						<tr>
+							<td>cell1_15</td>
+							<td>cell2_15</td>
+							<td>cell3_15</td>
+						</tr>
+						<tr>
+							<td>cell1_16</td>
+							<td>cell2_16</td>
+							<td>cell3_16</td>
+						</tr>
+						<tr>
+							<td>cell1_17</td>
+							<td>cell2_17</td>
+							<td>cell3_17</td>
+						</tr>
+						<tr>
+							<td>cell1_18</td>
+							<td>cell2_18</td>
+							<td>cell3_18</td>
+						</tr>
+						<tr>
+							<td>cell1_19</td>
+							<td>cell2_19</td>
+							<td>cell3_19</td>
+						</tr>
+						<tr>
+							<td>cell1_20</td>
+							<td>cell2_20</td>
+							<td>cell3_20</td>
+						</tr>
+						<tr>
+							<td>cell1_22</td>
+							<td>cell2_22</td>
+							<td>cell3_22</td>
+						</tr>
+						<tr>
+							<td>cell1_23</td>
+							<td>cell2_23</td>
+							<td>cell3_23</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>		
+					
+			<div id="electro4" style="display: none">
+				<table class="blueTable">
+					<thead>
+						<tr>
+						<th>head1</th>
+						<th>head2</th>
+						<th>head3</th>
+						</tr>
+					</thead>
+
+					<tbody>
+						<tr>
+							<td>cell1_1</td>
+							<td>cell2_1</td>
+							<td>cell3_1</td>
+						</tr>
+						<tr>
+							<td>cell1_2</td>
+							<td>cell2_2</td>
+							<td>cell3_2</td>
+						</tr>
+						<tr>
+							<td>cell1_3</td>
+							<td>cell2_3</td>
+							<td>cell3_3</td>
+						</tr>
+							<tr>
+							<td>cell1_4</td>
+							<td>cell2_4</td>
+							<td>cell3_4</td>
+						</tr>
+						<tr>
+							<td>cell1_5</td>
+							<td>cell2_5</td>
+							<td>cell3_5</td>
+						</tr>
+						<tr>
+							<td>cell1_6</td>
+							<td>cell2_6</td>
+							<td>cell3_6</td>
+						</tr>
+						<tr>
+							<td>cell1_7</td>
+							<td>cell2_7</td>
+							<td>cell3_7</td>
+						</tr>
+						<tr>
+							<td>cell1_8</td>
+							<td>cell2_8</td>
+							<td>cell3_8</td>
+						</tr>
+						<tr>
+							<td>cell1_9</td>
+							<td>cell2_9</td>
+							<td>cell3_9</td>
+						</tr>
+						<tr>
+							<td>cell1_10</td>
+							<td>cell2_10</td>
+							<td>cell3_10</td>
+						</tr>
+						<tr>
+							<td>cell1_11</td>
+							<td>cell2_11</td>
+							<td>cell3_11</td>
+						</tr>
+						<tr>
+							<td>cell1_13</td>
+							<td>cell2_13</td>
+							<td>cell3_13</td>
+						</tr>
+						<tr>
+							<td>cell1_14</td>
+							<td>cell2_14</td>
+							<td>cell3_14</td>
+						</tr>
+						<tr>
+							<td>cell1_15</td>
+							<td>cell2_15</td>
+							<td>cell3_15</td>
+						</tr>
+						<tr>
+							<td>cell1_16</td>
+							<td>cell2_16</td>
+							<td>cell3_16</td>
+						</tr>
+						<tr>
+							<td>cell1_17</td>
+							<td>cell2_17</td>
+							<td>cell3_17</td>
+						</tr>
+						<tr>
+							<td>cell1_18</td>
+							<td>cell2_18</td>
+							<td>cell3_18</td>
+						</tr>
+						<tr>
+							<td>cell1_19</td>
+							<td>cell2_19</td>
+							<td>cell3_19</td>
+						</tr>
+						<tr>
+							<td>cell1_20</td>
+							<td>cell2_20</td>
+							<td>cell3_20</td>
+						</tr>
+						<tr>
+							<td>cell1_22</td>
+							<td>cell2_22</td>
+							<td>cell3_22</td>
+						</tr>
+						<tr>
+							<td>cell1_23</td>
+							<td>cell2_23</td>
+							<td>cell3_23</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div id="electro5" style="display: none">
+				<table class="blueTable">
+					<thead>
+						<tr>
+						<th>head1</th>
+						<th>head2</th>
+						<th>head3</th>
+						</tr>
+					</thead>
+
+					<tbody>
+						<tr>
+							<td>cell1_1</td>
+							<td>cell2_1</td>
+							<td>cell3_1</td>
+						</tr>
+						<tr>
+							<td>cell1_2</td>
+							<td>cell2_2</td>
+							<td>cell3_2</td>
+						</tr>
+						<tr>
+							<td>cell1_3</td>
+							<td>cell2_3</td>
+							<td>cell3_3</td>
+						</tr>
+							<tr>
+							<td>cell1_4</td>
+							<td>cell2_4</td>
+							<td>cell3_4</td>
+						</tr>
+						<tr>
+							<td>cell1_5</td>
+							<td>cell2_5</td>
+							<td>cell3_5</td>
+						</tr>
+						<tr>
+							<td>cell1_6</td>
+							<td>cell2_6</td>
+							<td>cell3_6</td>
+						</tr>
+						<tr>
+							<td>cell1_7</td>
+							<td>cell2_7</td>
+							<td>cell3_7</td>
+						</tr>
+						<tr>
+							<td>cell1_8</td>
+							<td>cell2_8</td>
+							<td>cell3_8</td>
+						</tr>
+						<tr>
+							<td>cell1_9</td>
+							<td>cell2_9</td>
+							<td>cell3_9</td>
+						</tr>
+						<tr>
+							<td>cell1_10</td>
+							<td>cell2_10</td>
+							<td>cell3_10</td>
+						</tr>
+						<tr>
+							<td>cell1_11</td>
+							<td>cell2_11</td>
+							<td>cell3_11</td>
+						</tr>
+						<tr>
+							<td>cell1_13</td>
+							<td>cell2_13</td>
+							<td>cell3_13</td>
+						</tr>
+						<tr>
+							<td>cell1_14</td>
+							<td>cell2_14</td>
+							<td>cell3_14</td>
+						</tr>
+						<tr>
+							<td>cell1_15</td>
+							<td>cell2_15</td>
+							<td>cell3_15</td>
+						</tr>
+						<tr>
+							<td>cell1_16</td>
+							<td>cell2_16</td>
+							<td>cell3_16</td>
+						</tr>
+						<tr>
+							<td>cell1_17</td>
+							<td>cell2_17</td>
+							<td>cell3_17</td>
+						</tr>
+						<tr>
+							<td>cell1_18</td>
+							<td>cell2_18</td>
+							<td>cell3_18</td>
+						</tr>
+						<tr>
+							<td>cell1_19</td>
+							<td>cell2_19</td>
+							<td>cell3_19</td>
+						</tr>
+						<tr>
+							<td>cell1_20</td>
+							<td>cell2_20</td>
+							<td>cell3_20</td>
+						</tr>
+						<tr>
+							<td>cell1_22</td>
+							<td>cell2_22</td>
+							<td>cell3_22</td>
+						</tr>
+						<tr>
+							<td>cell1_23</td>
+							<td>cell2_23</td>
+							<td>cell3_23</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		
+			<div id="electro6" style="display: none">
+				<table class="blueTable">
+					<thead>
+						<tr>
+						<th>head1</th>
+						<th>head2</th>
+						<th>head3</th>
+						</tr>
+					</thead>
+
+					<tbody>
+						<tr>
+							<td>cell1_1</td>
+							<td>cell2_1</td>
+							<td>cell3_1</td>
+						</tr>
+						<tr>
+							<td>cell1_2</td>
+							<td>cell2_2</td>
+							<td>cell3_2</td>
+						</tr>
+						<tr>
+							<td>cell1_3</td>
+							<td>cell2_3</td>
+							<td>cell3_3</td>
+						</tr>
+							<tr>
+							<td>cell1_4</td>
+							<td>cell2_4</td>
+							<td>cell3_4</td>
+						</tr>
+						<tr>
+							<td>cell1_5</td>
+							<td>cell2_5</td>
+							<td>cell3_5</td>
+						</tr>
+						<tr>
+							<td>cell1_6</td>
+							<td>cell2_6</td>
+							<td>cell3_6</td>
+						</tr>
+						<tr>
+							<td>cell1_7</td>
+							<td>cell2_7</td>
+							<td>cell3_7</td>
+						</tr>
+						<tr>
+							<td>cell1_8</td>
+							<td>cell2_8</td>
+							<td>cell3_8</td>
+						</tr>
+						<tr>
+							<td>cell1_9</td>
+							<td>cell2_9</td>
+							<td>cell3_9</td>
+						</tr>
+						<tr>
+							<td>cell1_10</td>
+							<td>cell2_10</td>
+							<td>cell3_10</td>
+						</tr>
+						<tr>
+							<td>cell1_11</td>
+							<td>cell2_11</td>
+							<td>cell3_11</td>
+						</tr>
+						<tr>
+							<td>cell1_13</td>
+							<td>cell2_13</td>
+							<td>cell3_13</td>
+						</tr>
+						<tr>
+							<td>cell1_14</td>
+							<td>cell2_14</td>
+							<td>cell3_14</td>
+						</tr>
+						<tr>
+							<td>cell1_15</td>
+							<td>cell2_15</td>
+							<td>cell3_15</td>
+						</tr>
+						<tr>
+							<td>cell1_16</td>
+							<td>cell2_16</td>
+							<td>cell3_16</td>
+						</tr>
+						<tr>
+							<td>cell1_17</td>
+							<td>cell2_17</td>
+							<td>cell3_17</td>
+						</tr>
+						<tr>
+							<td>cell1_18</td>
+							<td>cell2_18</td>
+							<td>cell3_18</td>
+						</tr>
+						<tr>
+							<td>cell1_19</td>
+							<td>cell2_19</td>
+							<td>cell3_19</td>
+						</tr>
+						<tr>
+							<td>cell1_20</td>
+							<td>cell2_20</td>
+							<td>cell3_20</td>
+						</tr>
+						<tr>
+							<td>cell1_22</td>
+							<td>cell2_22</td>
+							<td>cell3_22</td>
+						</tr>
+						<tr>
+							<td>cell1_23</td>
+							<td>cell2_23</td>
+							<td>cell3_23</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>													
+
+
+
+
+					
+	</body>
+
+</html>

@@ -1,7 +1,31 @@
-    <article></article>
-            <section></section>
+ADJONCTIONS	• adjonction n.f. Action d'adjoindre.
+• adjonctions n.f. Pluriel de adjonction.
+CONJONCTIONS	• conjonction n.f.
+• conjonctions n.f. Pluriel de conjonction.
+DISJONCTIONS	• disjoncter v. [cj. aimer]. Électr. Interrompre (le courant).
+• disjonctions n.f. Pluriel de disjonction.
+• disjonctions v. Première personne du pluriel de l’indicatif imparfait du verbe disjoncter.
+INJONCTIONS	• injonction n.f. Ordre exprès.
+• injonctions n.f. Pluriel de injonction.
 
-       Le courant passe dans la terre
+
+
+ETOILE
+monophasé(P+N)
+biphasé(2P+N)
+triphasé(3P+N) (3P) 
+
+TRIANGLE 
+triphasé(3P)
+disjoncter c'est le pouvoir de coupure(ouverture) en plein consommation 
+disjoncteur--fonction de disjonction-- ****différentiel--fonction de détection-- est résiduel  
+disjoncteur--fonction de disjonction-- ****référentiel--fonction de détection-- est soit thermique[courant moyen] ou magnétique(champ)[courant fort] (pas électrique(champ) charges | 
+disjoncteur--fonction de disjonction-- contacteur--fonction de conjonction-- {discontacteur} contacteur accompagné avec disjoncteur--fonction de disjonction--  (thermique, magnétique ou magnéto-thermique)--fonction de détection--
+contacter c'est le pouvoir de couture (fermeture) en plein consommation 
+
+
+
+     Le courant passe dans la terre
 
                          Un schéma de connexion à la terre, également appelé schéma de mise à la terre, est une représentation visuelle du système de mise à la terre électrique dans un bâtiment ou une structure. Il montre les chemins et les connexions entre les différents composants du système de mise à la terre, tels que les piquets de terre, les tapis de terre et les conducteurs de liaison.
 

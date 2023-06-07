@@ -2,9 +2,15 @@ Un amplificateur différentiel tout en rejetant les signaux de même amplitude p
 
 
 
+Résistance interne dans l'emetteur = Résistance externe(admetteur)
+Borne = pole = electrode
+AOP, A differentiel, comparateur, A d'isolement, A de courant,
+
+Un composant peut-être (bipolaire/unipolaire)(discret)(passif/actif)(intégré)(linéraire/TOR)
 
 
 
+gyrateur - nullateur
 
 C'est quoi un amplificateur opérationnel ? 
 __________________________________________
