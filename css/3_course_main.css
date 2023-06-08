@@ -1,3 +1,30 @@
+@import url("../css/global.css");
+
+
+/*gris foncé pour la police générale*/
+:root {
+  --purple_hard: #EBC2FC;
+  --yellow_hard: #FEF2C1;
+  --brown_hard: #E3BEB3;
+  --blue_hard: #AFCBE3;
+  --green_hard:#C6FED1;
+
+  --purple_soft: #F2E1F0;
+  --yellow_soft: #FEFFE6;
+  --brown_soft: #E7E3DF;
+  --blue_soft: #DCE0F5;
+  --green_soft:#DCF5EB;
+
+
+  --gray0: #FDFDFD;
+  --gray1: #DDDDDD;
+  --gray2: #C1C1C1;
+  --gray3: #7A7A7A;
+  --gray4: #5A5A5A;
+
+
+}
+
 main #main {
   transition: margin-left .5s;
   padding: 16px;
@@ -198,8 +225,8 @@ main .BGred{
 
 }
 main div.equation{
-  display: inline;
-  width: auto;
+
+  width: 250px;
 
 }
 
@@ -211,10 +238,101 @@ main > .p {
     margin-inline-end: 0px;
 }
 
-.frame1{
-background: #aaaaaa;
-border-radius: 20px;
+
+
+/* _______________ Cadre type Logique ________________ */
+
+
+.frame_axiome {
+background: var(--purple_soft);
+border-radius: 5px;
+border: 2px solid var(--purple_hard);
 }
+.axiome {
+color: var(--purple_hard);
+}
+
+
+.frame_postulat {
+background: var(--yellow_soft);
+border-radius: 5px;
+border: 2px solid var(--yellow_hard);
+}
+.postulat {
+color: var(--yellow_hard);
+}
+
+
+.frame_definition {
+background: var(--blue_soft);
+border-radius: 5px;
+border: 2px solid var(--blue_hard);
+}
+.definition {
+color: var(--blue_hard);
+}
+
+
+
+.frame_developpement_1 {
+background: var(--gray0);
+border-radius:0;
+border: 2px solid var(--gray0);
+}
+.developpement_1 {
+color: var(--gray1);
+}
+
+
+.frame_demonstration {
+background: var(--green_soft);
+border: 2px solid var(--green_hard);
+}
+.demonstration {
+color: var(--green_hard);
+}
+
+
+.frame_lemme {
+background: var(--gray0);
+border-radius: 5px;
+border: 2px solid red;
+}
+.lemme {
+  color: red;
+}
+
+
+.frame_theoreme {
+background: var(--brown_soft);
+border-radius: 5px;
+border: 2px solid var(--brown_hard);
+}
+.theoreme {
+color: var(--brown_hard);
+}
+
+
+.frame_corollaire {
+background: var(--gray0);
+border-radius: 5px;
+border: 2px solid red;
+}
+.corollaire {
+  color: red;
+}
+
+
+.frame_propriete {
+background: var(--gray0);
+border-radius: 5px;
+border: 2px solid red;
+}
+.propriete {
+  color: red;
+}
+
+
 
 
 

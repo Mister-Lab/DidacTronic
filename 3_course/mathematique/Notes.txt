@@ -1,0 +1,59 @@
+https://www.lyceedadultes.fr/sitepedagogique/documents/math/mathTermS/09_nombres_complexes/09_cours_nombres_complexes.pdf
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="frame1">
+
+
+
+
+
+
+                            
+                                <div class="equation BGred">Forme algébrique u/√2 $$  z = x + iy  $$</div>
+
+                                <div class="equation BGgreen">Forme trigonométrique u.√2  $$  z = {\color{red} r}(\cos(\theta)+i\sin(\theta))  $$</div>
+
+                                
+                                    <div>
+                                        <div class="equation BGblue">Forme vectorielle $$  \vec{z} = ( \lvert {\color{red} r} \rvert ; \theta )  $$</div>
+
+                                        <div class="equation BGgreen">Forme instantanée u.√2 $$  z = {\color{red} r}.\cos(\theta)  $$</div>
+
+
+                                        <div class="equation BGblue">Forme polaire $$  \underline z = [ {\color{red} r} ; \theta ]  $$</div>
+
+                                        <div class="equation BGgreen">Forme exponentielle u/√2  $$  z = {\color{red} r}.\exp^{i(\theta)}  $$</div>
+                                    </div>
+
+
+
+
+                                <p>$$  x = r.\cos(\theta) ~et~y = r.\sin(\theta)  $$</p>
+                                <p>$$  {\color{red} r} = \sqrt{x^2 + y^2}    $$</p>
+                            
+                        </div>

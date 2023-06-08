@@ -1,0 +1,1 @@
+Profibus DP	CANopen	DeviceNET	EtherCAT	Ethernet IP	PROFINET	USB	ModBus RTU	ModBus TCP	CC-Link
