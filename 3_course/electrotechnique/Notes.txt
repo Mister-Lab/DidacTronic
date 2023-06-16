@@ -9,7 +9,8 @@ INJONCTIONS	• injonction n.f. Ordre exprès.
 • injonctions n.f. Pluriel de injonction.
 
 
-
+Un interrupteur disjoint les petits courants(fuite) et un disjoncteur les gros(court-circuit).
+Le dis
 ETOILE
 monophasé(P+N)
 biphasé(2P+N)
