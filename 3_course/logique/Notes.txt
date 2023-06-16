@@ -1,6 +1,57 @@
+Observation
+Réfutation
+Régle
+Expérience ad hoc
+
+
+le thème (ce dont on parle) 
+la thèse (ce qu'on en dit, l'opinion émise à propos du thème)
+
+preuve / Ce qui établit la véracité d’une proposition ou d’un fait.
+iNDICE / Signe apparent et probable qu’une chose existe ou s'est produite.
+argumentER / Raisonnement tenu pour prouver une affirmation
+argument/ Raisonnement, preuve destinés à appuyer une affirmatio
+
+Une argumentation est un discours destiné à convaincre de la validité d'un propos ;
+Une démonstration est un raisonnement qui consiste à « établir la vérité d'une proposition par déduction logique »
+
+
 Calcul des séquents
 Calcul des prédicats
 Calcul des propositions
+
+
+Le calcul des propositions ne se préoccupe pas du contenu des propositions(prédicat),sémantique,par tableau de vérité
+ mais seulement de leurs relations(contenant) syntaxique _par raisonnement
+
+ Le prédicat « Mon pays se situe en Europe » sera vrai, faux ou indéterminé en fonction de la valeur de la variable « Mon pays »
+
+Un calcul ou un système déductif est, en logique, un ensemble de règles permettant en un nombre fini d'étapes et selon des règles explicites de pouvoir affirmer si une proposition est vraie. Un tel procédé s'appelle une démonstration.
+
+
+par tableau de vérité :
+L'implication
+La disjonction
+L'équivalence
+Propositions et connecteurs
+La négation
+La conjonction
+
+
+raisonnement :
+Induction
+Déduction
+Disjonction de cas
+Par l'absurde
+Contraposition
+Récurrence
+Analyse-synthèse
+Par hypothèse auxiliaire
+
+
+
+
+
 
 
 

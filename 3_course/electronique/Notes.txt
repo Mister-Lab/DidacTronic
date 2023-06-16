@@ -1,3 +1,14 @@
+Signe : phénomène significatif choisit pour la mesure
+Signal : équivalent électrique (transduit)
+Consigner :
+Assigner :
+Signification :
+Signalements :
+désigne
+insigne
+résigne
+échantillonage quantification CAN
+
 Un amplificateur différentiel tout en rejetant les signaux de même amplitude présents sur les deux entrées.
 
 
