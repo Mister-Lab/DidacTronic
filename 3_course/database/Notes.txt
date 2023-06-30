@@ -1,0 +1,85 @@
+Système de Gestion de Base de Données (SGBD)
+DATA BASE MANAGEMENT SYSTEM (DBMS)
+
+
+
+notion de contraire opposé reciproque et inverse pour naviguer de gauche à dirte du'une relation en utilisant les cardinalité et faire une phrase cohérent
+Phrase active passive.
+
+A ou E ou E! ou ~E! (quantificateur) pour tout, au moins , au plus, un seulement
+
+
+Un étudiant peut résider dans un immeuble
+
+Un immeuble est résider par un étudiant. (passive)
+un immeuble accueil un étudiant (synonyme)
+
+épuration du dictionnaire de données, synonyme homonyme, homophone homographe
+
+MERISE1 - 2 types associations (CIF et CIM)
+Lien fonctionnel 1:n o  ?
+Lien hiérarchique n:1 o CIF Contrainte d’Intégrité Fonctionnelle ou hiérarchique ou pére/fils
+Lien maillé n:m o CIM Contrainte d’Intégrité Multiple ou non fonctionnelle
+
+Une association un-à-un est une association binaire ayant :
+• la cardinalité maximale 1 sur chaque lien dans le formalisme entité-association ;
+Une association un-à-plusieurs (nommée aussi « père-fils »), est une association binaire ayant :
+• une cardinalité maximale N et une cardinalité maximale 1 dans le formalisme entité-association ;
+Il suffit d’inverser les cardinalités pour décrire l’association Effectuer dans le formalisme
+de Chen.
+
+
+Il est recommandé de nommer les associations par une forme verbale active ou passive. Dans
+les deux cas, le sens de la lecture peut être précisé au moyen d’un petit triangle dirigé vers la
+classe désignée par la forme verbale.
+Un rôle est généralement désigné par une forme nominale ou verbale. Le rôle est placé à une
+extrémité du lien d’association, il se distingue ainsi du nom de l’association situé au centre du lien.
+
+Décomposition de la phrase en éléments simples pour les entités et les classes :
+sujet verbe complément prédicat
+
+
+Grâce au graphe des DF il est possible de construire un MCD sûr à 90%.
+Les autres 10% sont constitués de réflexions sur l'existence d'associations non fonctionnelles (non hiérarchiques) et non porteuses de propriété et de questions comme :
+Cette donnée est-elle codifiable, doit-elle être codifiée,
+Cette association ternaire est elle juste?
+Les associations ayant la même collection d'entité ont-elle le même ensemble d'occurrences ?
+La date participe-t-elle à la clé ?
+Il existe cependant des cas où le GDF donne lieu à des entités ou associations bizarres ...
+
+Dans le formalisme objet, on parle d’objet à la place de tuple et de classe à la place d’entité.
+
+
+
+Il existe une différence entre un modèle (par exemple le modèle conceptuel de données) et un
+formalisme (dans lequel est décrit un modèle et qui n’exprime que l’aspect représentation).
+Ainsi, on parle de la modélisation conceptuelle des données suivant le formalisme entité-association ou suivant la notation UML.
+
+Cardinalité Père : (1, n) ou (0, n)
+Cardinalité Fils : (0, 1) ou (1, 1)
+Schématiquement, on représentera le CIF en ajoutant sur le schéma conceptuel, une flèche allant de l'objet de cardinalité (0, 1) ou (1, 1) vers l'autre objet déterminé.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,54 @@
+Le mot clé STATIC sur une variable au sein d'une fonction l'empêche d'être détruite(comportement normal) à la
+fin de la fonction. Donc si la fonction est répéter il y aura une incrémentation (dans le cas d'une fonction qui effectue une opération somme) plutot qu'une répétion (sans STATIC)
+
+
+Les contantes prédéfines & Les directives préprocesseurs signifie en faite préexécution sur le reste programme. grace au # les instruction sont exécuté avant tout. On le qualifide de préCPU car # sert à effectuer une substituton et n'est pas compilé.
+
+Rendre son code source modulaire ça veut dire le diviser (avec plusieurs *.C et *.H), le rendre le plus clair possible.
+
+Commençons par ajouter un fichier *.C qui contiendra seulement la fonction triple comme ci-dessous.
+
+Notez que dans main.c j'ai l'habitude de garder que la fonction main.
+
+Pour allouer dynamiquement en C++, on utilisera l’opérateur new.
+Celui-ci renvoyant une adresse où est crée la variable en question, il
+nous faudra un pointeur pour la conserver.
+Manipuler ce pointeur, reviendra à manipuler la variable allouée
+dynamiquement.
+Pour libérer de la mémoire allouée dynamiquement en C++, on
+utilisera l’opérateur delete.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
