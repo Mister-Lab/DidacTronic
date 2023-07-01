@@ -64,8 +64,9 @@ Schématiquement, on représentera le CIF en ajoutant sur le schéma conceptuel,
 
 
 
-
-
+Contraintes sur rôles
+Contraintes sur relation
+Contraintes sur entités
 
 
 

@@ -1,3 +1,9 @@
+printf("L'adresse de la variable age est : %p", &age);
+
+Comme notre pointeur pointeurSurAge va contenir l'adresse de la variable age  (qui est de type int  ),
+ alors mon pointeur doit être de type int*  !
+Si ma variable age avait été de type double  , alors j'aurais dû écrire double *monPointeur  .
+
 Le mot clé STATIC sur une variable au sein d'une fonction l'empêche d'être détruite(comportement normal) à la
 fin de la fonction. Donc si la fonction est répéter il y aura une incrémentation (dans le cas d'une fonction qui effectue une opération somme) plutot qu'une répétion (sans STATIC)
 
@@ -20,7 +26,12 @@ utilisera l’opérateur delete.
 
 
 
-
+int *monPointeur = NULL;
+Là, vous avez un pointeur initialisé à NULL  . Comme ça, vous saurez dans la suite de votre programme que votre pointeur ne contient aucune adresse.
+Que se passe-t-il ?
+Ce code va réserver une case en mémoire comme si vous aviez créé une variable normale.
+Cependant, et c'est ce qui change, la valeur du pointeur est faite pour contenir une adresse. L'adresse… d'une autre variable.
+Vous savez maintenant comment indiquer l'adresse d'une variable (au lieu de sa valeur) en utilisant le symbole &  ,
 
 
 
