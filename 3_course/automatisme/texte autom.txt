@@ -3,3 +3,51 @@ pour les voyants du contrôleur on prends les infos au niveau des l'acquisition 
 moore            =            mealy
 combinatoire     =        sequentielle
 table de verité = graphe d'état(table d'évolution)
+
+
+Si vous avez le choix, choisissez le langage LADDER pour toutes les fonctions de bases,
+choisissez le LITTERAL si vous avez de gros calcul à faire, ou des algorithmes
+compliqués, choisissez la représentation en BLOCS fonctions si vous avez des boucles
+de régulations complexes à réaliser, enfin choisissez le GRAFCET si vous avez des
+séquences à réaliser, 
+
+La configuration matérielle d’un M340 et d’un TSX Premium : 
+Les racks et les possibilités d’extension 
+Les caractéristiques des unités centrales
+Les caractéristiques des entrées/sorties TOR et analogiques 
+Le raccordement des modules d'entrées/sorties
+Le bloc de visualisation
+Le  logiciel de programmation Unity Pro : 
+Les fonctions de Unity Pro, l'interface utilisateur, le navigateur de projets (vue structurelle, vue fonctionnelle)
+Les options d'un projet
+La structure du programme application: les sections et les sous-programmes, la tâche maitre (MAST), la tâche rapide (FAST), les évènements (EVT)
+Les types de données
+L'adressage des objets de données
+La configuration matérielle d'un automate et de ses extensions
+L'analyse et la génération du projet
+La sauvegarde d’un projet (formats des fichiers)
+La connexion d'un ordinateur à l'automate: 
+Le paramétrage de la liaison (USB, TCP/IP)
+La connexion à l'automate
+Le chargement du programme
+Le diagnostic du matériel
+Le fonctionnement de l'automate:
+Les modes de scrutation du programme (cyclique, périodique)
+Le réglage du chien de garde
+Les commandes de l'automate exécutées avec Unity Pro
+Le traitement du programme
+Les instructions de base du programme dans les différents langages
+Le fonctionnement et le paramétrage des temporisateurs et des compteurs
+L'exploitation du programme pour rechercher une panne :
+La création et l'utilisation des tables d'animation
+L'utilisation des références croisées
+La visualisation dynamique du programme et des données
+Le forçage des variables
+Le remplacement d'un module défaillant de l'automate : 
+Le diagnostic de la configuration matérielle
+Le remplacement d'un module défectueux
+La vérification du paramétrage de la configuration matérielle
+Le remplacement d'un périphérique défaillant
+Le diagnostic de la communication Modbus pour identifier le périphérique défaillant
+Le remplacement d'un périphérique (E/S déportés CANopen, IHM...)
+La remise en service et le contrôle de la communication

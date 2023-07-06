@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="142.64616mm"
+   height="24.828949mm"
+   viewBox="0 0 142.64616 24.828948"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="url.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="1.6819304"
+     inkscape:cx="364.75944"
+     inkscape:cy="56.482717"
+     inkscape:window-width="1264"
+     inkscape:window-height="649"
+     inkscape:window-x="13"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid7759"
+       originx="3.0116411e-06"
+       originy="-48.160808" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(1.1641532e-8,-48.16081)">
+    <rect
+       style="fill:#d7f4d7;stroke-width:0.19022;stroke-miterlimit:1.3;paint-order:markers stroke fill"
+       id="rect7099-8"
+       width="111.125"
+       height="2.6458328"
+       x="8.8817842e-15"
+       y="68.791664"
+       ry="0.4635528" />
+    <rect
+       style="fill:#f4d7ee;stroke-width:0.101056;stroke-miterlimit:1.3;paint-order:markers stroke fill"
+       id="rect7099-8-1"
+       width="31.363348"
+       height="2.6458328"
+       x="111.125"
+       y="68.791656"
+       ry="0.4635528" />
+    <rect
+       style="fill:#ffff00;stroke-width:0.215398;stroke-miterlimit:1.3;paint-order:markers stroke fill"
+       id="rect7099"
+       width="142.48834"
+       height="2.6458328"
+       x="6.9944051e-15"
+       y="63.5"
+       ry="0.4635528" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';fill:#000000;stroke-width:0.396875;stroke-miterlimit:1.3;paint-order:markers stroke fill"
+       x="-0.26354924"
+       y="60.289093"
+       id="text1516"><tspan
+         sodipodi:role="line"
+         id="tspan1514"
+         style="fill:#000000;stroke-width:0.396875"
+         x="-0.26354924"
+         y="60.289093">protocole  <tspan
+   style="fill:#ff0000"
+   id="tspan6922">://</tspan>  username  <tspan
+   style="fill:#ff0000"
+   id="tspan6924">:</tspan>  password  <tspan
+   style="fill:#ff0000"
+   id="tspan6926">@</tspan>  hostname.xxx.xxx.xx <tspan
+   style="fill:#ff0000"
+   id="tspan13073">. :</tspan>port  <tspan
+   style="fill:#ff0000"
+   id="tspan6928">/</tspan>  pathname  <tspan
+   style="fill:#ff0000"
+   id="tspan6816">?</tspan>  search  <tspan
+   style="fill:#ff0000"
+   id="tspan6920">#</tspan>  hash</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.88237px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';fill:#ff0000;stroke-width:0.324268;stroke-miterlimit:1.3;paint-order:markers stroke fill"
+       x="134.59108"
+       y="48.902122"
+       id="text6960"
+       transform="scale(0.85555794,1.1688279)"><tspan
+         sodipodi:role="line"
+         id="tspan6958"
+         style="stroke-width:0.324268"
+         x="134.59108"
+         y="48.902122">query</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.84478px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';fill:#333333;stroke-width:0.320038;stroke-miterlimit:1.3;paint-order:markers stroke fill"
+       x="179.31595"
+       y="42.869831"
+       id="text6964"
+       transform="scale(0.75140988,1.3308316)"><tspan
+         sodipodi:role="line"
+         id="tspan6962"
+         style="fill:#333333;stroke-width:0.320038"
+         x="179.31595"
+         y="42.869831">fragment</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.84478px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';fill:#4d4d4d;stroke-width:0.320038;stroke-miterlimit:1.3;paint-order:markers stroke fill"
+       x="181.14162"
+       y="40.169868"
+       id="text6964-4"
+       transform="scale(0.75140988,1.3308316)"><tspan
+         sodipodi:role="line"
+         id="tspan6962-4"
+         style="fill:#4d4d4d;stroke-width:0.320038"
+         x="181.14162"
+         y="40.169868">anchor</tspan></text>
+    <path
+       style="fill:#3aff00;fill-opacity:1;stroke:#000000;stroke-width:0.287387;stroke-miterlimit:1.3;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m 37.041666,62.177083 v 10.40519"
+       id="path7815" />
+    <path
+       style="fill:#3aff00;fill-opacity:1;stroke:#000000;stroke-width:0.270604;stroke-miterlimit:1.3;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m 15.875,63.499999 v 8.610346"
+       id="path7817" />
+    <path
+       style="fill:#3aff00;fill-opacity:1;stroke:#000000;stroke-width:0.296551;stroke-miterlimit:1.3;stroke-opacity:1;paint-order:markers stroke fill"
+       d="M 55.562499,62.177083 V 72.517831"
+       id="path7819" />
+    <path
+       style="fill:#3aff00;fill-opacity:1;stroke:#000000;stroke-width:0.305805;stroke-miterlimit:1.3;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m 91.281249,63.499999 v 9.425318"
+       id="path7821" />
+    <path
+       style="fill:#3aff00;fill-opacity:1;stroke:#000000;stroke-width:0.309124;stroke-miterlimit:1.3;stroke-opacity:1;paint-order:markers stroke fill"
+       d="M 111.125,62.177083 V 72.610698"
+       id="path7823" />
+    <path
+       style="fill:#3aff00;fill-opacity:1;stroke:#000000;stroke-width:0.303243;stroke-miterlimit:1.3;stroke-opacity:1;paint-order:markers stroke fill"
+       d="M 125.67708,62.177083 V 72.989759"
+       id="path7825" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';fill:#d45500;fill-opacity:1;stroke:none;stroke-width:0.396875;stroke-miterlimit:1.3;stroke-opacity:1;paint-order:markers stroke fill"
+       x="63.5"
+       y="66.145836"
+       id="text10829"><tspan
+         sodipodi:role="line"
+         id="tspan10827"
+         style="fill:#d45500;stroke:none;stroke-width:0.396875"
+         x="63.5"
+         y="66.145836">uri</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';fill:#aa4400;fill-opacity:1;stroke:none;stroke-width:0.396875;stroke-miterlimit:1.3;stroke-opacity:1;paint-order:markers stroke fill"
+       x="63.5"
+       y="71.4375"
+       id="text10833"><tspan
+         sodipodi:role="line"
+         id="tspan10831"
+         style="fill:#aa4400;stroke:none;stroke-width:0.396875"
+         x="63.5"
+         y="71.4375">url</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';fill:#d45500;fill-opacity:1;stroke:none;stroke-width:0.396875;stroke-miterlimit:1.3;stroke-opacity:1;paint-order:markers stroke fill"
+       x="113.77083"
+       y="70.908333"
+       id="text10887"><tspan
+         sodipodi:role="line"
+         id="tspan10885"
+         style="fill:#d45500;stroke:none;stroke-width:0.396875"
+         x="113.77083"
+         y="70.908333">urn</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.39909px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.382399;stroke-miterlimit:1.3;stroke-opacity:1;paint-order:markers stroke fill"
+       x="91.736862"
+       y="49.149208"
+       id="text12345"
+       transform="scale(0.96352482,1.037856)"><tspan
+         id="tspan12343"
+         style="stroke:none;stroke-width:0.382399"
+         x="91.736862"
+         y="49.149208"
+         sodipodi:role="line">root</tspan></text>
+    <path
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.396875;stroke-miterlimit:1.3;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m 88.635417,59.53125 v -7.9375"
+       id="path13892" />
+    <path
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.396875;stroke-miterlimit:1.3;stroke-opacity:1;paint-order:markers stroke fill"
+       d="M 84.666667,58.869792 V 52.255208"
+       id="path13894" />
+    <path
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.396875;stroke-miterlimit:1.3;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m 79.375,58.208333 v -7.9375"
+       id="path13896" />
+    <path
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:0.396875;stroke-miterlimit:1.3;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m 74.083333,59.53125 v -7.9375"
+       id="path13898" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.18303px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.245592;stroke-miterlimit:1.3;stroke-opacity:1;paint-order:markers stroke fill"
+       x="55.439133"
+       y="61.76487"
+       id="text13902"
+       transform="scale(1.110246,0.90070128)"><tspan
+         sodipodi:role="line"
+         id="tspan13900"
+         style="fill:#333333;stroke:none;stroke-width:0.245592"
+         x="55.439133"
+         y="61.76487">machin</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#333333;stroke:none;stroke-width:0.245592"
+         x="55.439133"
+         y="64.49366"
+         id="tspan14204">subdomain</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.82685px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.205522;stroke-miterlimit:1.3;stroke-opacity:1;paint-order:markers stroke fill"
+       x="88.043701"
+       y="49.372341"
+       id="text13906"
+       transform="scale(0.8484917,1.1785619)"><tspan
+         sodipodi:role="line"
+         id="tspan13904"
+         style="fill:#4d4d4d;stroke-width:0.205522"
+         x="88.043701"
+         y="49.372341">domain</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.396875;stroke-miterlimit:1.3;stroke-opacity:1;paint-order:markers stroke fill"
+       x="83.007507"
+       y="52.226273"
+       id="text13910"><tspan
+         sodipodi:role="line"
+         id="tspan13908"
+         style="fill:#4d4d4d;stroke-width:0.396875"
+         x="83.007507"
+         y="52.226273">tld</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.396875;stroke-miterlimit:1.3;stroke-opacity:1;paint-order:markers stroke fill"
+       x="77.725052"
+       y="50.560314"
+       id="text13914"><tspan
+         sodipodi:role="line"
+         id="tspan13912"
+         style="fill:#4d4d4d;stroke-width:0.396875"
+         x="77.725052"
+         y="50.560314">slt</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.396875;stroke-miterlimit:1.3;stroke-opacity:1;paint-order:markers stroke fill"
+       x="71.449539"
+       y="51.365059"
+       id="text13914-3"><tspan
+         sodipodi:role="line"
+         id="tspan13912-5"
+         style="fill:#4d4d4d;stroke-width:0.396875"
+         x="71.449539"
+         y="51.365059">tlt</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.64132px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:0.184649;stroke-miterlimit:1.3;stroke-opacity:1;paint-order:markers stroke fill"
+       x="78.616425"
+       y="74.419388"
+       id="text13918"
+       transform="scale(1.3133619,0.76140475)"><tspan
+         sodipodi:role="line"
+         id="tspan13916"
+         style="fill:#1a1a1a;stroke-width:0.184649"
+         x="78.616425"
+         y="74.419388">directory</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.396875;stroke-miterlimit:1.3;stroke-opacity:1;paint-order:markers stroke fill"
+       x="2.0022206"
+       y="57.396996"
+       id="text17166"><tspan
+         sodipodi:role="line"
+         id="tspan17164"
+         style="stroke-width:0.396875"
+         x="2.0022206"
+         y="57.396996">scheme</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.56008px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.62551;stroke-miterlimit:1.3;stroke-opacity:1;paint-order:markers stroke fill"
+       x="41.218498"
+       y="99.534889"
+       id="text17952"
+       transform="scale(1.5760893,0.63448181)"><tspan
+         sodipodi:role="line"
+         id="tspan17950"
+         style="stroke-width:0.62551"
+         x="41.218498"
+         y="99.534889">authority</tspan></text>
+  </g>
+</svg>
