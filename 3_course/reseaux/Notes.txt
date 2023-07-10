@@ -1,1 +1,60 @@
-Profibus DP	CANopen	DeviceNET	EtherCAT	Ethernet IP	PROFINET	USB	ModBus RTU	ModBus TCP	CC-Link
+• Profibus DP	CANopen	DeviceNET	EtherCAT	Ethernet IP	PROFINET	USB	ModBus RTU	ModBus TCP	CC-Link
+• HDLC (protocole Couche 2 OSI) définie par un tableau/struture de trame classique : comme les autres couches.
+• Simplex, Halfduplex, Full duplex, Multiplex
+• IP adresse logique/routeur    MAC adresse physique/carte reseau
+• bit stuffing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

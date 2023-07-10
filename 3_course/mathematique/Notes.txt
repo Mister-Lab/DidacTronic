@@ -1,10 +1,13 @@
 https://www.lyceedadultes.fr/sitepedagogique/documents/math/mathTermS/09_nombres_complexes/09_cours_nombres_complexes.pdf
 
 Antécédant(précéde) ->Succédant(postcède)
+Contenant divisé par le contenu
+
+y= ?Go/12€ à chaque euro combien de gigas
+x= ?€/64Go combien d'euros par gigas
 
 FONCTION_____________________________________________
-Ensemble : A X B se lit A croit B(collection de couples) et ce n'est pas une multiplication (valable aussi pour les élémnts x X y est la liaison=un couple)
-L'ensemble des liaisons forment le graphe.
+
 
 xRy
 Relation qui admet pour un point x :
@@ -16,6 +19,16 @@ Bijection : égale
 Injection : inférieur compression 
 Surjection : supérieur  détente
 
+
+Fonction Multivaluée/ multiforme
+Approximation de fonction
+Restriction prolongement
+Bien définie, fondée
+Relation d'arité
+Suite de fonction
+L'ensemble des application de E dans F
+Morphisme, foncteur
+rang noyau
 
 
 

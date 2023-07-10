@@ -1,3 +1,14 @@
+• Pouvoir de coupure(ouverture) contre les court-circuits/surcharge de courant   Pouvoir de couture(fermeture) contre les coupe-circuits/surcharge de tension
+• Un codeur rotatif c'est pour capter le nombre de tour/min d'un moteur. Un rotracteur est une résistance varialbe circulaire
+• Pourquoi on peut pas mesurer secteur avec oscillo ?
+• Où s'électrocute t-on sur un transfo ?
+• Couplage Zigzag
+• Bobine Mx
+• Thermocouple Thermistance Câble de compensation.
+
+Câble SYT(datainfo)
+
+
 ADJONCTIONS	• adjonction n.f. Action d'adjoindre.
 • adjonctions n.f. Pluriel de adjonction.
 CONJONCTIONS	• conjonction n.f.

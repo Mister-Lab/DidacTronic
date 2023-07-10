@@ -1,3 +1,9 @@
+une variable de type BOOL (echelon haut+bas) ou EBOOL (echelon haut+bas+front montant/descendant)
+
+
+
+
+
 En principe l'automate est le seul à être installé dans l'armoire électrique. Avant le bornier.
 pour les voyants du contrôleur on prends les infos au niveau des l'acquisition (repiquage).
 moore            =            mealy

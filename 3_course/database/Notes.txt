@@ -1,7 +1,7 @@
 Système de Gestion de Base de Données (SGBD)
 DATA BASE MANAGEMENT SYSTEM (DBMS)
 
-
+Graphe des flux - Matrice des flux
 
 notion de contraire opposé reciproque et inverse pour naviguer de gauche à dirte du'une relation en utilisant les cardinalité et faire une phrase cohérent
 Phrase active passive.

@@ -1,3 +1,9 @@
+• Librairie < framework < package < class < objet
+
+• lettre(char) > mot(word) > phrase(doubleword) > mémo(longword)
+• instruction , expression, opération, opérateur
+
+
 printf("L'adresse de la variable age est : %p", &age);
 
 Comme notre pointeur pointeurSurAge va contenir l'adresse de la variable age  (qui est de type int  ),
