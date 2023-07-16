@@ -1,13 +1,22 @@
 Système de Gestion de Base de Données (SGBD)
 DATA BASE MANAGEMENT SYSTEM (DBMS)
+Le système organisationnel (SIO) donc de l'entité globale. Vue reculée sur son "Domaine" activité principale, composé de sous domaine(dépactement, service).
 
-Graphe des flux - Matrice des flux
+1°) MCC
+2°) MCT
+3°) MCD
+
+Dictionnaire de donnés (DD)  [ <--MCD ]
+Dagramme(matrice) des dépendances fonctionnelles (GDF) [ <--MCT ]
+Diagramme d'états transition  [ <--MCT ]
+Diagramme des flux(int)/context(ext) ------ Matrice des flux  ---  Graphe des flux ordonnés [ <--MCC ]
 
 notion de contraire opposé reciproque et inverse pour naviguer de gauche à dirte du'une relation en utilisant les cardinalité et faire une phrase cohérent
 Phrase active passive.
 
 A ou E ou E! ou ~E! (quantificateur) pour tout, au moins , au plus, un seulement
-
+Clé primaire / autochtone
+Clé secondire/immigrée
 
 Un étudiant peut résider dans un immeuble
 
