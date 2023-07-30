@@ -19,9 +19,9 @@
         <link rel="stylesheet" href="./css/0_index_nav.css" >
         <link rel="stylesheet" href="./css/0_index_main.css" >
         <link rel="stylesheet" href="./css/0_index_footer.css" >
+        <link rel="stylesheet" href="./css/0_index_global.css" >
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet"   href="https://cdn.jsdelivr.net/npm/initialize-css@1.4.0/dist/initialize.min.css">
-
+        
         <script src="./js/0_index_body.js"></script>
         <script src="./js/0_index_header.js"></script>
         <script src="./js/0_index_nav.js"></script>
@@ -32,6 +32,42 @@
     <!--  section article -->
     <body>
         
+            <nav>
+                <div id="navbar1">
+                    <a href="./1_about/1_about.html"><i class="fa fa-home"></i>Accueil</a>
+
+                    <a href="./1_news/1_news.html"><i class="fa fa-commenting"></i>Nouveaute</a>
+
+                    <a href="./1_contact/1_contact.html"><i class="fa fa-home"></i>Contact</a>
+
+                    <div id="navbar1-centered">
+                        <a href="index.html" class="active">DidacTronic</a>
+                    </div>
+                </div>
+
+                <div id="navbar2">
+                    <a href="./1_dispatch/1_dispatch_domaine.html"><i class="fa fa-commenting"></i>Cours</a>
+
+                    <a href="./1_shop/1_shop.html"><i class="fa fa-commenting"></i>Boutique</a>
+
+                    <a href="./1_forum/1_forum.html"><i class="fa fa-commenting"></i>Forum</a>
+
+                    <div class="search-container">
+                        <form action="/action_page.php">
+                            <input type="text" placeholder="Search.." name="search">
+
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+                
+                <div id="mySidenav" class="sidenav">
+                    <a href="#" id="about">About</a>
+
+                    <a href="#" id="blog">Blog</a>
+                </div>
+            </nav>
+
             <header>
                 <!--<img id="cover" src="images/fondec_00.svg" alt="logo1">-->
 
@@ -83,50 +119,14 @@
                     </div>
                 </div>
 
-                <canvas class="canvas" id="plane-canvas">
+                <canvas class="canvas" id="plane-canvas" onmousewheel="hideCanvas()">
                 </canvas>
 
-                <canvas class="canvas" id="main-canvas">
+                <canvas class="canvas" id="main-canvas" onmousewheel="hideCanvas()">
                 </canvas>
 
                 <div class="mouse" id="mouse"></div>
             </header>
-
-            <nav>
-                <div id="navbar1">
-                    <a href="./1_about/1_about.html"><i class="fa fa-home"></i>Accueil</a>
-
-                    <a href="./1_news/1_news.html"><i class="fa fa-commenting"></i>Nouveaute</a>
-
-                    <a href="./1_contact/1_contact.html"><i class="fa fa-home"></i>Contact</a>
-
-                    <div id="navbar1-centered">
-                        <a href="index.html" class="active">DidacTronic</a>
-                    </div>
-                </div>
-
-                <div id="navbar2">
-                    <a href="./1_dispatch/1_dispatch_domaine.html"><i class="fa fa-commenting"></i>Cours</a>
-
-                    <a href="./1_shop/1_shop.html"><i class="fa fa-commenting"></i>Boutique</a>
-
-                    <a href="./1_forum/1_forum.html"><i class="fa fa-commenting"></i>Forum</a>
-
-                    <div class="search-container">
-                        <form action="/action_page.php">
-                            <input type="text" placeholder="Search.." name="search">
-
-                            <button type="submit">Submit</button>
-                        </form>
-                    </div>
-                </div>
-                
-                <div id="mySidenav" class="sidenav">
-                    <a href="#" id="about">About</a>
-
-                    <a href="#" id="blog">Blog</a>
-                </div>
-            </nav>
 
             <aside>
             </aside>

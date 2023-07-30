@@ -1,3 +1,18 @@
+
+
+
+
+
+
+
+ function hideCanvas() {
+    document.getElementById("plane-canvas").style.visibility = "hidden";
+    document.getElementById("main-canvas").style.visibility = "hidden";
+    document.getElementById("mouse").style.visibility = "hidden";
+    
+}
+
+
 /* ________________________________________________________ */
 /* _ Banner _______________________________________________ */
 /* ________________________________________________________ */

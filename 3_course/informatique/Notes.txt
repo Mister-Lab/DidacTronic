@@ -7,7 +7,7 @@
 Dans le cas d'une variable classique on ne sait pas où la valeur sera renvoyé.
 •copie[100] = {0}; initialiser le tableau à zéro partout. Pas possible avec d'autres valeurs.
 
-
+La méthode  WriteLine  est « statique », ce qui signifie que vous n'avez pas besoin d'instancier un objet pour l'utiliser. C'est pour cela que vous pouvez appeler la méthode directement sur la classe  System
 
 chaîne de compilation ARM permet de construire des applications écrites en C, C++ et assembleur sur les processeurs ARM. La chaîne est composée :
 d’un compilateur (armcc) pour les langages C et C++ ;
@@ -70,11 +70,14 @@ La fonction renvoie un pointeur vers le premier caractère qu'elle a trouvé, c'
 Lorsque vous programmez pour l’embarqué, vous allez compiler et exécuter votre code sur deux machines différentes, qui n’ont pas la même micro-architecture. C’est la grande différence entre la programmation usuelle sur une machine du bureau et la programmation pour l’embarqué ! On parle alors de compilation croisée (cross compilation).
 
 
+C# : Il existe deux types de classes :
+Les classes de plan, qui sont utilisées comme plans pour l'instanciation des objets.
+Les classes utilitaires, qui contiennent des méthodes statiques pouvant être appelées directement sur la classe.
 
 
-
-
-
+On peut trouver une seule case mémoire mais avec deux étiquettes(identificateur) qui lui sont accrochées.
+Au niveau du code, on utilise une esperluette ( &  ) pour déclarer une référence(deuxième identificateur) sur une variable.
+int& variable(référence);
 
 
 

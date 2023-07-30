@@ -1,6 +1,7 @@
 une variable de type BOOL (echelon haut+bas) ou EBOOL (echelon haut+bas+front montant/descendant)
 
-
+Industrie  4.0 Il y a le secteur de la production et celui de la fabrication de machine.
+On parle de machines standars si elle sont déjà dans le catalague du vendeur sinon il faut les fabriquer sur mesure dans ce cas on dit machine spéciale.
 
 
 
@@ -57,3 +58,87 @@ Le remplacement d'un périphérique défaillant
 Le diagnostic de la communication Modbus pour identifier le périphérique défaillant
 Le remplacement d'un périphérique (E/S déportés CANopen, IHM...)
 La remise en service et le contrôle de la communication
+
+
+
+Carte mémoire pour processeur PLC
+Bien que les concepts fondamentaux de la programmation API soient communs à tous les fabricants, les différences d'organisation de la mémoire, d'adressage des E/S et de jeu d'instructions signifient que les programmes API ne sont jamais parfaitement interchangeables entre les différents fabricants. Même au sein d'une même gamme de produits d'un même fabricant, différents modèles peuvent ne pas être directement compatibles. La carte mémoire ou la structure d'un processeur PLC se compose de plusieurs zones, certaines d'entre elles ayant des rôles spécifiques.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

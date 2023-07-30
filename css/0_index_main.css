@@ -1,6 +1,5 @@
-main {position: absolute;
-    top: 100%;
-width: 100%;
+main {position: relative;
+
 }
 /* _ Parallax _____________________________________________ */
 .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -38,7 +37,7 @@ width: 100%;
 }
 
 .grid_1 {
-    width:100%;
+
     grid-template-columns: repeat(3, 1fr);
 }
 
