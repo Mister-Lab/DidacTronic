@@ -83,7 +83,7 @@ int& variable(référence);
 
 
 
-
+Il y a globalement deux type de "commandes" DOS : Les commandes gérées par l'invite (for, title...) et les commandes qui sont en fait des .exe, .com ou autre, et qui se situe généralement dans system32 ou dans le répertoire de windows.
 
 
 

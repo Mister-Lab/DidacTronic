@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemma</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <section>
+        <div id="part_svg">
+            <svg id="svg8" width="1270" height="810" version="1.1" viewBox="0 0 336.02 214.31" xmlns="http://www.w3.org/2000/svg">
+                <g id="layer1" transform="translate(-2.6458 -74.083)">
+                <rect id="rect380" x="148.17" y="145.52" width="190.5" height="105.83" fill="#b3b3b3" opacity=".3" stroke-width=".33807"/>
+                <rect id="PC_hors_energie" x="2.6458" y="74.083" width="60.854" height="214.31" fill="#4d4d4d" fill-rule="evenodd" stroke-width=".60189"/>
+                <rect id="PC_en_energie" x="68.792" y="74.083" width="264.58" height="214.31" fill="#4d4d4d" fill-rule="evenodd" stroke-width=".39776"/>
+                <rect id="rect16" x="5.2917" y="76.729" width="55.562" height="209.02" fill="#666" stroke-width=".4758"/>
+                <rect id="Remise_en_route" x="71.438" y="76.729" width="60.854" height="103.19" fill="#666" stroke-width=".14446"/>
+                <rect id="A6" x="76.729" y="84.667" width="50.271" height="23.813" fill="#808080" stroke-width=".39175" onclick=" element.style.fill = 'red'">
+                <desc id="desc390">Procédure d'arrêt et de remise en route</desc>
+                <title id="title388">Mise PO en état initial</title>
+                </rect>
+                <g fill="#666">
+                <rect id="Arr__t" x="134.94" y="76.729" width="63.5" height="103.19" stroke-width=".14757"/>
+                <rect id="Marche" x="201.08" y="76.729" width="63.5" height="209.02" stroke-width=".21002"/>
+                <rect id="V__rification" x="267.23" y="76.729" width="63.5" height="209.02" stroke-width=".21002"/>
+                <rect id="D__faillance" x="71.437" y="182.56" width="127" height="103.19" stroke-width=".20869"/>
+                </g>
+                <g fill="#808080">
+                <rect id="A7" x="76.729" y="116.42" width="50.271" height="23.813" stroke-width=".39175"/>
+                <rect id="A5" x="76.729" y="148.17" width="50.271" height="23.812" stroke-width=".39175"/>
+                <rect id="D3" x="140.23" y="190.5" width="52.917" height="23.813" stroke-width=".40193"/>
+                <rect id="A2" x="140.23" y="148.17" width="26.458" height="23.813" stroke-width=".28421"/>
+                <rect id="F1" x="206.38" y="190.5" width="52.917" height="55.562" stroke-width=".61396"/>
+                <rect id="F5" x="272.52" y="116.42" width="52.917" height="55.563" stroke-width=".61396"/>
+                <rect id="A3" x="169.33" y="148.17" width="23.813" height="23.813" stroke-width=".26962"/>
+                <rect id="A1" x="140.23" y="84.667" width="52.917" height="23.812" stroke-width=".40193"/>
+                <rect id="A4" x="140.23" y="116.42" width="52.917" height="23.813" stroke-width=".40193"/>
+                <rect id="F2" x="206.38" y="132.29" width="26.458" height="26.458" stroke-width=".29958"/>
+                <rect id="F3" x="235.48" y="132.29" width="23.813" height="26.458" stroke-width=".28421"/>
+                <rect id="F4" x="272.52" y="84.667" width="52.917" height="23.812" stroke-width=".40193"/>
+                <rect id="D2" x="76.729" y="190.5" width="50.271" height="23.813" stroke-width=".39175"/>
+                <rect id="D1" x="76.729" y="254" width="50.271" height="23.812" stroke-width=".39175"/>
+                <rect id="F6" x="272.52" y="222.25" width="52.917" height="55.563" stroke-width=".61396"/>
+                <g stroke-width=".39175">
+                <rect id="rect382" x="7.9375" y="84.667" width="50.271" height="23.813"/>
+                <rect id="rect384" x="7.9375" y="169.33" width="50.271" height="23.813"/>
+                <rect id="rect386" x="7.9375" y="254" width="50.271" height="23.812"/>
+                </g>
+                </g>
+                </g>
+            </svg>
+        </div>   
+
+        <div id="part_ihm">
+            <form>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" value="John"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" value="Doe"><br><br>
+                <input type="submit" value="Submit">
+                <input type="reset">
+              </form>
+
+
+                <!-- The Modal -->
+                <img id="myImg" src="myImg.jpg" alt="Snow" style="width:100%;max-width:300px">
+
+
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img id="img01" class="modal-content">
+                    <div id="caption"></div>
+                </div>
+        </div> 
+        
+        <!-- The Map -->
+        <img src="myImg.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+        <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+        <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+        <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+        </map>
+
+
+
+    </section>
+
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+        
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementById("A6");
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+        img.onclick = function(){
+          modal.style.display = "block";
+          modalImg.src = this.src;
+          captionText.innerHTML = this.alt;
+        }
+        
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+        
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() { 
+          modal.style.display = "none";
+        }
+        </script>
+
+</body>
+</html>

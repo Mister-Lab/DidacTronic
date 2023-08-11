@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="599.99994"
+   viewBox="0 0 216.95833 158.74999"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="Gémma.svg"
+   width="820">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="500.87473"
+     inkscape:cy="600.81512"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="true"
+     inkscape:snap-bbox="true"
+     units="px"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1680"
+     inkscape:window-height="1027"
+     inkscape:window-x="1672"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid10"
+       originx="-34.395832"
+       originy="-74.083342" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-34.395832,-74.083336)">
+    <rect
+       style="opacity:0.3;fill:#b3b3b3;stroke-width:0.351876"
+       id="rect380"
+       width="206.37498"
+       height="105.83335"
+       x="137.58334"
+       y="145.52083" />
+    <rect
+       style="fill:#4d4d4d;fill-rule:evenodd;stroke-width:0.601888"
+       id="rect12"
+       width="60.854168"
+       height="214.31248"
+       x="2.6458335"
+       y="74.083336" />
+    <rect
+       style="fill:#4d4d4d;fill-rule:evenodd;stroke-width:0.39776"
+       id="PC_en_energie"
+       width="264.58334"
+       height="214.3125"
+       x="68.791664"
+       y="74.083336" />
+    <rect
+       style="fill:#666666;stroke-width:0.475803"
+       id="rect16"
+       width="55.562496"
+       height="209.02081"
+       x="5.2916665"
+       y="76.729172" />
+    <rect
+       style="fill:#666666;stroke-width:0.14446"
+       id="Remise_en_route"
+       width="60.854156"
+       height="103.18751"
+       x="71.437508"
+       y="76.729164" />
+    <rect
+       style="fill:#808080;stroke-width:0.391752"
+       id="A6"
+       width="50.270832"
+       height="23.812506"
+       x="76.729164"
+       y="84.666664"
+       onclick=" element.style.fill = 'red'"
+       inkscape:label="Remise en route">
+      <desc
+         id="desc390">Procédure d'arrêt et de remise en route</desc>
+      <title
+         id="title388">Mise PO en état initial</title>
+    </rect>
+    <rect
+       style="fill:#666666;stroke-width:0.147567"
+       id="Arr__t"
+       width="63.500004"
+       height="103.1875"
+       x="134.9375"
+       y="76.729164" />
+    <rect
+       style="fill:#666666;stroke-width:0.210022"
+       id="Marche"
+       width="63.499989"
+       height="209.02084"
+       x="201.08333"
+       y="76.729164" />
+    <rect
+       style="fill:#666666;stroke-width:0.210025"
+       id="V__rification"
+       width="63.500008"
+       height="209.02083"
+       x="267.22916"
+       y="76.729164" />
+    <rect
+       style="fill:#666666;stroke-width:0.208692"
+       id="D__faillance"
+       width="127.00002"
+       height="103.18749"
+       x="71.437492"
+       y="182.5625" />
+    <rect
+       style="fill:#808080;stroke-width:0.391752"
+       id="A7"
+       width="50.270832"
+       height="23.812502"
+       x="76.729164"
+       y="116.41666" />
+    <rect
+       style="fill:#808080;stroke-width:0.391752"
+       id="A5"
+       width="50.270832"
+       height="23.812498"
+       x="76.729164"
+       y="148.16666" />
+    <rect
+       style="fill:#808080;stroke-width:0.401931"
+       id="D3"
+       width="52.916664"
+       height="23.812504"
+       x="140.22917"
+       y="190.49998" />
+    <rect
+       style="fill:#808080;stroke-width:0.284207"
+       id="A2"
+       width="26.458319"
+       height="23.812508"
+       x="140.22917"
+       y="148.16666" />
+    <rect
+       style="fill:#808080;stroke-width:0.613959"
+       id="F1"
+       width="52.916656"
+       height="55.562485"
+       x="206.375"
+       y="190.5" />
+    <rect
+       style="fill:#808080;stroke-width:0.613959"
+       id="F5"
+       width="52.916672"
+       height="55.562504"
+       x="272.52084"
+       y="116.41666" />
+    <rect
+       style="fill:#808080;stroke-width:0.269623"
+       id="A3"
+       width="23.812508"
+       height="23.812508"
+       x="169.33333"
+       y="148.16666" />
+    <rect
+       style="fill:#808080;stroke-width:0.40193"
+       id="A1"
+       width="52.916664"
+       height="23.812498"
+       x="140.22917"
+       y="84.666664" />
+    <rect
+       style="fill:#808080;stroke-width:0.40193"
+       id="A4"
+       width="52.916664"
+       height="23.812502"
+       x="140.22917"
+       y="116.41666" />
+    <rect
+       style="fill:#808080;stroke-width:0.29958"
+       id="F2"
+       width="26.458319"
+       height="26.458338"
+       x="206.37502"
+       y="132.29166" />
+    <rect
+       style="fill:#808080;stroke-width:0.284208"
+       id="F3"
+       width="23.812508"
+       height="26.458334"
+       x="235.47917"
+       y="132.29166" />
+    <rect
+       style="fill:#808080;stroke-width:0.40193"
+       id="F4"
+       width="52.916664"
+       height="23.812498"
+       x="272.52084"
+       y="84.666664" />
+    <rect
+       style="fill:#808080;stroke-width:0.391752"
+       id="D2"
+       width="50.270832"
+       height="23.812506"
+       x="76.729164"
+       y="190.5" />
+    <rect
+       style="fill:#808080;stroke-width:0.391752"
+       id="D1"
+       width="50.270832"
+       height="23.812498"
+       x="76.729164"
+       y="253.99998" />
+    <rect
+       style="fill:#808080;stroke-width:0.613959"
+       id="F6"
+       width="52.916672"
+       height="55.562504"
+       x="272.52081"
+       y="222.25" />
+    <rect
+       style="fill:#808080;stroke-width:0.391752"
+       id="rect382"
+       width="50.270832"
+       height="23.812506"
+       x="7.9375"
+       y="84.666664" />
+    <rect
+       style="fill:#808080;stroke-width:0.391752"
+       id="rect384"
+       width="50.270832"
+       height="23.812502"
+       x="7.9375"
+       y="169.33333" />
+    <rect
+       style="fill:#808080;stroke-width:0.391752"
+       id="rect386"
+       width="50.270828"
+       height="23.812498"
+       x="7.9375"
+       y="254" />
+  </g>
+</svg>
