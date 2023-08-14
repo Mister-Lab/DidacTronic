@@ -4,3 +4,7 @@ Le 0 permet au compilateur de déterminer qu'il s'agit d'un nombre. Ensuite, une
 
 On ne peut pas tout simplement déclarer une deuxième fois la variable, car on aurait alors deux variables de même nom au sein d'un même projet ce qui conduirait à une erreur lors de l'édition des liens. Le mot-clé extern permet de résoudre le problème. Placé devant une déclaration, il permet d'indiquer que la variable ou fonction est définie (plus précisément : peut être définie) dans un autre fichier (source ou objet). Placé devant une définition, il permet d'indiquer que la variable ou la fonction est visible dans tout le projet, ce qui est déjà le comportement par défaut.
 
+Program Memory
+Program memory is a non-volatile memory. All modern PIC® processors use a Flash memory technology that allows the program memory to be reprogrammed using a simple hardware interface.
+
+In 8051 Microcontroller, the code or instructions to be executed are stored in the Program Memory, which is also called as the ROM of the Microcontroller. Almost all modern 8051 Microcontrollers, like 8052 Series, have 8KB of Internal Program Memory (ROM) in the form of Flash Memory (ROM) and provide the option of reprogramming the memory.
