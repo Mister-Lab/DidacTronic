@@ -1,3 +1,25 @@
+1°) La divergence du champ n'est pas une force/puissance ! 
+2°) Mais elle le devient lorsqu'elle est appliquée sur une particule. (elle ne peut pas le faire sur une onde)
+3°) La quantité des particules en mouvement est représenté par un flux/débit.
+4°) On peut au final intégré les paramètres afin de voir le travail effectué.
+
+La divergence peut aussi exprimer le fait q'une particule puisse grandir ou rapetir.
+
+
+Puissance = E /T
+Puissance = F * V
+
+K° Chaleur _ W travail 
+
+Travail/Puissance = Puisance*temps   = force *distance; couple * 2pi dis 
+
+
+
+Trois états de la matière
+Un solide : Solide (forme propre)
+Fluide : liquide et gaz (pas de forme propre)
+
+
 Convertion joules en Kg?
 Bonjour , je voudrait savoir la force d’impact en kilo d'un plomb tiré d'une carabine de 32 joules a la sortie du canon (si le calcule est possible ) merci
 Mettre à jour: poids du projectile 0,25Grm , vitesse a la sortie du canon 350 M/s

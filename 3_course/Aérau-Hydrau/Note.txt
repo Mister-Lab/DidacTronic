@@ -1,0 +1,3 @@
+Un liquide (huile) peut être incompressible.
+Un liquide peut servir à transporter l'energie thermique (chauffage)
+ou la force(d'une pompe à un verin).

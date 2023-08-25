@@ -1,3 +1,19 @@
+Alors, on peut faire confiance à celui qui créé le document XML pour respecter des règles explicites ou implicites mais le mieux c'est encore de décrire ces règles dans un document. Document qui pourra servir au contrôle automatique du document XML par un outil.
+Pour définir une DTD externe, il suffit d'écrire <!DOCTYPE racine SYSTEM "nomdufichier.dtd"> juste après <?xml version="1.0" ?>(prologue) où racine est le nom de la balise racine de l'arbre XML.
+XML and HTML were designed with different goals:
+
+XML was designed to carry data - with focus on what data is
+HTML was designed to display data - with focus on how data looks
+XML tags are not predefined like HTML tags are
+
+
+
+
+Int a; "reçois cette valeur ICI/tient voici la valeur" donc je te donne une valeur
+int *a; "prend cette valeur LA/va chercher la valeur" donc je te donne une variable
+int &a; "reçois cette valeur ICI qui est la même que LA"
+
+
 • Librairie < framework < package < class < objet
 
 • lettre(char) > mot(word) > phrase(doubleword) > mémo(longword)
@@ -88,6 +104,31 @@ Il y a globalement deux type de "commandes" DOS : Les commandes gérées par l'i
 
 
 
+Inutile de préciser qu'à cette vitesse le disque ne peut absolument pas être voilé et être assez rigide pour éviter que les plateaux ne vibrent. D'où l'appellation HD Hard Disc (disque dur) par opposition au " floppy disc " (disque souple).
+L'espace entre une tête de lecture est infime et la vitesse de la surface du disque par rapport à ces têtes est de l'ordre de 100 km/h.
+
+
+
+Il existe 3 grandes familles de drivers :
+
+Le plus courant, le driver en mode caractère: on échange des données de manière itérative. Il est le plus simple à mettre en œuvre, permet de dialoguer avec le périphérique en échangeant un nombre variable d'informations binaires (exemple d’utilisation : port série).
+
+Le driver en mode bloc permet l’échange des informations avec les périphériques uniquement par blocs de données (exemple d’utilisation : le disque dur).
+
+Il est donc spécifique pour manipuler un grand nombre de données.
+
+Quant au driver réseau, il est lui, destiné à contrôler des ressources réseau.
+
+
+
+
+Bon voilà, je veux me lancer dans la programmation d'un compilateur C (compilateur + éditeur de liens bien sur) en C
+-J'ai les connaissances de base en assembleur: faire un programme fonctionnel, utilisation de la stack, des procédures et des interruptions
+-Et de bonnes connaissances en C et des différentes structures de données (arbre/pile/file/liste chainée/..)
+-Utilisation de Lex et Yacc
+-Connaissances de base de la chaine de compilation (analyse lexicale/syntaxique/sémantique , relogeage d'adresse, ...) mais d'un point de vue purement théorique :-°
+-Connaissances de base en théorie de langages: DFA,NFA,PDA,Grammaires,..
+La partie analyse sémantique est la plus complexe : ça comprend la construction d'arbre d'execution, sa décoration, construction d'univers...
 
 
 
@@ -105,19 +146,11 @@ Il y a globalement deux type de "commandes" DOS : Les commandes gérées par l'i
 
 
 
+Ce pragma, je l'aime bien, il n'est pas très portable, il sert à dire au compilateur quelle librairie linker.
 
+Au lieu d'aller modifier les propriétés du projet, en cliquant, ou en remplissant le makefile, tu écris directement dans le code quelle librairie il faudra linker.
 
-
-
-
-
-
-
-
-
-
-
-
+Pour ma part, je mets souvent ce #pragma a coté de l'include du header de la lib. Ainsi, en 2 ligne, je dis ou est le .h, et quelle librairie associée linker.
 
 
 

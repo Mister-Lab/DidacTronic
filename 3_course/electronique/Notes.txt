@@ -1,3 +1,9 @@
+"U" pour la tension composée
+"V" pour la tension simple
+
+
+
+
 Signe : phénomène significatif choisit pour la mesure
 Signal : équivalent électrique (transduit)
 Consigner :

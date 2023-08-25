@@ -1,9 +1,21 @@
+Logique combinatoire   /    Logique séquentielle
+
+Table d'état                /    Table de vérite 
+Grafcet                     /     Logigramme
+
+
+
+
+
+
+
+
 une variable de type BOOL (echelon haut+bas) ou EBOOL (echelon haut+bas+front montant/descendant)
 
 Industrie  4.0 Il y a le secteur de la production et celui de la fabrication de machine.
 On parle de machines standars si elle sont déjà dans le catalague du vendeur sinon il faut les fabriquer sur mesure dans ce cas on dit machine spéciale.
 
-
+Bus de terrain c'est une carte réseau pour actionneurs et capteurs.
 
 En principe l'automate est le seul à être installé dans l'armoire électrique. Avant le bornier.
 pour les voyants du contrôleur on prends les infos au niveau des l'acquisition (repiquage).

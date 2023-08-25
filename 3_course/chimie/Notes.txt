@@ -1,0 +1,18 @@
+        alcalin - salin
+proton - electron
+cathode - anode
+         oxyde(+) - réduction(-)
+argile - humus
+metal - végétal
+minerai -  organique
+sel - sucre
+Acide - Basique
+
+1 Kcalorie (Kcal ou Cal) = 4.18 Kjoules;   chaleur pour +1°C de 1 g de H2O
+
+Protéine 1 g   4 Kcal | 16.72 Kj.g^-1
+Glucide 1g     9 Kcal | 37.62 Kjg^-1 
+Lipide   1g      7Kcal  | 29.26Kj.g^-1 
+
+
+          

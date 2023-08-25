@@ -1,3 +1,7 @@
+Acheter norme Nfc-15-100 ou le guide d'application de l'Afnor
+
+Facteur du nucléaire français : 70%
+
 • Pouvoir de coupure(ouverture) contre les court-circuits/surcharge de courant   Pouvoir de couture(fermeture) contre les coupe-circuits/surcharge de tension
 • Un codeur rotatif c'est pour capter le nombre de tour/min d'un moteur. Un rotracteur est une résistance varialbe circulaire
 • Pourquoi on peut pas mesurer secteur avec oscillo ?
