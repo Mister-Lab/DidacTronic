@@ -1,4 +1,4 @@
-@import url("../css/global.css");
+
 
 
 /*gris foncé pour la police générale*/
@@ -50,7 +50,17 @@ main a:visited:active {
 
 
 /* _____________________ Sticky Content ________________________*/
-main section .sticky-content {
+main article  {
+  background-color: #ddd;
+  }
+
+main article section {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding: 0 15%;
+}
+
+main article section .section_title {
   position: sticky;
   top: 0;
   z-index: 0;
@@ -58,30 +68,16 @@ main section .sticky-content {
   color: #000;
   border-radius:50px;
   padding-left: 10px;
-
 }
 
-main section .sticky-content-title {
+main article section .section_title_h2 {
   margin: 0;
 }
 
-main section .placeholder-content {
-  background-color: #FFFFFF;
-  background: linear-gradient(180deg, rgba(240,240,240,1) 0%, rgba(255,255,255,1) 100%);
+main article section figure img {
+  width: 100%;
 }
 
-main section .placeholder-title {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-  padding-left: 20px;
-}
-
-main section .placeholder-separator {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-  
-    
     
 
 /* ____________________ Tooltip _____________________ */
@@ -348,7 +344,7 @@ border: 2px solid red;
 
 /* _______________ Lesson Grid A grid1pictright ________________ */
 
-main .grid_A {
+main article section .grid_A {
   display: grid;
   grid-template-columns: 1fr 0.5fr;
   grid-template-rows: 1fr 1fr;
@@ -358,23 +354,28 @@ main .grid_A {
   "text_below_A text_below_A";
 }
 
-main .text_aside_A {
-  grid-area: text_aside_A;text-align: justify;margin: 10px;
+main article section .text_aside_A {
+  grid-area: text_aside_A;
+  text-align: justify;
+  margin: 10px;
 }
 
-main .pict_A {
+main article section .pict_A {
   grid-area: pict_A;
-    width: 100%;
-  height: auto;margin: auto;
+  width: 100%;
+  height: auto;
+  margin: auto;
 }
 
-main .pict_A_img {
+main article section .pict_A_img {
   width: 100%;
   height: auto;margin: auto;
 }
 
-main .text_below_A {
-  grid-area: text_below_A;text-align: justify;margin: 10px;
+main article section .text_below_A {
+  grid-area: text_below_A;
+  text-align: justify;
+  margin: 10px;
 }
 
 /* _______________ Lesson Grid B grid1pictleft ________________ */

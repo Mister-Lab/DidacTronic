@@ -1,11 +1,8 @@
 nav{
-  background: url("/img/Aop (6).png"); 
-  background-repeat: repeat-x;
+  background: #aaa;
 }
 
 // ____ Tabmenu __________________________________
-
-/* Style the tab */
 
 nav .container{
   width: 500px;
@@ -17,11 +14,10 @@ nav ul.tabs{
   padding: 0px;
   list-style: none;
 }
+
 nav ul.tabs li{
   background: none;
-
   display: inline-block;
-
   cursor: pointer;
 }
 
@@ -32,12 +28,12 @@ nav ul.tabs li.current{
 
 nav .tab-content{
   display: none;
- 
-
 }
 
 nav .tab-content.current{
   display: inherit;
 }
+
+
 // ___________________________________________
 

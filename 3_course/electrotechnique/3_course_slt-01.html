@@ -28,8 +28,16 @@
         <script src="../../js/3_course_aside.js"></script>
         <script src="../../js/3_course_footer.js"></script>
         <script src="../../js/3_course_aside.js"></script>
-        <script src="../../js/3_course_nav.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script><!-- nécéssaire pour la nav tab-->      
+        <script src="../../js/3_course_nav.js"></script>  
+
+
+
+
     </head>
+
+
+
 
     <body>
         <header id="header">
@@ -37,21 +45,24 @@
                 <button id="openbtn" onclick="openAsidenav()">☰</button>
             </span>
 
-            <span>Electrotechnique</span>
+            <span class="discipline">Electrotechnique</span>
         </header>
 
-        <nav id="nav" style="background: url('img/fondec_ectro.svg'); background-repeat: no-repeat; width: 100%;">
+        <nav id="nav">
             <span class=""> 
                 <center>
                     <div class="container">
-                        <div id="tab-1" class="tab-content current">tab content1</div>
-                        <div id="tab-2" class="tab-content">tab content2</div>
-                        <div id="tab-3" class="tab-content">tab content3</div>
+
+                        <div id="tab-1" class="tab-content current">link 01</div>
+                        <div id="tab-2" class="tab-content">link 02</div>
+                        <div id="tab-3" class="tab-content">link 03</div>
+                        <div id="tab-4" class="tab-content">link 04</div>
 
                         <ul class="tabs">
-                            <li class="tab-link current" data-tab="tab-1">►</li>
-                            <li class="tab-link" data-tab="tab-2">►</li>
-                            <li class="tab-link" data-tab="tab-3">►</li>
+                            <li class="tab-link current" data-tab="tab-1"> ▶ </li>
+                            <li class="tab-link" data-tab="tab-2"> ▶ </li>
+                            <li class="tab-link" data-tab="tab-3"> ▶ </li>
+                            <li class="tab-link" data-tab="tab-4"> ▶ </li>
                         </ul>
                     </div>
                 </center>
@@ -62,37 +73,42 @@
             <a href="javascript:void(0)" class="closebtn" onclick="closeAsidenav()">◄</a>
   
             <ul class="ul_side">
-                <li><a href="#section-1">Section 1</a></li>
-                <li><a href="#section-2">Section 2</a></li>
-                <li><a href="#section-3">Section 3</a></li>
-                <li><a href="#section-4">Section 4</a></li>
-                <li><a href="#section-5">Section 5</a></li>
-                <li><a href="#section-6">Section 6</a></li>
-                <li><a href="#section-7">Section 7</a></li>
-                <li><a href="#section-8">Section 8</a></li>
-                <li><a href="#section-9">Section 9</a></li>
+                <li><a href="#section-1">article 1</a></li>
+                <li><a href="#section-2">article 2</a></li>
+                <li><a href="#section-3">article 3</a></li>
+                <li><a href="#section-4">article 4</a></li>
+                <li><a href="#section-5">article 5</a></li>
+                <li><a href="#section-6">article 6</a></li>
+                <li><a href="#section-7">article 7</a></li>
+                <li><a href="#section-8">article 8</a></li>
+                <li><a href="#section-9">article 9</a></li>
             </ul>
         </aside>
 
         <main id="main">
+            <!-- _________________ -->
             <div id="modal01" class="modal" onclick="this.style.display='none'">
                 <span class="close"></span>
                     <div class="modal-content">
-                        <img id="img01" style="max-width:50%">
+                        <img id="img01" style="max-width:70%">
                     </div>
             </div>
+            <!-- _________________ -->
 
-            <section class="placeholder-content" id="section-1">
-                <div class="sticky-content">
-                    <h2 class="sticky-content-title">Régime TT</h2>
-                </div>
 
-                <div class="placeholder-title">
+            <article   id="section-1">
+                <section>
+                    <div class="section_title">
+                        <h2 class="section_title_h2">Régime TT</h2>
+                    </div>
+
                     <div class="grid_A">
-                        <figure class="pict_A">
-                            <img src="img/[-Ectro(-____(-slt-001-))].png"  onclick="onClick(this)" class="text_below_A" alt="Img 1"/>
-                            <figcaption>Table 1.1 Customers</figcaption>
-                        </figure> 
+                        <div class="pict_A">
+                            <figure>
+                                <img src="img/test01.svg"  onclick="onClick(this)" class="text_below_A" alt="Img 1"/>
+                                <figcaption>Table 1.1 Customers</figcaption>
+                            </figure> 
+                        </div>
 
                         <div class="text_aside_A">
                             <h3>Titre 1</h3> 
@@ -112,28 +128,22 @@
                             <p>Le volmetre c'est pour mesurer la tension et le sens des électrons tandis que l'ampèremètre c'est pour mesurer l'intensité et le sens du courant</p>
                         </div>
                     </div>                
-                </div>
-            </section>
+                </section>
+            </article>
 
-
-
-
-
-
-
-
-
-            <section class="placeholder-content" id="section-2">
-                <div class="sticky-content">
-                    <h2 class="sticky-content-title">Régime IT</h2>
-                </div>
-
-                <div class="placeholder-title">
+            <article   id="section-2">
+                <section>
+                    <div class="section_title">
+                        <h2 class="section_title_h2">Régime IT</h2>
+                    </div>
+                
                     <div class="grid_A">
-                        <figure class="pict_A">
-                            <img src="img/[-Ectro(-____(-slt-002-))].png"  onclick="onClick(this)" class="text_below_A" alt="Img 1"/>
-                            <figcaption>Table 1.1 Customers</figcaption>
-                        </figure> 
+                        <div>
+                            <figure class="pict_A">
+                                <img src="img/[-Ectro(-____(-slt-002-))].png"  onclick="onClick(this)" class="text_below_A" alt="Img 1"/>
+                                <figcaption>Table 1.1 Customers</figcaption>
+                            </figure>
+                        </div>
 
                         <div class="text_aside_A">
                             <h3>Titre 1</h3> 
@@ -153,27 +163,22 @@
                             <p>Le volmetre c'est pour mesurer la tension et le sens des électrons tandis que l'ampèremètre c'est pour mesurer l'intensité et le sens du courant</p>
                         </div>
                     </div>                
-                </div>
-            </section>
+                </section>
+            </article>
 
+            <article   id="section-3">
+                <section>
+                    <div class="section_title">
+                        <h2 class="section_title_h2">Régime TN-c</h2>
+                    </div>
 
-
-
-
-
-
-
-            <section class="placeholder-content" id="section-3">
-                <div class="sticky-content">
-                    <h2 class="sticky-content-title">Régime TN-c</h2>
-                </div>
-
-                <div class="placeholder-title">
                     <div class="grid_A">
-                        <figure class="pict_A">
-                            <img src="img/[-Ectro(-____(-slt-003-))].png"  onclick="onClick(this)" class="text_below_A" alt="Img 1"/>
-                            <figcaption>Table 1.1 Customers</figcaption>
-                        </figure> 
+                        </div>
+                            <figure class="pict_A">
+                                <img src="img/[-Ectro(-____(-slt-003-))].png"  onclick="onClick(this)" class="text_below_A" alt="Img 1"/>
+                                <figcaption>Table 1.1 Customers</figcaption>
+                            </figure> 
+                        </div>
 
                         <div class="text_aside_A">
                             <h3>Titre 1</h3> 
@@ -181,7 +186,7 @@
                             Selon cette convention, le courant électrique est considéré comme circulant du point de potentiel plus élevé (générateur) vers le point de potentiel plus faible (récepteur).</p>
                         </div>
 
-                         <div class="text_below_A">
+                        <div class="text_below_A">
                             <p>En d'autres termes, la convention récepteur générateur stipule que le courant électrique circule du <a href="">pôle</a> positif d'une source d'alimentation électrique (générateur) vers le pôle négatif (récepteur). 
                             Cette convention est utilisée pour décrire le fonctionnement des circuits électriques et est largement acceptée dans l'industrie de l'électricité.</p>
 
@@ -193,30 +198,22 @@
                             <p>Le volmetre c'est pour mesurer la tension et le sens des électrons tandis que l'ampèremètre c'est pour mesurer l'intensité et le sens du courant</p>
                         </div>
                     </div>                
-                </div>
-            </section>
+                </section>
+            </article>
 
-
-
-
-
-
-
-
-
-
-
-            <section class="placeholder-content" id="section-4">
-                <div class="sticky-content">
-                    <h2 class="sticky-content-title">Régime TN-s</h2>
-                </div>
-
-                <div class="placeholder-title">
+            <article   id="section-4">
+                <section>
+                    <div class="section_title">
+                        <h2 class="section_title_h2">Régime TN-s</h2>
+                    </div>
+              
                     <div class="grid_A">
-                        <figure class="pict_A">
-                            <img src="img/[-Ectro(-____(-slt-004-))].png"  onclick="onClick(this)" class="text_below_A" alt="Img 1"/>
-                            <figcaption>Table 1.1 Customers</figcaption>
-                        </figure> 
+                        </div>
+                            <figure class="pict_A">
+                                <img src="img/[-Ectro(-____(-slt-004-))].png"  onclick="onClick(this)" class="text_below_A" alt="Img 1"/>
+                                <figcaption>Table 1.1 Customers</figcaption>
+                            </figure> 
+                        </div>
 
                         <div class="text_aside_A">
                             <h3>Titre 1</h3> 
@@ -224,7 +221,7 @@
                             Selon cette convention, le courant électrique est considéré comme circulant du point de potentiel plus élevé (générateur) vers le point de potentiel plus faible (récepteur).</p>
                         </div>
 
-                         <div class="text_below_A">
+                        <div class="text_below_A">
                             <p>En d'autres termes, la convention récepteur générateur stipule que le courant électrique circule du <a href="">pôle</a> positif d'une source d'alimentation électrique (générateur) vers le pôle négatif (récepteur). 
                             Cette convention est utilisée pour décrire le fonctionnement des circuits électriques et est largement acceptée dans l'industrie de l'électricité.</p>
 
@@ -236,18 +233,8 @@
                             <p>Le volmetre c'est pour mesurer la tension et le sens des électrons tandis que l'ampèremètre c'est pour mesurer l'intensité et le sens du courant</p>
                         </div>
                     </div>                
-                </div>
-            </section>
-
-
-
-
-
-
-
-
-
-
+                </section>
+            </article>
         </main>
 
         <footer id="footer">
