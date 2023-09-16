@@ -1,3 +1,73 @@
+
+NF c 15-100 Norme
+
+
+ *T :  Quantité ( )
+ /T : Mouvement (débit)
+ *D : Quantité (flux)
+ /D : Mouvement ( )
+
+   
+    Comme toutes les masses sont reliées (TT) donc un défaut d'isolement sur une carcasse
+ génére une tension sur tout les autres.
+
+
+Voletant
+Flottant
+~~~~~~~~
+Ballast(ant)
+Lest(ant)
+c'est pour cela qu'il vaut mieux parler de mer que de terre
+
+
+Un VA n'est pas un watt
+1W = 1V * 1A * sin(déphasage)
+On a 1W=1A si et seulement si on est en courant continu, ou si le courant consommé est parfaitement en phase avec la tension délivrée. (charge résistive pure)
+
+Le VA, puissance apparente, est utilisé pour le dimensionnement d'installation
+tandis que le W est une puissance qui est trasformée en travail (NRJ mécanique ou chaleur) 
+
+
+Disjoncteur de type A(ampère) pour courant continu&alternatif  seulement  NE PAS CONFONDRE avec type AC(alternative current) pour alternatif seulement
+
+
+- eTéléreport 
+- CCPI 
+- Compteur 
+- Disjoncteur={magnétoterm:matériel} * différentiel={solénoÏde:personne} (publique<agcp/privé) 
+- Interrupteur={manuel}  * différentiel={solénoÏde:personne}  (privé)
+- Disjoncteur={magnétoterm:matériel} référentiel{condensateur:matériel} (privé) 
+- Porte fusible
+- Relais différentiel
+- Délecteur
+- Télérupteur
+- Sectionneur
+
+
+
+Un relais c'est un interrupteur commandé
+
+magnétothermique _ électrotermique
+
+MAGNÉTIQUE effet hall lorentz, relais court circuit surtension
+THERMIQUE effet joules bilame surcourant
+ÉLECTRIQUE 
+DIAGNOSTIQUE bobine cercle
+CHARGE (coulomb) ?
+IMPÉDANCE ?
+
+Il faut relier toutes les parties métalliques à la liaison équipotentielle afin d'éliminer la tension entre deux masses simultanément accéssibles.
+
+
+
+
+
+Discontacteur
+
+
+
+
+
 Acheter norme Nfc-15-100 ou le guide d'application de l'Afnor
 
 Facteur du nucléaire français : 70%
@@ -33,11 +103,13 @@ triphasé(3P+N) (3P)
 
 TRIANGLE 
 triphasé(3P)
-disjoncter c'est le pouvoir de coupure(ouverture) en plein consommation 
-disjoncteur--fonction de disjonction-- ****différentiel--fonction de détection-- est résiduel  
-disjoncteur--fonction de disjonction-- ****référentiel--fonction de détection-- est soit thermique[courant moyen] ou magnétique(champ)[courant fort] (pas électrique(champ) charges | 
-disjoncteur--fonction de disjonction-- contacteur--fonction de conjonction-- {discontacteur} contacteur accompagné avec disjoncteur--fonction de disjonction--  (thermique, magnétique ou magnéto-thermique)--fonction de détection--
-contacter c'est le pouvoir de couture (fermeture) en plein consommation 
+disjoncter c'est le pouvoir de coupure(ouverture) en pleine consommation - fonction de disjonction
+conjoncter contacter c'est le pouvoir de couture (fermeture) en pleine consommation  -fonction de conjonction
+différentiel--fonction de détection de fuite-- est résiduel  
+référentiel--fonction de diagnostique de surcharge est soit thermique[courant moyen] ou magnétique(champ)[courant fort] (pas électrique(champ) charges | 
+disjoncteur--fonction de disjonction-- 
+discontacteur- contacteur accompagné avec disjoncteur--fonction de disjonction--  (thermique, magnétique ou magnéto-thermique)--fonction de détection--
+contacteur-- 
 
 
 

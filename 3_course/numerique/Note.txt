@@ -1,3 +1,9 @@
+Von neuman / Haward
+
+ 2 : bigit
+ 8 : octigit
+10: digit 
+16: hexigit
 
 Le 0 permet au compilateur de déterminer qu'il s'agit d'un nombre. Ensuite, une lettre de code indique la base : x pour l'hexadécimal, o pour octal, b pour binaire. 
 

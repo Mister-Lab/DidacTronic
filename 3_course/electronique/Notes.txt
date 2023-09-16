@@ -2,7 +2,7 @@
 "V" pour la tension simple
 
 
-
+Un signal positif et négatif est qualifié de bipolaire, tandis qu'un signal purement positif est unipolaire.
 
 Signe : phénomène significatif choisit pour la mesure
 Signal : équivalent électrique (transduit)

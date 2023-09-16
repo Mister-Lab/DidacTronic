@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+    <head>
+        <title>DidacTronic</title>
+
+        <meta http-equiv="refresh" content="500">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="Mister Lab" content="Renov">
+        <meta name="robots" content="Site d'achat, de discussion et de mise en valeur de concepts industroniques">
+        <meta name="author" content="Mister Lab">
+        <meta name="description" content="Arretez de ne pas savoir ce que vous faites, pas comprendre les circuits electroniques de trop forcer les neurones et commencez a avoir de bonnes notes a l'ecole, devenir ingenieur, fabriquer vos machines !">
+        <meta name="keywords" content="Robotique, informatique, automatisme, electronique, apprendre, acheter">
+        <!-- <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" /> -->
+
+        <link type="pict/png" rel="shortcut icon"  href="../../images/favicon.svg"/>
+        <link rel="shortcut icon" href="./images/favicon.svg" type="pict/png" />
+        <link rel="stylesheet" href="../../css/3_course_main.css">
+        <link rel="stylesheet" href="../../css/3_course_nav.css">
+        <link rel="stylesheet" href="../../css/3_course_footer.css">
+        <link rel="stylesheet" href="../../css/3_course_aside.css">
+        <link rel="stylesheet" href="../../css/3_course_header.css">
+        <link rel="stylesheet" href="../../css/3_course_global.css">
+        <link rel="stylesheet" href="../../css/3_course_org.css">
+   
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script src="../../js/3_course_main.js"></script>
+        <script src="../../js/3_course_aside.js"></script>
+        <script src="../../js/3_course_footer.js"></script>
+        <script src="../../js/3_course_aside.js"></script>
+        <script src="../../js/3_course_nav.js"></script>
+
+
+<style>
+        table.table_001 {
+  border: 1px solid #1C6EA4;
+  background-color: #EEEEEE;
+  width: 100%;
+  height: 200px;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.table_001 td, table.table_001 th {
+  border: 2px solid #AAAAAA;
+  padding: 3px 2px;
+}
+table.table_001 tbody td {
+  font-size: 14px;
+  color: #333333;
+}
+table.table_001 thead {
+  background: #1C6EA4;
+  background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  border-bottom: 2px solid #444444;
+}
+table.table_001 thead th {
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFFFFF;
+  border-left: 2px solid #D0E4F5;
+}
+table.table_001 thead th:first-child {
+  border-left: none;
+}
+
+table.table_001 tfoot {
+  font-size: 8px;
+  font-weight: normal;
+  color: #FFFFFF;
+}
+table.table_001 tfoot td {
+  font-size: 8px;
+}
+</style>
+    </head>
+
+    <body>
+        <header id="header">
+            <span>
+                <button id="openbtn" onclick="openAsidenav()">☰</button>
+            </span>
+
+            <span>Mathématique</span>
+        </header>
+
+        <nav id="nav" style="background: url('img/fondec_ectro.svg'); background-repeat: no-repeat; width: 100%;">
+            <span class=""> 
+                <center>
+                    <div class="container">
+                        <a href="3_course_composante-01.html" id="tab-1" class="tab-content current">Introduction</a>
+                        <a href="3_course_composante-02.html" id="tab-2" class="tab-content">Composante 2</a>
+                       <a href="3_course_composante-03.html" id="tab-3" class="tab-content">Composante 3</a>
+
+                        <ul class="tabs">
+                            <li class="tab-link current" data-tab="tab-1">►</li>
+                            <li class="tab-link" data-tab="tab-2">►</li>
+                            <li class="tab-link" data-tab="tab-3">►</li>
+                        </ul>
+                    </div>
+                </center>
+            </span>
+        </nav>
+
+        <aside id="aside" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeAsidenav()">◄</a>
+  
+            <ul class="ul_side">
+                <li><a href="#section-1" title="test">Section 1</a></li>
+                <li><a href="#section-2">Section 2</a></li>
+                <li><a href="#section-3">Section 3</a></li>
+                <li><a href="#section-4">Section 4</a></li>
+                <li><a href="#section-5">Section 5</a></li>
+                <li><a href="#section-6">Section 6</a></li>
+                <li><a href="#section-7">Section 7</a></li>
+                <li><a href="#section-8">Section 8</a></li>
+                <li><a href="#section-9">Section 9</a></li>
+            </ul>
+        </aside>
+
+        <main id="main">
+            <div id="modal01" class="modal" onclick="this.style.display='none'">
+                <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+                <div class="modal-content">
+                    <img id="img01" style="max-width:45%">
+                </div>
+            </div>
+
+            <section class="placeholder-content" id="section-1">
+                <div class="sticky-content">
+                    <h2 class="sticky-content-title">Nombre complexe</h2>
+                </div>
+
+                <div class="placeholder-title">
+                    <div class="grid_C">
+                        <div class="text_above_C">
+                            <div class="frame_definition">
+                                <table class="table_001">
+                                <thead>
+                                <tr>
+                                <th>Réactance</th>
+                                <th>Naturelle</th>
+                                <th>Réelle</th>
+                                <th>Complexe</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                <td>Résistor</td>
+                                <td>$$ 0 $$</td>
+                                <td>$$ 0 $$</td>
+                                <td>$$ 0 $$</td>
+                                </tr>
+                                <tr>
+                                <td>Condensateur</td>
+                                <td>$$ \frac{1}{C} $$</td>
+                                <td>$$ \frac{1}{C\omega} $$</td>
+                                <td>$$ 0 + \frac{1}{iC\omega} $$</td>
+                                </tr>
+                                <tr>
+                                <td>Solénoïde</td>
+                                <td>$$ L $$</td>
+                                <td>$$ L\omega $$</td>
+                                <td>$$ 0 + iL\omega $$</td>
+                                </tr>
+                                </tbody>
+                                </table>
+                            </div>
+
+                            <div class="frame_developpement_1">
+                            </div>
+                        </div>
+
+                        <div class="pict_C">
+                            <center>
+                                <img src="img/[-Ectro(-____(-Impédance-000-))].svg" onclick="onClick(this)" class="pict_C_img" alt="Img 1"/>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="placeholder-content" id="section-2">
+                <div class="sticky-content">
+                     <h2 class="sticky-content-title"></h2> 
+                </div>
+
+                <div class="placeholder-title">
+                </div>
+            </section>
+        </main>
+
+        <footer id="footer">
+            </center>
+                <div class="prevnext">
+                    <span class="previous">
+                        <a href="0_sum-ele0.html" class="">← Précédent</a>
+                    </span>
+
+                    <span class="breadcrumbs">
+                        <ul class="collapsed">
+                          <li><a href="#">Home</a></li>
+                          <li><a href="#">First link</a></li>
+                          <li><a href="#">Second link</a></li>
+                          <li><a href="#">Another lengthier link</a></li>
+                          <li><a href="#">Final link in the hierarchy</a></li>
+                          <li>Current page</li>
+                        </ul> 
+                    </span>   
+
+                    <span class="next">
+                        <a href="1_cha-slt-01.html" class="">Suivant →</a>
+                    </span>  
+                </div>
+            <center>
+        </footer>
+    </body>
+</html>
+

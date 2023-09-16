@@ -1,0 +1,7 @@
+• $$ \vec{Z}_{x} \parallel  \vec{Z}_{y}  \implies  (\frac{1}{\vec{Z}_{x}}  + \frac{1}{ \vec{Z}_{y}})^{-1} = (\frac{1}{ \vec{Z}_{eq}})^{-1}  \equiv \vec{Z}_{eq} $$
+
+•$$ \mid  \vec{Z}_{eq} \mid $$
+•
+•
+•
+•

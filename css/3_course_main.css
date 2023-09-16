@@ -68,11 +68,9 @@ main article section .section_title {
   color: #000;
   border-radius:50px;
   padding-left: 10px;
-}
-
-main article section .section_title_h2 {
   margin: 0;
 }
+
 
 main article section figure img {
   width: 100%;
@@ -344,39 +342,24 @@ border: 2px solid red;
 
 /* _______________ Lesson Grid A grid1pictright ________________ */
 
-main article section .grid_A {
-  display: grid;
-  grid-template-columns: 1fr 0.5fr;
+
+.grid_A {  display: grid;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 0px 0px;
+  gap: 5px 0px;
   grid-auto-flow: row;
-  grid-template-areas: "text_aside_A pict_A"
-  "text_below_A text_below_A";
+  grid-template-areas:
+    "grid_A_txt_left grid_A_img_right"
+    "grid_A_txt_below grid_A_txt_below";
 }
 
-main article section .text_aside_A {
-  grid-area: text_aside_A;
-  text-align: justify;
-  margin: 10px;
-}
+.grid_A_txt_left { grid-area: grid_A_txt_left; }
 
-main article section .pict_A {
-  grid-area: pict_A;
-  width: 100%;
-  height: auto;
-  margin: auto;
-}
+.grid_A_img_right { grid-area: grid_A_img_right; }
 
-main article section .pict_A_img {
-  width: 100%;
-  height: auto;margin: auto;
-}
+.grid_A_txt_below { grid-area: grid_A_txt_below; }
 
-main article section .text_below_A {
-  grid-area: text_below_A;
-  text-align: justify;
-  margin: 10px;
-}
+
 
 /* _______________ Lesson Grid B grid1pictleft ________________ */
 main .grid_B {
@@ -540,7 +523,7 @@ main .pict_G_img {
 
 
 /* _______________ Lesson Grid H  ________________ */
-main .grid_H {
+ .grid_H {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto;
@@ -549,15 +532,15 @@ main .grid_H {
   grid-template-areas: "pict_right_H text_middle_H pict_left_H";
 }
 
-main .pict_right_H {
+ .pict_right_H {
   grid-area: pict_right_H;margin: auto;
 }
 
-main .pict_left_H {
+ .pict_left_H {
   grid-area: pict_left_H;margin: auto;
 }
 
-main .text_middle_H {
+ .text_middle_H {
   grid-area: text_middle_H;text-align: justify;margin: 10px
 }
 

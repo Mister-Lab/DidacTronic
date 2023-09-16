@@ -1,3 +1,11 @@
+
+createElement : <element>              </element>
+createTexteNode : <node>TexteNode</node>
+
+surcharge de la fonction : même définition pas même paramètres.
+surdéfinition : même identificateur pour plusieurs définitions.
+
+
 Alors, on peut faire confiance à celui qui créé le document XML pour respecter des règles explicites ou implicites mais le mieux c'est encore de décrire ces règles dans un document. Document qui pourra servir au contrôle automatique du document XML par un outil.
 Pour définir une DTD externe, il suffit d'écrire <!DOCTYPE racine SYSTEM "nomdufichier.dtd"> juste après <?xml version="1.0" ?>(prologue) où racine est le nom de la balise racine de l'arbre XML.
 XML and HTML were designed with different goals:

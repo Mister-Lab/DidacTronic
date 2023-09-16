@@ -1,3 +1,12 @@
+Workspace(espace de travail) / Projet / Fichier(unit+librairie) / 
+
+
+Graphe des flux / Matrice des flux
+
+Stockage logique=virutel : partition
+Stockage physique=réel : disque dur
+
+
 Système de Gestion de Base de Données (SGBD)
 DATA BASE MANAGEMENT SYSTEM (DBMS)
 Le système organisationnel (SIO) donc de l'entité globale. Vue reculée sur son "Domaine" activité principale, composé de sous domaine(dépactement, service).
@@ -5,6 +14,9 @@ Le système organisationnel (SIO) donc de l'entité globale. Vue reculée sur so
 1°) MCC
 2°) MCT
 3°) MCD
+
+
+
 
 Dictionnaire de donnés (DD)  [ <--MCD ]
 Dagramme(matrice) des dépendances fonctionnelles (GDF) [ <--MCT ]

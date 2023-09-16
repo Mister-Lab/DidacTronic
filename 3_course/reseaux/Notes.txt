@@ -5,6 +5,8 @@
 • bit stuffing
 
 
+Un protocole est toujours logique, c'est l'ensemble des méthode/fonction implémentées dans le dispositif.
+
 
 
 
