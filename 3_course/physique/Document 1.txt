@@ -1,3 +1,9 @@
+*t : quantité (vitesse)
+/t : mouvement (débit)
+*d : mouvement (flux)
+/d : quantité (champ)
+
+
 1°) La divergence du champ n'est pas une force/puissance ! 
 2°) Mais elle le devient lorsqu'elle est appliquée sur une particule. (elle ne peut pas le faire sur une onde)
 3°) La quantité des particules en mouvement est représenté par un flux/débit.

@@ -1,0 +1,1 @@
+\tetha = \omega.t = 2\pi*f.t
