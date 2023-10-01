@@ -1,0 +1,24 @@
+\tetha = \omega.t = 2\pi*f.t
+         j\omega =p|s (Laplace)
+
+
+•Schema bloc
+•Matrice de transfert
+•Graphe De Fluence (ou De Transfert)
+•Représentations d'état (vecto-matricielle)
+•Graphe de liaisons (bond graph)
+
+•décomposition
+
+Une fonction de transfert est logiquement une fraction car c'est le rapport de la sortie sur l'entrée.1/(1+10p)
+A ne pas confondre avec un bloc de calcul contenat la variable de tranfert (s ou p). P(1+10P)
+
+DB : death band (5%)
+SP : set point = consigne
+PV : process value = capteur
+CV : controll variable = commande 
+
+
+la rapidité  : action P  {  } peu:amorti <> trop:oscillation
+la précision : action I  {anticipation erreur finale} grossier <> fin
+la stabilité : action D  {prédiction du dépassement}  inertie <> légèreté

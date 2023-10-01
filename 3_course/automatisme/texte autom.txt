@@ -5,7 +5,7 @@ Grafcet                     /     Logigramme
 
 
 
-
+Conditionneur - Transmetteur - Amplificateur - Convertisseur(4,20mA, Can 0,15V 0,10Psi)
 
 
 

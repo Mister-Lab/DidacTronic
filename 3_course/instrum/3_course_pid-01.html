@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+    <head>
+        <title>DidacTronic</title>
+
+        <meta http-equiv="refresh" content="500">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="Mister Lab" content="Renov">
+        <meta name="robots" content="Site d'achat, de discussion et de mise en valeur de concepts industroniques">
+        <meta name="author" content="Mister Lab">
+        <meta name="description" content="Arretez de ne pas savoir ce que vous faites, pas comprendre les circuits electroniques de trop forcer les neurones et commencez a avoir de bonnes notes a l'ecole, devenir ingenieur, fabriquer vos machines !">
+        <meta name="keywords" content="Robotique, informatique, automatisme, electronique, apprendre, acheter">
+        <!-- <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" /> -->
+
+        <link type="pict/png" rel="shortcut icon"  href="../../images/favicon.svg"/>
+        <link rel="shortcut icon" href="./images/favicon.svg" type="pict/png" />
+        <link rel="stylesheet" href="../../css/3_course_main.css">
+        <link rel="stylesheet" href="../../css/3_course_nav.css">
+        <link rel="stylesheet" href="../../css/3_course_footer.css">
+        <link rel="stylesheet" href="../../css/3_course_aside.css">
+        <link rel="stylesheet" href="../../css/3_course_header.css">
+        <link rel="stylesheet" href="../../css/3_course_global.css">
+   
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script src="../../js/3_course_main.js"></script>
+        <script src="../../js/3_course_aside.js"></script>
+        <script src="../../js/3_course_footer.js"></script>
+        <script src="../../js/3_course_aside.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script><!-- nécéssaire pour la nav tab-->      
+        <script src="../../js/3_course_nav.js"></script>  
+
+
+<style>
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+</style>
+
+    </head>
+
+
+
+
+    <body>
+        <header id="header">
+            <span>
+                <button id="openbtn" onclick="openAsidenav()">☰</button>
+            </span>
+
+            <span class="discipline"><b> Electrotechnique </b></span>
+        </header>
+
+        <nav id="nav">
+            <span class=""> 
+                <center>
+                    <div class="container">
+
+                        <div id="tab-1" class="tab-content current">link 01</div>
+                        <div id="tab-2" class="tab-content">link 02</div>
+                        <div id="tab-3" class="tab-content">link 03</div>
+                        <div id="tab-4" class="tab-content">link 04</div>
+
+                        <ul class="tabs">
+                            <li class="tab-link current" data-tab="tab-1"> ▶ </li>
+                            <li class="tab-link" data-tab="tab-2"> ▶ </li>
+                            <li class="tab-link" data-tab="tab-3"> ▶ </li>
+                            <li class="tab-link" data-tab="tab-4"> ▶ </li>
+                        </ul>
+                    </div>
+                </center>
+            </span>
+        </nav>
+
+        <aside id="aside" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeAsidenav()">◄</a>
+  
+            <ul class="ul_side">
+                <li><a href="#section-1">article 1</a></li>
+                <li><a href="#section-2">article 2</a></li>
+                <li><a href="#section-3">article 3</a></li>
+                <li><a href="#section-4">article 4</a></li>
+                <li><a href="#section-5">article 5</a></li>
+                <li><a href="#section-6">article 6</a></li>
+                <li><a href="#section-7">article 7</a></li>
+                <li><a href="#section-8">article 8</a></li>
+                <li><a href="#section-9">article 9</a></li>
+            </ul>
+        </aside>
+
+        <main id="main">
+            <!-- _________________ -->
+            <div id="modal01" class="modal" onclick="this.style.display='none'">
+                <span class="close"></span>
+                    <div class="modal-content">
+                        <img id="img01" style="max-width:70%">
+                    </div>
+            </div>
+            <!-- _________________ -->
+
+
+            <article   id="section-1">
+                <section>
+                    <div class="section_title">
+                        <h2 class="section_title_h2">Régime TT</h2>
+                    </div>
+
+                    <div class="grid_A">
+                        <div class="pict_A">
+                            <figure>
+                                <img src="img/car.png"  onclick="onClick(this)" style="width: 200px; height: 200px;"
+                                class="text_below_A" alt="Img 1"/>
+                                <figcaption>Table 1.1 Customers</figcaption>
+                            </figure> 
+
+
+                            <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
+                   
+
+                        <div class="text_aside_A">
+                            <h3>Titre 1</h3> 
+                            <p> Toujours faire l'analyse dans les 2 sens de circulation du courant. En effet, même si la phase est coupée le courant provient aussi du neutre.
+                            Compléter le schéma avec un admetteur triphasé(simple et composé).</p>
+                            <p>Entre le neutre et la terre j'ai en principe 0 volt.
+                            Orange : navette. Viloet : retour.
+                        Résistance de défaut, tension de contact.</p>
+                        <p>
+                    Développer le concept de résistance interne et extra(carcasse) pour l'illustration </p>
+                        </div>
+
+                         <div class="text_below_A">
+                            <p>En d'autres termes, la convention récepteur générateur stipule que le courant électrique circule du <a href="">pôle</a> positif d'une source d'alimentation électrique (générateur) vers le pôle négatif (récepteur). 
+                            Cette convention est utilisée pour décrire le fonctionnement des circuits électriques et est largement acceptée dans l'industrie de l'électricité.</p>
+
+                            <p>Il est important de noter que la convention récepteur générateur est une convention arbitraire et que le courant réel dans un circuit peut circuler dans les deux sens, en fonction des caractéristiques du circuit et de la charge connectée.
+                             Cependant, la convention récepteur générateur est couramment utilisée pour simplifier la compréhension et l'analyse des circuits électriques.</p>
+                      
+                            <p> U c'est pour la tension (V) <br> V c'est pour le potentiel (V)</p>
+                      
+                            <p>Le volmetre c'est pour mesurer la tension et le sens des électrons tandis que l'ampèremètre c'est pour mesurer l'intensité et le sens du courant</p>
+                        </div>
+                    </div>                
+                </section>
+            </article>
+
+            <article   id="section-2">
+                <section>
+                    <div class="section_title">
+                        <h2 class="section_title_h2">Régime IT</h2>
+                    </div>
+                
+                    <div class="grid_A">
+                        <div>
+                            <figure class="pict_A">
+                                <img src="img/schemabloc.svg"  onclick="onClick(this)" class="text_below_A" alt="Img 1"/>
+                                <figcaption>Schéma bloc de principe</figcaption>
+                            </figure>
+
+                            <figure class="pict_A">
+                                <img src="img/schemabloc2.svg"  onclick="onClick(this)" class="text_below_A" alt="Img 1"/>
+                                <figcaption>Schéma bloc de fonction</figcaption>
+                            </figure>
+
+                            <figure class="pict_A">
+                                <img src="img/schemabloc3.svg"  onclick="onClick(this)" class="text_below_A" alt="Img 1"/>
+                                <figcaption>Schéma bloc de transfert</figcaption>
+                            </figure>
+
+
+                        </div>
+
+                        <div class="text_aside_A">
+                            <h3>Schéma bloc de principe</h3> 
+                            <p>Signaux : <br>- crémaillère a(t) <br>- tension U(t) <br>- rotation w(t) <br>- vitesse V(t)
+                            </p>
+                        </div>
+
+                         <div class="text_below_A">
+                            <p>En d'autres termes, la convention récepteur générateur stipule que le courant électrique circule du <a href="">pôle</a> positif d'une source d'alimentation électrique (générateur) vers le pôle négatif (récepteur). 
+                            Cette convention est utilisée pour décrire le fonctionnement des circuits électriques et est largement acceptée dans l'industrie de l'électricité.</p>
+
+                            <p>Il est important de noter que la convention récepteur générateur est une convention arbitraire et que le courant réel dans un circuit peut circuler dans les deux sens, en fonction des caractéristiques du circuit et de la charge connectée.
+                             Cependant, la convention récepteur générateur est couramment utilisée pour simplifier la compréhension et l'analyse des circuits électriques.</p>
+                      
+                            <p> U c'est pour la tension (V) <br> V c'est pour le potentiel (V)</p>
+                      
+                            <p>Le volmetre c'est pour mesurer la tension et le sens des électrons tandis que l'ampèremètre c'est pour mesurer l'intensité et le sens du courant</p>
+                        </div>
+                    </div>                
+                </section>
+            </article>
+
+            <article   id="section-3">
+                <section>
+                    <div class="section_title">
+                        <h2 class="section_title_h2">Régime TN-c</h2>
+                    </div>
+
+                    <div class="grid_A">
+                        </div>
+                            <figure class="pict_A">
+                                <img src="img/[-Ectro(-____(-slt-003-))].svg"  onclick="onClick(this)" class="text_below_A" alt="Img 1"/>
+                                <figcaption>Table 1.1 Customers</figcaption>
+                            </figure> 
+                        </div>
+
+                        <div class="text_aside_A">
+                            <h3>Titre 1</h3> 
+                            <p>La convention  <mark>émetteur-admetteur</mark> est une convention utilisée en électricité pour décrire <b>le sens des flux électriques</b> dans un circuit. 
+                            Selon cette convention, le courant électrique est considéré comme circulant du point de potentiel plus élevé (générateur) vers le point de potentiel plus faible (récepteur).</p>
+                        </div>
+
+                        <div class="text_below_A">
+                            <p>En d'autres termes, la convention récepteur générateur stipule que le courant électrique circule du <a href="">pôle</a> positif d'une source d'alimentation électrique (générateur) vers le pôle négatif (récepteur). 
+                            Cette convention est utilisée pour décrire le fonctionnement des circuits électriques et est largement acceptée dans l'industrie de l'électricité.</p>
+
+                            <p>Il est important de noter que la convention récepteur générateur est une convention arbitraire et que le courant réel dans un circuit peut circuler dans les deux sens, en fonction des caractéristiques du circuit et de la charge connectée.
+                             Cependant, la convention récepteur générateur est couramment utilisée pour simplifier la compréhension et l'analyse des circuits électriques.</p>
+                      
+                            <p> U c'est pour la tension (V) <br> V c'est pour le potentiel (V)</p>
+                      
+                            <p>Le volmetre c'est pour mesurer la tension et le sens des électrons tandis que l'ampèremètre c'est pour mesurer l'intensité et le sens du courant</p>
+                        </div>
+                    </div>                
+                </section>
+            </article>
+
+            <article   id="section-4">
+                <section>
+                    <div class="section_title">
+                        <h2 class="section_title_h2">Régime TN-s</h2>
+                    </div>
+              
+                    <div class="grid_A">
+                        </div>
+                            <figure class="pict_A">
+                                <img src="img/[-Ectro(-____(-slt-004-))].png"  onclick="onClick(this)" class="text_below_A" alt="Img 1"/>
+                                <figcaption>Table 1.1 Customers</figcaption>
+                            </figure> 
+                        </div>
+
+                        <div class="text_aside_A">
+                            <h3>Titre 1</h3> 
+                            <p>La convention  <mark>émetteur-admetteur</mark> est une convention utilisée en électricité pour décrire <b>le sens des flux électriques</b> dans un circuit. 
+                            Selon cette convention, le courant électrique est considéré comme circulant du point de potentiel plus élevé (générateur) vers le point de potentiel plus faible (récepteur).</p>
+                        </div>
+
+                        <div class="text_below_A">
+                            <p>En d'autres termes, la convention récepteur générateur stipule que le courant électrique circule du <a href="">pôle</a> positif d'une source d'alimentation électrique (générateur) vers le pôle négatif (récepteur). 
+                            Cette convention est utilisée pour décrire le fonctionnement des circuits électriques et est largement acceptée dans l'industrie de l'électricité.</p>
+
+                            <p>Il est important de noter que la convention récepteur générateur est une convention arbitraire et que le courant réel dans un circuit peut circuler dans les deux sens, en fonction des caractéristiques du circuit et de la charge connectée.
+                             Cependant, la convention récepteur générateur est couramment utilisée pour simplifier la compréhension et l'analyse des circuits électriques.</p>
+                      
+                            <p> U c'est pour la tension (V) <br> V c'est pour le potentiel (V)</p>
+                      
+                            <p>Le volmetre c'est pour mesurer la tension et le sens des électrons tandis que l'ampèremètre c'est pour mesurer l'intensité et le sens du courant</p>
+                        </div>
+                    </div>                
+                </section>
+            </article>
+        </main>
+
+        <footer id="footer">
+            <center>
+                <div class="prevnext">
+                    <span class="previous">
+                        <a href="0_sum-ele0.html" class="">← Précédent</a>
+                    </span>
+
+                    <span class="breadcrumbs">
+                        <ul class="collapsed">
+                          <li><a href="#">Électronique</a></li>
+                          <li><a href="#">Base</a></li>
+                          <li>Convention Émetteur Admetteur </li>
+                        </ul> 
+                    </span>   
+
+                    <span class="next">
+                        <a href="1_cha-slt-01.html" class="">Suivant →</a>
+                    </span>  
+                </div>
+            </center>
+        </footer>
+    </body>
+
+
+    <script>
+// Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</html>
+
