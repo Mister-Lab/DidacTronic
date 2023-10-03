@@ -8,29 +8,48 @@
 Un protocole est toujours logique, c'est l'ensemble des méthode/fonction implémentées dans le dispositif.
 
 
+•"Interface" fait référence aux puces des cartes réseaux. [puce](connecteur)
+le routeur Cisco 1941 est équipé de deux cartes d'interfaces [gigabit ethernet](Rj45) et d'une carte d'interface [WAN série](WIC) constituée de deux interfaces.
+
+Pour chaque adresse Ip(0.0.0.0 à 255.255.255.255) j'ai un tableau de port (0 à 65636).
 
 
+Un Pc "peut" avoir pluseurs adresses IP (non recommandées) mais en général :
+- Interne
+- Externe
+- Local
+- Virtual
 
 
+Un service.msc est un pilote(driver) de programme. (=!pilote de périphérique)
+On dit softwarePort  port logiciel.  	...protocole normalisé, spécifié ou largement utilisé pour ce numéro...
+http://www.destanaire.fr   ____Mac=>Ip=>Port=>(protocole)=>{Application:service} Nprocessus*___   C:\Users\files
+(thread)
+
+Dans une barre d'adresse je dois écrire le nom du dossier de destination après [le nom associé à l'Ip et le Port]socket.
+Pour une addresse locale, une configuration lie déjà le dossier que l'on sous consulter à Ip (apache httpd.conf)
+
+Apache/Tomcat/Ngix/Zend/Framework/Symphony/PhpRad/nodeJs/Jenkins /
 
 
+Les serveurs virtuels, ou VirtualHost(VirtualServer), permettent de faire cohabiter plusieurs serveurs web sur une même machine. 
+Pour accueillir plus d'un nom de domaine sur le même ordinateur, parfois sur la même adresse IP,
+
+Le serveur a une architecture modulaire composée :
+
+d’un Core qui prend en charge les fonctions de base communes ; 
+puis d’une série de modules propriétaires/tiers qui étendent ses fonctionnalités pouvant être a
+ctivées ou désactivées dans une installation selon les besoins.
 
 
+Un processus de contrôle unique a pour tâche de lancer les processus enfants qui attendent les 
+connexions et les traitent au fur et à mesure qu'elles arrivent. Apache httpd essaie toujours de 
+maintenir plusieurs processus serveurs inactifs ou en réserve, afin de pouvoir traiter les requêtes 
+entrantes. De cette façon, les clients n'ont pas besoin d'attendre le démarrage d'un nouveau processus 
+enfant pour que leurs requêtes puissent être traitées.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+Les modules sont des morceaux de code qui peuvent être utilisés pour fournir ou étendre les fonctionnalités du serveur HTTP Apache. Les modules peuvent être inclus de manière statique ou dynamique avec le noyau. Pour une inclusion statique, le code source du module doit être ajouté à la distribution source du serveur et compiler l'ensemble du serveur. Les modules inclus dynamiquement ajoutent des fonctionnalités au serveur en étant chargés en tant que bibliothèques partagées lors du démarrage ou du redémarrage du serveur. Dans ce cas, le module mod_so fournit la fonctionnalité permettant d'ajouter des modules de manière dynamique. Dans une distribution actuelle d'Apache 2.0 ou d'Apache 1.3, toutes les fonctionnalités du serveur, sauf très basiques, ont été déplacées vers des modules.
 
 
 
