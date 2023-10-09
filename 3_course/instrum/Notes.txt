@@ -1,6 +1,17 @@
 \tetha = \omega.t = 2\pi*f.t
          j\omega =p|s (Laplace)
 
+L'obervation d'un système automatisé peut se faire :
+- du point de vue fonctionnel
+- du point de vue structurel
+- du point de temporel/(=séquentiel)
+
+(analyse temporelle, fréquentielle, dimensionnelle 2pi?).
+
+
+Par analyse dimensionnelle (on peut remarquer que p a pour dimension l'inverse d'un temps)
+
+
 
 •Schema bloc
 •Matrice de transfert
@@ -22,3 +33,80 @@ CV : controll variable = commande
 la rapidité  : action P  {  } peu:amorti <> trop:oscillation
 la précision : action I  {anticipation erreur finale} grossier <> fin
 la stabilité : action D  {prédiction du dépassement}  inertie <> légèreté
+
+
+
+Un trop grand gain proportionnel engendre dans le pire des cas une oscillation permanente, la sortie s’éloignant périodiquement de la valeur de consigne.
+
+
+
+Le régulateur dérivé établit une valeur régulée en fonction de la vitesse de variation de l’erreur et pas en fonction de l’amplitude comme pour le régulateur P. C’est pour cette raison qu’il réagit beaucoup plus rapidement qu’un régulateur P. Même face à une petite erreur il va générer une grosse valeur régulée dès lors qu’il y a une variation d’amplitude de l’erreur.
+
+
+
+
+•Le régulateur dérivé établit une valeur régulée en fonction de la vitesse de variation de l’erreur et pas en fonction de l’amplitude comme pour le régulateur P. C’est pour cette raison qu’il réagit beaucoup plus rapidement qu’un régulateur P. Même face à une petite erreur il va générer une grosse valeur régulée dès lors qu’il y a une variation d’amplitude de l’erreur.
+Le régulateur D sera inefficace face à une erreur résiduelle permanente, quel que soit sa valeur puisque celle-ci reste constante (pas de variation d’amplitude donc pas de réaction du régulateur). C’est pourquoi ce type de régulateur sera rarement utilisé seul dans la pratique, il est couramment associé à un régulateur de type P.
+
+•I) Le comportement dans le temps est caractérisé par le facteur proportionnel Kp et la constante d’intégration Ti. Grâce à la partie proportionnelle, le régulateur réagit immédiatement à toute erreur de régulation e, alors que la partie intégrale ne fera effet qu’après un certain temps.
+La constante d’intégration Ti est le temps qu’il faut à la partie I pour avoir la même amplitude que prend la partie P de façon instantanée. Si l’on veut renforcer la partie intégrale, il faut comme pour un régulateur intégral réduire la constante Ti.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

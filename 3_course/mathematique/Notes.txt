@@ -8,6 +8,21 @@ x= ?€/64Go combien d'euros par gigas
 
 FONCTION_____________________________________________
 
+Lorsque l'on effectue une dérivée c'est qu'on veut connaître :
+- la variation d'une quantité immobile, ex: l'évolution q (dq/dt) (masse:augmente/diminue)
+- la vitesse de déplacement d'une quantité immobile  ex: la position d* (dd/dt) (déplacement:accélère/ralentit)
+- dT/dt Température,m volume pression, lumen, 
+*distance
+Masse	m	M	kilogramme	kg
+Temps	t	T	seconde	s
+Longueur	l, x, r…	L	mètre	m
+Température	T	Θ	kelvin	K
+Intensité électrique	I, i	I	ampère	A
+Quantité de matière	n	N	mole	mol
+Intensité lumineuse	Iv	J	candela	cd
+
+Aussi faire une dérivée sur une entité déja mouvante c'est augmenter le degré(exposant) de dérivation. (ex: dérivée de la vitesse c'est accélération). Quelque part la dérivée met en mouvement l'entité concerné(quantité, position...)
+
 
 xRy
 Relation qui admet pour un point x :

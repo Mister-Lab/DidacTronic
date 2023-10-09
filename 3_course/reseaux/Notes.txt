@@ -7,9 +7,24 @@
 
 Un protocole est toujours logique, c'est l'ensemble des méthode/fonction implémentées dans le dispositif.
 
+•Une adresse MAC est ASSOCIÉE à chaque carte réseau d’une machine. Une même machine peut donc avoir plusieurs adresses MAC
 
-•"Interface" fait référence aux puces des cartes réseaux. [puce](connecteur)
-le routeur Cisco 1941 est équipé de deux cartes d'interfaces [gigabit ethernet](Rj45) et d'une carte d'interface [WAN série](WIC) constituée de deux interfaces.
+•On peut faire le parallèle avec les codes postaux d’un département. Prenons le Puy-de-Dôme, identifié par le numéro départemental 63.(63:grâce au masque de sous-réseaux) Tous les codes postaux des communes situées dans ce département doivent être entre 63000 et 63999 : c’est la plage des codes postaux attribuables.
+la machine A est sur le réseau 192.168.10.0 ;
+la machine B est sur le réseau 192.168.20.0. CQFD avec le masque /24 elles ne sont pas sur le même réseaux mais en /16 oui.
+
+•Le switch peut avoir jusqu’à 96 ports physiques, alors que le routeur n’en a souvent que 2 ou 3. Le serveur, lui, n’aura souvent qu’un seul port réseau.
+
+•"Interface" fait référence aux puces des cartes réseaux. [puce]
+le routeur Cisco 1941 est équipé de deux cartes d'interfaces [gigabit ethernet](Rj45) et d'une carte d'interface [WAN série](WIC) constituée de deux interfaces. "Quand on parle d’interface(faux!), on fait référence à un port physique, ici le port RJ45. "CQFD le port est logique et le connecteur physique".
+{puce/port/connecteur}point de connexion 
+[(point de connexion)= INTERFACE logique protocole)|(CABLE physique media) RESEAU =(point de connexion)]. Dans la puce se trouve le MAC qui associé à une IP forme un socket.
+
+
+•Grâce à l’adresse MAC de vos machines, le switch est capable d’identifier d’où vient un message et de l’envoyer dans la bonne direction, c’est-à-dire sur le bon port. Les communications au sein d’un réseau local se font grâce à l’adresse MAC. 
+Pour que vos machines aient accès à Internet ou simplement à un autre réseau, il faut que les paquets puissent traverser les réseaux. Et pour cela, l’adresse MAC ne suffit pas. Il va vous falloir un autre type d’adresse qu’on a un peu évoqué et utilisé : l’adresse IP.
+
+
 
 Pour chaque adresse Ip(0.0.0.0 à 255.255.255.255) j'ai un tableau de port (0 à 65636).
 
