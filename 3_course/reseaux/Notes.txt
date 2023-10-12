@@ -4,7 +4,7 @@
 • IP adresse logique/routeur    MAC adresse physique/carte reseau
 • bit stuffing
 
-
+• Réseaux domestique KNX
 Un protocole est toujours logique, c'est l'ensemble des méthode/fonction implémentées dans le dispositif.
 
 •Une adresse MAC est ASSOCIÉE à chaque carte réseau d’une machine. Une même machine peut donc avoir plusieurs adresses MAC
@@ -18,13 +18,15 @@ la machine B est sur le réseau 192.168.20.0. CQFD avec le masque /24 elles ne s
 •"Interface" fait référence aux puces des cartes réseaux. [puce]
 le routeur Cisco 1941 est équipé de deux cartes d'interfaces [gigabit ethernet](Rj45) et d'une carte d'interface [WAN série](WIC) constituée de deux interfaces. "Quand on parle d’interface(faux!), on fait référence à un port physique, ici le port RJ45. "CQFD le port est logique et le connecteur physique".
 {puce/port/connecteur}point de connexion 
-[(point de connexion)= INTERFACE logique protocole)|(CABLE physique media) RESEAU =(point de connexion)]. Dans la puce se trouve le MAC qui associé à une IP forme un socket.
+[(point de connexion)= INTERFACE logique protocole)|(CABLE physique media) RESEAU =(point de connexion)]. Dans la puce se trouve le MAC qui associé à une IP forme un . Attention: interface réseaux (!=) réseaux > plusieurs ordinateurs reliés entre eux et éventuellement derrière un routeur EttDnetwork. Aussi entre 2 routeurs EttCnetwork.
+(!=) portE + Ip = socket
 
+•Associez un nom à une adresse IP = DNS
 
 •Grâce à l’adresse MAC de vos machines, le switch est capable d’identifier d’où vient un message et de l’envoyer dans la bonne direction, c’est-à-dire sur le bon port. Les communications au sein d’un réseau local se font grâce à l’adresse MAC. 
 Pour que vos machines aient accès à Internet ou simplement à un autre réseau, il faut que les paquets puissent traverser les réseaux. Et pour cela, l’adresse MAC ne suffit pas. Il va vous falloir un autre type d’adresse qu’on a un peu évoqué et utilisé : l’adresse IP.
 
-
+•Protocole c'est la forme de la data(ex:NRZ) et aussi l'échange(ex:handshake).
 
 Pour chaque adresse Ip(0.0.0.0 à 255.255.255.255) j'ai un tableau de port (0 à 65636).
 
@@ -70,15 +72,10 @@ Les modules sont des morceaux de code qui peuvent être utilisés pour fournir o
 
 
 
-
-
-
-
-
-
-
-
-
+•DHCP (Dynamic Host Configuration Protocol) signifie “protocole de configuration automatique des hôtes”.
+leur adresse IP et leur masque ;
+l’adresse IP de la passerelle par défaut ;
+l’adresse IP du serveur DNS.
 
 
 
