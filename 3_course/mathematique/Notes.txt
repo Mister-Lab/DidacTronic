@@ -50,8 +50,8 @@ rang noyau
 
 
 
-
-
+• a) Les fonctions constantes sont périodiques, pour n’importe quelle période T.
+Ne pas confondre fonction périodque et alternative. La notion de "continue/constante".
 
 
 
