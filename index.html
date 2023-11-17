@@ -1,6 +1,6 @@
 <!DOCTYPE html>
     <head>
-        <title>Electromanie</title>
+        <title>DidacTroniC</title>
 
         <meta charset="UTF-8">
         <meta http-equiv="refresh" content="500">
@@ -31,7 +31,6 @@
 
     <!--  section article -->
     <body>
-        
             <nav>
                 <div id="navbar1">
                     <a href="./1_about/1_about.html"><i class="fa fa-home"></i>Accueil</a>
@@ -69,134 +68,148 @@
             </nav>
 
             <header>
-                <!--<img id="cover" src="images/fondec_00.svg" alt="logo1">-->
+                <!--<img id="cover" src="images/fondec_00.svg" alt="logo1">
 
-                <div class="carousel">
-                    <div class="carousel-inner">
-                        <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
 
-                        <div class="carousel-item">
-                            <img src="./images/logo10.svg">
-                        </div>
 
-                        <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+                    -->
+                <div id="carousel">
 
-                        <div class="carousel-item">
-                            <img src="./images/logo11.svg">
-                        </div>
+                        <input type="radio" name="fancy" autofocus value="clubs" id="clubs" />
+                        <input type="radio" name="fancy" value="hearts" id="hearts" />
+                        <input type="radio" name="fancy" value="spades" id="spades" />
+                        <input type="radio" name="fancy" value="diamonds" id="diamonds" />          
+                        <label for="clubs"> DidacTroniC
+                            <img src="images/logo3.svg">
 
-                        <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+                            <canvas class="canvas" id="plane-canvas">
+                            </canvas>
 
-                        <div class="carousel-item">
-                            <img src="./images/logo12.svg">
-                        </div>
+                            <canvas class="canvas" id="main-canvas">
+                            </canvas> 
 
-                        <label for="carousel-3" class="carousel-control prev control-1">‹</label>
+                            <div class="mouse" id="mouse">
+                            </div>
 
-                        <label for="carousel-2" class="carousel-control next control-1">›</label>
-
-                        <label for="carousel-1" class="carousel-control prev control-2">‹</label>
-
-                        <label for="carousel-3" class="carousel-control next control-2">›</label>
-
-                        <label for="carousel-2" class="carousel-control prev control-3">‹</label>
-
-                        <label for="carousel-1" class="carousel-control next control-3">›</label>
-
-                        <ol class="carousel-indicators">
-                            <li>
-                                <label for="carousel-1" class="carousel-bullet">•</label>
-                            </li>
-
-                            <li>
-                                <label for="carousel-2" class="carousel-bullet">•</label>
-                            </li>
-
-                            <li>
-                                <label for="carousel-3" class="carousel-bullet">•</label>
-                            </li>
-                        </ol>
-                    </div>
-                </div>
-
-                <canvas class="canvas" id="plane-canvas" onmousewheel="hideCanvas()">
-                </canvas>
-
-                <canvas class="canvas" id="main-canvas" onmousewheel="hideCanvas()">
-                </canvas>
-
-                <div class="mouse" id="mouse"></div>
+                        </label>
+                        <label for="hearts">&#9829; Hearts
+                        </label>
+                        <label for="spades">&#9824; Spades
+                        </label>
+                        <label for="diamonds">&#9830; Diamonds
+                        </label>
+                </div>    
             </header>
 
             <aside>
             </aside>
 
             <main>
+                <!--<button onclick="myFunction()">Toggle dark mode</button>-->
+
                 <!-- ________ First Parallax _____________________ -->
-            
-                <button onclick="myFunction()">Toggle dark mode</button>
-
-                <br>
-
                 <div class="grid_1">
-                    <div class="item_g1">
-                        <img   class="img_g1" src="./images/ico_electronique2.svg" alt="electronique" />
-
-                        <h2>🔵  electronique</h2>
-
-                        <h3>✅ electronique</h3>
-
-                        <h4>▶️  electronique </h4>
-                    </div>
-
-                    <div class="item_g1">
-                        <img class="img_g1" src="./images/ico_informatique2.svg" alt="informatique" />
-                    </div>
-
-                    <div class="item_g1">
-                        <img class="img_g1" src="./images/ico_mecanique2.svg" alt="mecanique" />
-                   
-                        <div class="container_tb">
-
-                          <div class="text-block">
-                            <h4>Nature</h4>
-                            <p>What a beautiful sunrise</p>
-                          </div>
+                    <a href="2_summary/2_sum_ectri-00.html" class="grid_1_a">
+                        <div class="item_g1">
+                            <img   class="img_g1" src="./images/ico_electronique2.svg" alt="electronique" />
+                            <span  class="neon">Électric</span>
                         </div>
-                    </div>
+                    </a>
 
-                    <div class="item_g1">
-                        <div class="container_tc">               
-                            <img class="img_g1" src="./images/ico_chimie2.svg" alt="chimie" />
-
-                            <div class="text-centered">Centered</div>
+                    <a href="2_summary/">
+                        <div class="item_g1">
+                            <img class="img_g1" src="./images/ico_informatique2.svg" alt="informatique" />
+                            <span  class="neon">Informatic</span>
                         </div>
-                    </div>
+                    </a>
 
-                    <div class="item_g1">
-                        <img class="img_g1" src="./images/ico_mathematique2.svg" alt="mathematique" />
-                    </div>
+                    <a href="2_summary/">
+                        <div class="item_g1">
+                            <img class="img_g1" src="./images/ico_mecanique2.svg" alt="mecanique" />
+                            <span  class="neon">Mécanic</span>
+                        </div>
+                    </a>
 
-                    <div class="item_g1">
-                        <img class="img_g1" src="./images/ico_reseaux2.svg" alt="reseaux" />
+                    <a href="2_summary/">
+                        <div class="item_g1">
+                                <img class="img_g1" src="./images/ico_chimie2.svg" alt="chimie" />
+                                <span  class="neon">Chimic</span>
+                        </div>
+                    </a>
+
+                    <a href="2_summary/">
+                        <div class="item_g1">
+                            <img class="img_g1" src="./images/ico_mathematique2.svg" alt="mathematique" />
+                            <span  class="neon">Mathématic</span>  
+                        </div>
+                    </a>
+
+                    <a href="2_summary/">
+                        <div class="item_g1">
+                            <img class="img_g1" src="./images/ico_reseaux2.svg" alt="reseaux" />
+                            <span  class="neon">Réseaux</span>
+                        </div>
+                    </a>   
+                                        
+                    <a href="2_summary/">
+                        <div class="item_g1">
+                            <img   class="img_g1" src="./images/ico_physique2.svg" alt="" />
+                            <span  class="neon">Physic</span>
+                        </div>
+                    </a>
+
+                    <a href="2_summary/">
+                        <div class="item_g1">
+                            <img class="img_g1" src="./images/ico_logique2.svg" alt="" />
+                            <span  class="neon">Logic</span>
+                        </div>
+                    </a>
+
+                    <a href="2_summary/">
+                        <div class="item_g1">
+                            <img class="img_g1" src="./images/ico_database2.svg" alt="" />
+                            <span  class="neon">Database</span>                 
+                        </div>
+                    </a>
+
+                    <a href="2_summary/">
+                        <div class="item_g1">
+                                <img class="img_g1" src="./images/ico_audio2.svg" alt="" />
+                                <span  class="neon">Numéric</span> 
+                        </div>
+                    </a>                        
+
+                    <a href="2_summary/">
+                        <div class="item_g1">
+                            <img class="img_g1" src="./images/ico_automatisme2.svg" alt="" />
+                            <span  class="neon">Automatic</span>            
+                        </div>
+                    </a>
+
+                    <a href="2_summary/">
+                        <div class="item_g1">
+                            <img class="img_g1" src="./images/ico_optique2.svg" alt="" />
+                            <span  class="neon">Optic</span>     
+                        </div>
+                     </a>                       
+                </div>  
+
+
+                <div class="bgimg-1">
+                    <div class="center padding-64">
+                        <button class="btnparal" onclick="document.location='./1_dispatch/1_dispatch_domaine.html'">
+                            <span>COURS</span>
+                        </button>
                     </div>
                 </div>
-                <br>
-              
+
+
 
                 <!-- ________ Second Parallax _____________________ -->
-                <div class="bgimg-2">
-                    <div class="center padding-64">
-                        <button class="button_a" onclick="document.location='./1_dispatch/1_dispatch_domaine.html'"><span>COURS</span></button>
-                    </div>
-                </div>
-
-                <br>
-
                 <div class="grid_2">
 
                     <div class="item_g2 third margin-bottom">
-                        <ul class="ul border center hover-shadow">
+                        <ul class="ul  center hover-shadow">
                             <li class="black xlarge padding-32">Basic</li>
                             <li class="padding-16"><img src="images/smart.svg" height="300" width="300" alt="smart"></li>
                             <li class="padding-16"><b>10</b> Emails</li>
@@ -211,7 +224,7 @@
                     </div>
 
                     <div class="item_g2 third margin-bottom">
-                        <ul class="ul border center hover-shadow">
+                        <ul class="ul  center hover-shadow">
                             <li class="dark-grey xlarge padding-32">Pro</li>
                             <li class="padding-16"><b>25GB</b> Storage</li>
                             <li class="padding-16"><b>25</b> Emails</li>
@@ -226,7 +239,7 @@
                     </div>
 
                     <div class="item_g2 third margin-bottom">
-                        <ul class="ul border center hover-shadow">
+                        <ul class="ul  center hover-shadow">
                             <li class="black xlarge padding-32">Premium</li>
                             <li class="padding-16"><b>50GB</b> Storage</li>
                             <li class="padding-16"><b>50</b> Emails</li>
@@ -241,20 +254,18 @@
                     </div>
                 </div>
                 
-                <br>
-
-                <!-- ________ Third Parallax _____________________ -->
-                <div class="bgimg-3">
+                <div class="bgimg-2">
                     <div class="center padding-64">
-                        <button class="button_a" onclick="document.location='./1_shop/1_shop.html'"><span>BOUTIQUE</span></button>
+                        <button class="button_a" onclick="document.location='./1_shop/1_shop.html'">
+                            <span>BOUTIC</span>
+                        </button>
                     </div>
                 </div>
 
-                <br>
-
-                <div class="grid_3 reveal fade-bottom">
+                <!-- ________ Third Parallax _____________________ -->
+                <div class="grid_3">
                     <div class="item_g3 item_3_1">
-                        <img src="images/Matrix.webp" height="250" width="250" alt="forum">
+                   
                     </div>
 
                     <div class="item_g3">
@@ -270,20 +281,20 @@
                     </div>
 
                     <div class="item_g3">
-                        <form action="/action_page.php" target="_blank">
-                            <div class="row-padding" style="margin:0 -20px 8px -20px">
-                                <div class="half">
+                        <form id="forum" action="/action_page.php" target="_blank">
+                            <div  >
+                                <div class="">
                                     <input class="input border" type="text" placeholder="Pseudo*" required name="Name">
                                 </div>
-                                <div class="half">
+                                <div class="">
                                     <input class="input border" type="text" placeholder="Email*" required name="Email">
                                 </div>
                             </div>
-                            <div class="row-padding" style="margin:0 -20px 8px -20px">
-                                <div class="half">
+                            <div  >
+                                <div class="">
                                     <input class="input border" type="password" placeholder="Mot de passe*" name="mot_de_passe1" />
                                 </div>
-                                <div class="half">
+                                <div class="">
                                     <input class="input border" type="password" placeholder="Confirmation du mot de passe*" name="mot_de_passe" />
                                 </div>
                                 * Champs obligatoires
@@ -296,20 +307,18 @@
                     </div>
                 </div>
 
-                <br>
-
-                <div class="bgimg-1">
+                <div class="bgimg-3">
                     <div class="center padding-64">
-                        <button class="button_a" onclick="document.location='./1_forum/1_forum.html'"><span>FORUM</span></button>
+                        <button class="button_a" onclick="document.location='./1_forum/1_forum.html'">
+                            <span>FORUM</span>
+                        </button>
                     </div>
                 </div>
             </main>
 
             <footer class=" footer-distributed">
-            
-
-                <div class="row">
-                  <div class="column">
+                <div class="flex_4">
+                  <div class="countercol">
                     <div class="card">
                       <p><i class="fa fa-user"></i></p>
                       <h3>11+</h3>
@@ -317,7 +326,7 @@
                     </div>
                   </div>
 
-                  <div class="column">
+                  <div class="countercol">
                     <div class="card">
                       <p><i class="fa fa-check"></i></p>
                       <h3>55+</h3>
@@ -325,7 +334,7 @@
                     </div>
                   </div>
                   
-                  <div class="column">
+                  <div class="countercol">
                     <div class="card">
                       <p><i class="fa fa-smile-o"></i></p>
                       <h3>100+</h3>
@@ -333,7 +342,7 @@
                     </div>
                   </div>
                   
-                  <div class="column">
+                  <div class="countercol">
                     <div class="card">
                       <p><i class="fa fa-coffee"></i></p>
                       <h3>100+</h3>
@@ -341,6 +350,7 @@
                     </div>
                   </div>
                 </div>
+                
 
                 <div class="grid_4">
                     <div class="item_g4">

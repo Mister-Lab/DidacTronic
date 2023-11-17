@@ -1,136 +1,122 @@
 header {
-    position: relative;
+    display: block;
     width: 100%;
+    height: 100vh;
+    padding-bottom: 10px;
 }
 
 /* _ Banner _______________________________________________ */
+/*
 #main-canvas{
     position: relative;
-
 }
 
 #plane-canvas{
     position: absolute;
-height: 1vh;
-width: 100%;
+    height: 1vh;
+    width: 100%;
 }
+*/
 
-
-#cover{
+/*#cover{
     position: absolute;
 
-    }
+    }*/
 
 
 
 /* _ Carousel _______________________________________________ */
-.carousel {
-    position: absolute; 
 
-   width: 100%;
-   
 
-}
-
-.carousel-inner {
-height: 1vh;
-    overflow: hidden;
-
-}
-
-.carousel-open:checked + .carousel-item {
-    position: static;
-    opacity: 100;
-    width: 100%;
-height: 100%;
-}
-
-.carousel-item {
-    position:   absolute;
- 
- /*   opacity: 0;
-    -webkit-transition: opacity 0.6s ease-out;
-    transition: opacity 0.6s ease-out;*/
-   
-
-}
-
-.carousel-item img {
-    display: block;
-width: 100%;
-height: auto;
-}
-
-.carousel-control {
-    background: rgba(0, 0, 0, 0.28);
-    border-radius: 50%;
+div#carousel      label {
+    background: #444;
     color: #fff;
-    cursor: pointer;
-    display: none;
-    font-size: 40px;
-    height: 40px;
-    line-height: 35px;
-    position: absolute;
-    top: 2000%;
-    -webkit-transform: translate(0, -50%);
-    cursor: pointer;
-    -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%);
-    text-align: center;
-    width: 40px;
-    z-index: 10;
-}
-
-.carousel-control.prev {
-    left: 2%;
-}
-
-.carousel-control.next {
-    right: 2%;
-}
-
-.carousel-control:hover {
-    background: rgba(0, 0, 0, 0.8);
-    color: #aaaaaa;
-}
-
-#carousel-1:checked ~ .control-1,
-#carousel-2:checked ~ .control-2,
-#carousel-3:checked ~ .control-3 {
-    display: block;
-}
-
-.carousel-indicators {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    bottom: 2%;
-    left: 0;
-    right: 0;
-    text-align: center;
-    z-index: 10;
-}
-
-.carousel-indicators li {
+    transition: transform 400ms ease-out;
     display: inline-block;
-    margin: 0 5px;
+  min-height: 100%;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    line-height: 100vh;
 }
 
-.carousel-bullet {
-    color: #fff;
-    cursor: pointer;
+div#carousel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    white-space: nowrap;
+}
+div#carousel input {
+    position: absolute;
+}
+
+
+
+div#carousel  input:nth-of-type(1):checked ~ label:nth-of-type(1), 
+div#carousel  input:nth-of-type(2):checked ~ label:nth-of-type(2),
+div#carousel  input:nth-of-type(3):checked ~ label:nth-of-type(3),
+div#carousel  input:nth-of-type(4):checked ~ label:nth-of-type(4){
+   z-index: 0;
+}
+
+div#carousel input:nth-of-type(1):checked ~ label {
+    transform: translate3d(0, 0, 0);
+}
+
+ div#carousel input:nth-of-type(2):checked ~ label {
+    transform: translate3d(-100%, 0, 0);
+}
+
+ div#carousel input:nth-of-type(3):checked ~ label {
+    transform: translate3d(-200%, 0, 0);
+}
+
+div#carousel  input:nth-of-type(4):checked ~ label {
+    transform: translate3d(-300%, 0, 0);
+}
+
+ div#carousel label {
+    background: #444;
+    background-size: cover;
+    font-size: 3rem;
+}
+
+div#carousel  label[for="diamonds"],
+div#carousel  label[for="hearts"] {
+    background: #cc0000;
+}
+
+ div#carousel label:before,
+ div#carousel label:after {
+    color: white;
     display: block;
-    font-size: 35px;
+    background: rgba(255,255,255,0.2);
+    position: absolute;
+    padding: 1rem;
+    font-size: 3rem;
+    height: 10rem;
+    vertical-align: middle;
+    line-height: 10rem;
+    top: 50%;
+    transform: translate3d(0, -50%, 0);
+    cursor: pointer;
 }
 
-.carousel-bullet:hover {
-    color: #aaaaaa;
+div#carousel  label:before {
+    content: "\276D";
+    right: 100%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
 }
 
-#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
-#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
-#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
-    color: #428bca;
+div#carousel  label:after {
+    content: "\276C";
+    left: 100%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
 }
 

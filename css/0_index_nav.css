@@ -1,6 +1,7 @@
 /* _ Topnav ______________________________________________ */
 nav{
   width: 100%;
+  display: block;
 }
 
 nav #navbar1  {
@@ -123,12 +124,12 @@ nav #mySidenav a:hover {
 }
 
 nav #about {
-  top: 40%;
+  top: 80%;
   background-color: #04AA6D;
 }
 
 nav #blog {
-  top: 50%;
+  top: 90%;
   background-color: #2196F3;
 }
 

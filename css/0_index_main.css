@@ -1,5 +1,5 @@
 main {position: relative;
-
+display: block;
 }
 /* _ Parallax _____________________________________________ */
 .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -7,19 +7,31 @@ main {position: relative;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 200px;
+    min-height: 100px;
+
 }
 
 .bgimg-1 {
-    background-image: url('../images/parallax1.png');
+    background-image: url('../images/parallax1.gif'); 
+    filter: grayscale(80%);
+/*  border-block-start-style: inset;
+  border-top-color: rgba(0, 255, 0, 0.5);
+border-top: 4px dotted blue;*/
+  border-image-source: linear-gradient(to top, #040404, #ffffff);
+    border-image-slice: 15;
+  border-width: 10px;
 } 
 
+.grid_1 > a{
+    text-decoration: none;
+}
+
 .bgimg-2 {
-    background-image: url("../images/parallax2.gif");
+    background-image: url("../images/parallax2.jpg"); 
 }
 
 .bgimg-3 {
-    background-image: url("../images/parallax3.jpg");
+    background-image: url("../images/parallax3.png"); 
 }
 
 .card{
@@ -31,14 +43,15 @@ main {position: relative;
 /* _ Grid _________________________________________________ */
 .grid_1,
 .grid_2,
-.grid_3 {
+.grid_3{
     display: grid;
-    gap: 10px;
+    gap: 40px;
+    margin: 20px;
 }
 
 .grid_1 {
 
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .grid_2 {
@@ -49,32 +62,38 @@ main {position: relative;
     grid-template-columns: repeat(2, 1fr);
 }
 
-.grid_1,
-.grid_2,
-.grid_3 > div{
-    background: #cccccc;
-    border: 1px solid #000000;
-   
-    padding: 8px;    
-  }
 
+
+
+.item_g1,
+.item_g2,
+.grid_3{
+border-radius: 20px;
+background: #444444;
+box-shadow:  5px 5px 10px #1b1b1b,
+             -5px -5px 10px #6d6d6d;
+             display: flex;
+             align-items: center;
+             justify-content: space-evenly;
+}
+
+.item_g1:hover {
+border-radius: 20px;
+background: linear-gradient(145deg, #3d3d3d, #494949);
+box-shadow:  5px 5px 10px #1b1b1b,
+             -5px -5px 10px #6d6d6d;
+}
+
+.item_g1:active  {
+border-radius: 20px;
+background: #444444;
+box-shadow: inset 5px 5px 10px #1b1b1b,
+            inset -5px -5px 10px #6d6d6d;
+}
 
 .item_3_1 {
-  grid-row: 1 / span 2;
-}
-
-.item_g1 {
- border: 1px solid #aaaaaa;
-  background: #999999;
-}
-.item_g1:hover {
- border: 1px solid #000000;
-}
-
-.item_g2 {
-}
-
-.item_g3 {
+background-color: #888;
+height: 200px;
 }
 
 .container_tb {
@@ -108,17 +127,13 @@ main {position: relative;
 
 .img_g1{
     position: relative;
-    width:50%;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%); 
-     /*  filter: blur(1px);
-    -webkit-filter: blur(1px); */
+    width:20%;
+    padding: 5%;
 }
 
 .img_g1:hover{
 
-  filter: blur(1px);
-    -webkit-filter: blur(1px); 
+
 }
 
 
@@ -196,16 +211,14 @@ main {position: relative;
 .margin-bottom {
     margin-bottom: 16px!important;
 }
-.border {
-    border: 1px solid #ccc!important;
-}
+
 /* .center {
     text-align: center!important;
 } */
 .ul {
     list-style-type: none;
     padding: 0;
-    margin: 0;
+ 
 }
 
 .ul li {
@@ -328,16 +341,6 @@ button, input, select, textarea {
 
 
 
- 
-
-
-
-
-
-
-
-
-
 
 
 #title {
@@ -357,6 +360,177 @@ button, input, select, textarea {
 
 
 
+
+
+
+canvas {
+display: block;
+position:absolute;
+top:0;
+left:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.neon {
+  color: #fff;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+
+font-size:1.7vw;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btnparal  {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 50px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnparal  a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    padding: 10px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    overflow: hidden;
+    color: #fff;
+    font-weight: 400px;
+    z-index: 1;
+    transition: 0.5s;
+    backdrop-filter: blur(15px);
+}
+.btnparal :hover a {
+    letter-spacing: 3px;
+}
+.btnparal  a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.15), transparent);
+    transform: skewX(45deg) translate(0);
+    transition: 0.5s;
+    filter: blur(0px);
+}
+.btnparal :hover a::before {
+    transform: skewX(45deg) translate(200px);
+}
+.btnparal ::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    bottom: -5px;
+    width: 30px;
+    height: 10px;
+    background: #f00;
+    border-radius: 10px;
+    transition: 0.5s;
+    transition-delay: 0.5;
+}
+.btnparal :hover::before /*lightup button*/ {
+    bottom: 0;
+    height: 50%;
+    width: 80%;
+    border-radius: 30px;
+}
+
+.btnparal ::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    top: -5px;
+    width: 30px;
+    height: 10px;
+    background: #f00;
+    border-radius: 10px;
+    transition: 0.5s;
+    transition-delay: 0.5;
+}
+.btnparal :hover::after /*lightup button*/ {
+    top: 0;
+    height: 50%;
+    width: 80%;
+    border-radius: 30px;
+}
+.btnparal :nth-child(1)::before, /*chnage 1*/
+.btnparal :nth-child(1)::after {
+    background: #ff1f71;
+    box-shadow: 0 0 5px #ff1f71, 0 0 15px #ff1f71, 0 0 30px #ff1f71,
+        0 0 60px #ff1f71;
+}
+.btnparal :nth-child(2)::before, /* 2*/
+.btnparal :nth-child(2)::after {
+    background: #2db2ff;
+    box-shadow: 0 0 5px #2db2ff, 0 0 15px #2db2ff, 0 0 30px #2db2ff,
+        0 0 60px #2db2ff;
+}
+.btnparal :nth-child(3)::before, /* 3*/
+.btnparal :nth-child(3)::after {
+    background: #1eff45;
+    box-shadow: 0 0 5px #1eff45, 0 0 15px #1eff45, 0 0 30px #1eff45,
+        0 0 60px #1eff45;
+}
 
 
 

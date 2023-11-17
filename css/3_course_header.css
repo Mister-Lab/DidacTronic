@@ -1,11 +1,13 @@
 header{
-	background: #777;
+	 background-color: #212325;
  	display: flex; /* or inline-flex */
 	justify-content:space-between;
 }
 
 
 nav{
+	background: radial-gradient(37.53% 147.33% at 5.39% 8.57%, rgba(255, 255, 255, 0.07) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #212325 0%, #26282a 100%);
+
  	display: flex; /* or inline-flex */
 	justify-content:space-evenly;
 }
