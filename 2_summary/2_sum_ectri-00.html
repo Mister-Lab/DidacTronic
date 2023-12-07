@@ -14,274 +14,203 @@
         <link type="pict/png" rel="shortcut icon" href="./../images/favicon.svg" />
         <link rel="stylesheet" href="./../css/2_summary_main.css" />
 
-
-<!-- vertical menu -->
-<style type="text/css">
-.container {
-  display: flex;
-  width: 100%;
-  padding: 4% 2%;
-  box-sizing: border-box;
-  height: 89vh;
-  background-color: #333;
-}
-
-.box {
-  flex: 1;
-  overflow: hidden;
-  transition: 0.5s;
-  margin: 0 2%;
-  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
-  line-height: 0;
-}
-
-.box > img {
-  width: 200%;
-  height: calc(100% - 10vh);
-  -o-object-fit: cover;
-     object-fit: cover;
-  transition: 0.5s;
-}
-
-.box > span {
-  font-size: 3.8vh;
-  display: block;
-  text-align: center;
-  height: 10vh;
-  line-height: 2.6;
-}
-
-.box:hover {
-  flex: 1 1 90%;
-}
-
-.box:hover > img {
-  width: 100%;
-  height: 100%;
-}
-        </style>
-
-
-
-
-
-<style type="text/css">
-    
-
-.tabs {
-  height: 83vh;
-  position: relative;
-  overflow: hidden;
-}
-
-input[type=radio] {
-  position: absolute;
-  left: 0;
-  width: 24px;
-  height: 25%;
-  outline: 12px solid;
-  outline-offset: -12px;
-  margin: 0;
-  padding: 0;
-  z-index: 1;
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-  cursor: pointer;
-}
-input[type=radio]:nth-of-type(1) {
-  outline-color: #555;
-  top: 0%;
-}
-input[type=radio]:nth-of-type(2) {
-  outline-color: #666;
-  top: 25%;
-}
-input[type=radio]:nth-of-type(3) {
-  outline-color: #777;
-  top: 50%;
-}
-input[type=radio]:nth-of-type(4) {
-  outline-color: #888;
-  top: 75%;
-}
-input[type=radio]:checked + .content {
-  transform: translateX(0%);
-  transition: transform 0.05s ease 0.05s;
-}
-
-.content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transition: transform 0.4s ease;
-  transform: translateX(-100%);
-}
-.content:nth-of-type(1) {
-  background-color: #555;
-}
-.content:nth-of-type(2) {
-  background-color: #666;
-}
-.content:nth-of-type(3) {
-  background-color: #777;
-}
-.content:nth-of-type(4) {
-  background-color: #888;
-}
-
-.title {
-  font-size: 5vw;
-  font-weight: bold;
-  color: #fff;
-}
-
-
-
-
-</style>
-
-
-
-<script type="text/javascript">
-    document.getElementById('focusmeplease').activ();
-</script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         <script src="./../js/2_summary_main.js"></script>
     </head>
 
 	<body onload="showSlides()">
         <nav>
-
         </nav>
 
         <header>
-
         </header>
 
         <main>
-                <button class="tablink"  onmouseover="openPage('Home', this, 'gray')" id="focusmeplease">Home</button>
+            <div>
+                <button class="tablink"  onmouseover="openPage('Home', this, 'gray')">Émetteur</button> <!--id="focusmeplease"-->
 
-                <button class="tablink" onmouseover="openPage('News', this, 'grey')" id="defaultOpen">News</button>
+                <button class="tablink" onmouseover="openPage('News', this, 'grey')">Admetteur</button>
 
-                <button class="tablink" onmouseover="openPage('Contact', this, 'gray')">Contact</button>
+                <button class="tablink" onmouseover="openPage('Contact', this, 'gray')">Conduteur</button>
 
-                <button class="tablink" onmouseover="openPage('About', this, 'grey')">About</button>
+                <button class="tablink" onmouseover="openPage('About', this, 'grey')">Énergie</button>
+            </div>
 
+            <div>
                 <div id="Home" class="tabcontent checked">
                     <div class="navbar">
-                        <div class="dropdown">
-                            <button class="dropbtn"  >
-                                deroulant 1
-                                <i class="fa fa-caret-down"></i>
+                        <div class="dropdown "  >
+                            <button class="dropbtn " >deroulant 1
                             </button>
-                            <div class="dropdown-content">
 
+                            <div class="dropdown-content checked">
+                                <div class="container "><!-- partial:index.partial.html -->
+                                    <div class="box">
+                                        <div class="tabs"><!-- partial:index.partial.html -->
+                                            <input type="radio" name="name" checked="checked"/>
 
+                                            <div class="content">
+                                                <div class="title">Amplifi
+                                                </div>
+                                            </div>
 
+                                            <input type="radio" name="name"/>
 
-                                <!-- partial:index.partial.html -->
-                                <div class="container">
-                                  <div class="box">
-                         
+                                            <div class="content">
+                                                <div class="title">Pure CSS Color Tabs 2
+                                                </div>
+                                            </div>
 
+                                            <input type="radio" name="name"/>
 
+                                            <div class="content">
+                                                <div class="title">Pure CSS Color Tabs 3
+                                                </div>
+                                            </div>
 
+                                            <input type="radio" name="name"/>
 
-
-
-                                    <!-- partial:index.partial.html -->
-                                    <div class="tabs">
-                                      <input type="radio" name="name" checked="checked"/>
-                                      <div class="content">
-                                        <div class="title">Amplifi</div>
-                                        <a href="./../3_course/electronique/3_course_amplificateur-00.html">Amplifi</a>
-                                        
-                                      </div>
-                                      <input type="radio" name="name"/>
-                                      <div class="content">
-                                        <div class="title">Pure CSS Color Tabs 2</div>
-                                      </div>
-                                      <input type="radio" name="name"/>
-                                      <div class="content">
-                                        <div class="title">Pure CSS Color Tabs 3</div>
-                                      </div>
-                                      <input type="radio" name="name"/>
-                                      <div class="content">
-                                        <div class="title">Pure CSS Color Tabs 4</div>
-                                      </div>
+                                            <div class="content">
+                                                <div class="title">Pure CSS Color Tabs 4
+                                                </div>
+                                            </div>
+                                        </div><!-- partial -->
                                     </div>
-                                    <!-- partial -->
 
+                                    <div class="box">
+                                        <div class="tabs"><!-- partial:index.partial.html -->
+                                            <input type="radio" name="name" checked="checked"/>
 
+                                            <div class="content">
+                                                <div class="title">Amplifi
+                                                </div>
+                                            </div>
 
+                                            <input type="radio" name="name"/>
 
+                                            <div class="content">
+                                                <div class="title">Pure CSS Color Tabs 2
+                                                </div>
+                                            </div>
 
+                                            <input type="radio" name="name"/>
 
+                                            <div class="content">
+                                                <div class="title">Pure CSS Color Tabs 3
+                                                </div>
+                                            </div>
 
+                                            <input type="radio" name="name"/>
 
+                                            <div class="content">
+                                                <div class="title">Pure CSS Color Tabs 4
+                                                </div>
+                                            </div>
+                                        </div><!-- partial -->
+                                    </div>
 
+                                    <div class="box">
+                                        <div class="tabs"><!-- partial:index.partial.html -->
+                                            <input type="radio" name="name" checked="checked"/>
 
+                                            <div class="content">
+                                                <div class="title">Amplifi
+                                                </div>
+                                            </div>
 
+                                            <input type="radio" name="name"/>
 
+                                            <div class="content">
+                                                <div class="title">Pure CSS Color Tabs 2
+                                                </div>
+                                            </div>
 
+                                            <input type="radio" name="name"/>
 
+                                            <div class="content">
+                                                <div class="title">Pure CSS Color Tabs 3
+                                                </div>
+                                            </div>
 
+                                            <input type="radio" name="name"/>
 
+                                            <div class="content">
+                                                <div class="title">Pure CSS Color Tabs 4
+                                                </div>
+                                            </div>
+                                        </div><!-- partial -->
+                                    </div>
 
-                                    <span>CSS</span>
-                                  </div>
-                                  <div class="box">
-                                    <img src="https://source.unsplash.com/1000x802">
-                                    <span>Image</span>
-                                  </div>
-                                  <div class="box">
-                                    <img src="https://source.unsplash.com/1000x804">
-                                    <span>Hover</span>
-                                  </div>
-                                  <div class="box">
-                                    <img src="https://source.unsplash.com/1000x806">
-                                    <span>Effect</span>
-                                  </div>
-                                  <div class="box">
-                                    <img src="https://source.unsplash.com/1000x806">
-                                    <span>Effect</span>
-                                  </div>
-                                </div>
-                                <!-- partial -->
+                                    <div class="box">
+                                        <div class="tabs"><!-- partial:index.partial.html -->
+                                            <input type="radio" name="name" checked="checked"/>
 
+                                            <div class="content">
+                                                <div class="title">Amplifi
+                                                </div>
+                                            </div>
 
+                                            <input type="radio" name="name"/>
 
+                                            <div class="content">
+                                                <div class="title">Pure CSS Color Tabs 2
+                                                </div>
+                                            </div>
+
+                                            <input type="radio" name="name"/>
+
+                                            <div class="content">
+                                                <div class="title">Pure CSS Color Tabs 3
+                                                </div>
+                                            </div>
+
+                                            <input type="radio" name="name"/>
+
+                                            <div class="content">
+                                                <div class="title">Pure CSS Color Tabs 4
+                                                </div>
+                                            </div>
+                                        </div><!-- partial -->
+                                    </div>
+
+                                    <div class="box">
+                                        <div class="tabs"><!-- partial:index.partial.html -->
+                                            <input type="radio" name="name" checked="checked"/>
+
+                                            <div class="content">
+                                                <div class="title">Amplifi
+                                                </div>
+                                            </div>
+
+                                            <input type="radio" name="name"/>
+
+                                            <div class="content">
+                                                <div class="title">Pure CSS Color Tabs 2
+                                                </div>
+                                            </div>
+
+                                            <input type="radio" name="name"/>
+
+                                            <div class="content">
+                                                <div class="title">Pure CSS Color Tabs 3
+                                                </div>
+                                            </div>
+
+                                            <input type="radio" name="name"/>
+
+                                            <div class="content">
+                                                <div class="title">Pure CSS Color Tabs 4
+                                                </div>
+                                            </div>
+                                        </div><!-- partial -->
+                                    </div>
+                                </div><!-- partial -->
                             </div>
                         </div>
 
                         <div class="dropdown">
-                            <button class="dropbtn">
-                                deroulant 2
-                                <i class="fa fa-caret-down"></i>
+                            <button class="dropbtn">deroulant 2
                             </button>
+
                             <div class="dropdown-content">
 
                                 <div class="row">
@@ -310,37 +239,37 @@ input[type=radio]:checked + .content {
                             </div>
                         </div>
 
-                        <a href="#home">maison</a>
-                        <a href="#news">nouveaute</a>
+                        <a href="#home">house</a>
+                        <a href="#news">actu</a>
                     </div>
                 </div>
 
                 <div id="News" class="tabcontent">
                     <div class="navbar">
-                        <a href="#home">Home</a>
-                        <a href="#news">News</a>
+                        <a href="#home">casa</a>
+                        <a href="#news">novel</a>
                         <div class="dropdown">
                             <button class="dropbtn">
-                                Dropdown
+                                deja de
                                 <i class="fa fa-caret-down"></i>
                             </button>
                             <div class="dropdown-content">
 
                                 <div class="row">
                                     <div class="column">
-                                        <h3>Category 1</h3>
+                                        <h3>Category a</h3>
                                         <a href="#">Link 1</a>
                                         <a href="#">Link 2</a>
                                         <a href="#">Link 3</a>
                                     </div>
                                     <div class="column">
-                                        <h3>Category 2</h3>
+                                        <h3>Category b</h3>
                                         <a href="#">Link 1</a>
                                         <a href="#">Link 2</a>
                                         <a href="#">Link 3</a>
                                     </div>
                                     <div class="column">
-                                        <h3>Category 3</h3>
+                                        <h3>Category c</h3>
                                         <a href="#">Link 1</a>
                                         <a href="#">Link 2</a>
                                         <a href="#">Link 3</a>
@@ -356,11 +285,11 @@ input[type=radio]:checked + .content {
 
                 <div id="Contact" class="tabcontent">
                     <div class="navbar">
-                        <a href="#home">Home</a>
-                        <a href="#news">News</a>
+                        <a href="#home">cay</a>
+                        <a href="#news">nouvel</a>
                         <div class="dropdown">
                             <button class="dropbtn">
-                                Dropdown
+                                descente
                                 <i class="fa fa-caret-down"></i>
                             </button>
                             <div class="dropdown-content">
@@ -395,15 +324,17 @@ input[type=radio]:checked + .content {
 
                 <div id="About" class="tabcontent">
                     <div class="navbar">
-                        <a href="#home">Home</a>
+                        <a href="#home">city</a>
+
                         <a href="#news">News</a>
+
                         <div class="dropdown">
                             <button class="dropbtn">
                                 Dropdown
                                 <i class="fa fa-caret-down"></i>
                             </button>
-                            <div class="dropdown-content">
 
+                            <div class="dropdown-content">
                                 <div class="row">
                                     <div class="column">
                                         <h3>Category 1</h3>
@@ -411,12 +342,14 @@ input[type=radio]:checked + .content {
                                         <a href="#">Link 2</a>
                                         <a href="#">Link 3</a>
                                     </div>
+
                                     <div class="column">
                                         <h3>Category 2</h3>
                                         <a href="#">Link 1</a>
                                         <a href="#">Link 2</a>
                                         <a href="#">Link 3</a>
                                     </div>
+
                                     <div class="column">
                                         <h3>Category 3</h3>
                                         <a href="#">Link 1</a>
@@ -431,7 +364,6 @@ input[type=radio]:checked + .content {
                         </div>
                     </div>
                 </div>
-
             </div>
         </main>
 

@@ -32,8 +32,8 @@ function openPage(pageName, elmnt, color) {
     elmnt.style.backgroundColor = color;
 }
 
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
 
 /* _ Megamenu _______________________________________________ */
 function openPage(pageName, elmnt, color) {
@@ -50,10 +50,9 @@ function openPage(pageName, elmnt, color) {
     elmnt.style.backgroundColor = color;
 }
 
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
 
 
 
-/* _  _______________________________________________ */
-document.getElementById('focusmeplease').focus();
+
+/* _  _______________________________________________ 
+document.getElementById('focusmeplease').focus();*/

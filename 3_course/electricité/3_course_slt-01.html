@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+    <head>
+        <title>DidacTronic</title>
+
+        <meta http-equiv="refresh" content="500">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="Mister Lab" content="Renov">
+        <meta name="robots" content="Site d'achat, de discussion et de mise en valeur de concepts industroniques">
+        <meta name="author" content="Mister Lab">
+        <meta name="description" content="Arretez de ne pas savoir ce que vous faites, pas comprendre les circuits electroniques de trop forcer les neurones et commencez a avoir de bonnes notes a l'ecole, devenir ingenieur, fabriquer vos machines !">
+        <meta name="keywords" content="Robotique, informatique, automatisme, electronique, apprendre, acheter">
+        <!-- <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" /> -->
+
+        <link type="pict/png" rel="shortcut icon"  href="../../images/favicon.svg"/>
+        <link rel="shortcut icon" href="./images/favicon.svg" type="pict/png" />
+        <link rel="stylesheet" href="../../css/3_course_main.css">
+        <link rel="stylesheet" href="../../css/3_course_nav.css">
+        <link rel="stylesheet" href="../../css/3_course_footer.css">
+        <link rel="stylesheet" href="../../css/3_course_aside.css">
+        <link rel="stylesheet" href="../../css/3_course_header.css">
+        <link rel="stylesheet" href="../../css/3_course_global.css">
+   
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script src="../../js/3_course_main.js"></script>
+        <script src="../../js/3_course_aside.js"></script>
+        <script src="../../js/3_course_footer.js"></script>
+        <script src="../../js/3_course_aside.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script><!-- nécéssaire pour la nav tab-->      
+        <script src="../../js/3_course_nav.js"></script>  
+
+
+<style>
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+</style>
+
+    </head>
+
+
+
+
+    <body>
+        <header id="header">
+            <span>
+                <button id="openbtn" onclick="openAsidenav()">☰</button>
+            </span>
+
+            <span class="discipline"><b> Electrotechnique </b></span>
+        </header>
+
+        <nav id="nav">
+            <span class=""> 
+                <center>
+                    <div class="container">
+
+                        <div id="tab-1" class="tab-content current">link 01</div>
+                        <div id="tab-2" class="tab-content">link 02</div>
+                        <div id="tab-3" class="tab-content">link 03</div>
+                        <div id="tab-4" class="tab-content">link 04</div>
+
+                        <ul class="tabs">
+                            <li class="tab-link current" data-tab="tab-1"> ▶ </li>
+                            <li class="tab-link" data-tab="tab-2"> ▶ </li>
+                            <li class="tab-link" data-tab="tab-3"> ▶ </li>
+                            <li class="tab-link" data-tab="tab-4"> ▶ </li>
+                        </ul>
+                    </div>
+                </center>
+            </span>
+        </nav>
+
+        <aside id="aside" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeAsidenav()">◄</a>
+  
+            <ul class="ul_side">
+                <li><a href="#section-1">article 1</a></li>
+                <li><a href="#section-2">article 2</a></li>
+                <li><a href="#section-3">article 3</a></li>
+                <li><a href="#section-4">article 4</a></li>
+                <li><a href="#section-5">article 5</a></li>
+                <li><a href="#section-6">article 6</a></li>
+                <li><a href="#section-7">article 7</a></li>
+                <li><a href="#section-8">article 8</a></li>
+                <li><a href="#section-9">article 9</a></li>
+            </ul>
+        </aside>
+
+        <main id="main">
+            <!-- _________________ -->
+            <div id="modal01" class="modal" onclick="this.style.display='none'">
+                <span class="close"></span>
+                    <div class="modal-content">
+                        <img id="img01" style="max-width:70%">
+                    </div>
+            </div>
+            <!-- _________________ -->
+
+
+            <article   id="section-1">
+                <section>
+                    <div class="section_title">
+                        <h2 class="section_title_h2">Régime TT</h2>
+                    </div>
+
+                    <div class="grid_A">
+                        <div class="pict_A">
+                            <figure>
+                                <img src="img/[-Ectro(-____(-slt-001-))].svg"  onclick="onClick(this)" class="text_below_A" alt="Img 1"/>
+                                <figcaption>Table 1.1 Customers</figcaption>
+                            </figure> 
+
+
+                            <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
+                   
+
+                        <div class="text_aside_A">
+                            <h3>Titre 1</h3> 
+       
+
+  <img src="img/Puissance.svg"  onclick="onClick(this)" class="modal-hover-opacity " alt="Img 1"/>
+
+
+                            <p>Le courant admissible C'est le courant maximal que le conducteur peut véhiculer en permanence sans préjudice pour sa durée de vie.
+
+                            </p> 
+
+                            <p>le courant d'emploi calculé avec les facteurs de correction permet de respecter les conditions de longévité. Le courant d’emploi IB est le courant qui est réellement transporté en étant inférieur.
+                             correspondant à la plus grande puissance transportée par 
+                            le circuit en service normal. (prend en compte les courants d'appel).
+
+                            le courant d'emploi est calculé à partir du courant absorbé=nominal: In courant assigné (calibre du dispositif de protection).
+
+                            Icw est le courant assigné de courte durée admissible. Ce courant concerne les jeux de barres. Icw doit être >= Icc.
+
+                            Courant de réglage/désigné
+                            </p>
+
+
+                            <p>En ce qui concerne la température admissible en régime permanent, elle est basée sur l’estimation de la durée de vie des isolations
+
+                            C’est ainsi que la durée de vie des isolants a été estimée à trente années si la température à leur surface n’était pas supérieure à :
+
+                            60 oC pour le caoutchouc ordinaire ;
+
+                            70 oC pour le polychlorure de vinyle (PVC) ;
+
+                            90 oC pour le polyéthylène réticulé (PR) et l’éthylène-propylène (EPR) ;
+
+                            180 oC pour le caoutchouc de silicone.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        </div>
+                    </div>                
+                </section>
+            </article>
+
+            <article   id="section-2">
+                <section>
+                    <div class="section_title">
+                        <h2 class="section_title_h2">Régime IT</h2>
+                    </div>
+                
+                    <div class="grid_A">
+                        <div>
+                            <figure class="pict_A">
+                                <img src="img/[-Ectro(-____(-slt-002-))].png"  onclick="onClick(this)" class="text_below_A" alt="Img 1"/>
+                                <figcaption>Table 1.1 Customers</figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="text_aside_A">
+                            <h3>Titre 1</h3> 
+                            <p>La convention  <mark>émetteur-admetteur</mark> est une convention utilisée en électricité pour décrire <b>le sens des flux électriques</b> dans un circuit. 
+                            Selon cette convention, le courant électrique est considéré comme circulant du point de potentiel plus élevé (générateur) vers le point de potentiel plus faible (récepteur).</p>
+                        </div>
+
+                         <div class="text_below_A">
+                            <p>
+                            En fait, un conducteur n’est jamais parcouru en permanence par son courant admissible, sauf cas particuliers. Il peut donc être tenu compte des conditions d’utilisation pour déterminer sa durée de vie.</p>
+
+                            <p>
+                            Le pouvoir de coupure d’un disjoncteur (noté Pdc) correspond à l’intensité maximale à laquelle il va assurer sa fonction de coupure du courant en cas de court-circuit.(sinon il colle->DDR, sinon il crée un arc->fusible). C’est donc en mesurant cette intensité de court-circuit (notée Icc) que l’on peut en déterminer le pouvoir de coupure nécessaire au disjoncteur. En effet, "Pdc" doit être plus grand que "Icc" pour garantir la sécurité de l’installation.</p>
+
+                            <p>
+                            B         pour installation domestique
+                            gG      anciennement GI : emploi général industriel
+                            aM     accompagnement moteur, emploi industrie
+                            AD     accompagnement disjoncteur (d’abonné par exemple)</p>
+
+                            <p>
+                            La puissance fluctuante est une puissance sinusoïdale de fréquence double de celle du courant et de la tension. Elle est une grandeur sinusoïdale de valeur moyenne nulle. La moyenne de cette puissance est la puissance active, consommée par le circuit à quoi s'ajoute une puissance fluctuante lorsque le circuit contient une partie inductive ou capacitive4. Pour des convertisseurs électrothermiques, cette
+                            </p>
+                        </div>
+                    </div>                
+                </section>
+            </article>
+
+            <article   id="section-3">
+                <section>
+                    <div class="section_title">
+                        <h2 class="section_title_h2">Régime TN-c</h2>
+                    </div>
+
+                    <div class="grid_A">
+                        </div>
+                            <figure class="pict_A">
+                                <img src="img/[-Ectro(-____(-slt-003-))].svg"  onclick="onClick(this)" class="text_below_A" alt="Img 1"/>
+                                <figcaption>Table 1.1 Customers</figcaption>
+                            </figure> 
+                        </div>
+
+                        <div class="text_aside_A">
+                            <h3>Titre 1</h3> 
+                            <p>La convention  <mark>émetteur-admetteur</mark> est une convention utilisée en électricité pour décrire <b>le sens des flux électriques</b> dans un circuit. 
+                            Selon cette convention, le courant électrique est considéré comme circulant du point de potentiel plus élevé (générateur) vers le point de potentiel plus faible (récepteur).</p>
+                        </div>
+
+                        <div class="text_below_A">
+
+                        </div>
+                    </div>                
+                </section>
+            </article>
+
+            <article   id="section-4">
+                <section>
+                    <div class="section_title">
+                        <h2 class="section_title_h2">Régime TN-s</h2>
+                    </div>
+              
+                    <div class="grid_A">
+                        </div>
+                            <figure class="pict_A">
+                                <img src="img/[-Ectro(-____(-slt-004-))].png"  onclick="onClick(this)" class="text_below_A" alt="Img 1"/>
+                                <figcaption>Table 1.1 Customers</figcaption>
+                            </figure> 
+                        </div>
+
+                        <div class="text_aside_A">
+                            <h3>Titre 1</h3> 
+                            <p>La convention  <mark>émetteur-admetteur</mark> est une convention utilisée en électricité pour décrire <b>le sens des flux électriques</b> dans un circuit. 
+                            Selon cette convention, le courant électrique est considéré comme circulant du point de potentiel plus élevé (générateur) vers le point de potentiel plus faible (récepteur).</p>
+                        </div>
+
+                        <div class="text_below_A">
+                            <p>
+                               La puissance (instantanée/temporelle) p(t)=U(t)*I(t) est aussi la dérivée de l'énergie fournie par rapport au temps
+                            La moyenne de puissance (fréquetielle/complexe/apparente)instantanée, appelée puissance active(constituante), correspond à la puissance réellement consommée par le dipôle.
+                             Le second terme de la somme correspond à la puissance réactive(fluctuante).</p>
+
+                            <p>
+                            La puissance active est la puissance réellement utilisée par un appareil ou un système électrique pour effectuer un travail ou produire de l’énergie. Elle se mesure en watts (W) ou en kilowatts (kW). Par exemple, la puissance active d’une lampe LED est égale à la quantité d’énergie qu’elle consomme pour émettre de la lumière1.
+                            La puissance nominale est la puissance maximale que peut fournir ou recevoir un appareil ou un système électrique dans des conditions normales. Elle se mesure aussi en watts (W) ou en kilowatts (kW). Par exemple, la puissance nominale d’un téléviseur plasma est de 200 W.
+                            La différence entre ces deux notions est donc que la puissance active dépend du rendement et de l’efficacité d’un appareil ou d’un système électrique, tandis que la puissance nominale dépend des caractéristiques techniques et des conditions de fonctionnement.</p>
+
+                            <p>
+                            La puissance moyenne ou active est la puissance utile.
+
+
+
+                            La puissance nominale d’un appareil électrique est la puissance maximale qu’il peut fournir ou consommer en continu, sans être endommagé. Elle est généralement indiquée sur la plaque signalétique de l’appareil et exprimée en watts (W) ou en kilowatts (kW) 1.</p>
+                            <p>
+                            La puissance absorbée est la puissance électrique consommée par un appareil électrique pour fonctionner. Elle est exprimée en watts (W) ou en kilowatts (kW) 2. La puissance absorbée est souvent inférieure à la puissance nominale, car elle dépend du rendement de l’appareil électrique. Ce ci implique que pour rendement = Pnominale / Putile   il faut que Pnominale=Pabsorbée.</p>
+                        </div>
+                    </div>                
+                </section>
+            </article>
+        </main>
+
+        <footer id="footer">
+            <center>
+                <div class="prevnext">
+                    <span class="previous">
+                        <a href="0_sum-ele0.html" class="">← Précédent</a>
+                    </span>
+
+                    <span class="breadcrumbs">
+                        <ul class="collapsed">
+                          <li><a href="#">Électronique</a></li>
+                          <li><a href="#">Base</a></li>
+                          <li>Convention Émetteur Admetteur </li>
+                        </ul> 
+                    </span>   
+
+                    <span class="next">
+                        <a href="1_cha-slt-01.html" class="">Suivant →</a>
+                    </span>  
+                </div>
+            </center>
+        </footer>
+    </body>
+
+
+    <script>
+// Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</html>
+

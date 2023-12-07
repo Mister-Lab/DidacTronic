@@ -65,9 +65,8 @@ main{
   position: absolute;
   background-color: #f9f9f9;
   width: 100%;
- 
+  height: 89%;
   left: 0;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   background-color: #ddd;
 }
@@ -171,4 +170,145 @@ main{
 		color: black;
 		
 		}
+
+
+
+
+
+
+
+
+
+
+
+
+ /*vertical menu */
+
+.container {
+  display: flex;
+  width: 100%;
+  padding: 4% 2%;
+  box-sizing: border-box;
+  height: 89vh;
+  background-color: #333;
+}
+
+.box {
+  flex: 1;
+  overflow: hidden;
+  transition: 0.5s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+  line-height: 0;
+}
+
+.box > img {
+  width: 200%;
+  height: calc(100% - 10vh);
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 0.5s;
+}
+
+.box > span {
+  font-size: 3.8vh;
+  display: block;
+  text-align: center;
+  height: 10vh;
+  line-height: 2.6;
+}
+
+.box:hover {
+  flex: 1 1 90%;
+}
+
+.box:hover > img {
+  width: 100%;
+  height: 100%;
+}
+     
+
+
+
+
+
+
+    
+/*---------------------*/
+.tabs {
+  height: 83vh;
+  position: relative;
+  overflow: hidden;
+}
+
+input[type=radio] {
+  position: absolute;
+  left: 0;
+  width: 24px;
+  height: 25%;
+  outline: 12px solid;
+  outline-offset: -12px;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  cursor: pointer;
+}
+input[type=radio]:nth-of-type(1) {
+  outline-color: #555;
+  top: 0%;
+}
+input[type=radio]:nth-of-type(2) {
+  outline-color: #666;
+  top: 25%;
+}
+input[type=radio]:nth-of-type(3) {
+  outline-color: #777;
+  top: 50%;
+}
+input[type=radio]:nth-of-type(4) {
+  outline-color: #888;
+  top: 75%;
+}
+input[type=radio]:checked + .content {
+  transform: translateX(0%);
+  transition: transform 0.05s ease 0.05s;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.4s ease;
+  transform: translateX(-100%);
+}
+.content:nth-of-type(1) {
+  background-color: #555;
+}
+.content:nth-of-type(2) {
+  background-color: #666;
+}
+.content:nth-of-type(3) {
+  background-color: #777;
+}
+.content:nth-of-type(4) {
+  background-color: #888;
+}
+
+.title {
+  font-size: 5vw;
+  font-weight: bold;
+  color: #fff;
+}
+
+
+
 

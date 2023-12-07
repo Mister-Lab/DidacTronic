@@ -689,3 +689,5 @@ details[open] {
 details:not([open]) .folder {
   height: 0px !important;
 }
+
+/* _________________________________  */

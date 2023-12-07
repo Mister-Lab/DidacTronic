@@ -68,7 +68,10 @@ enfant pour que leurs requêtes puissent être traitées.
 
 Les modules sont des morceaux de code qui peuvent être utilisés pour fournir ou étendre les fonctionnalités du serveur HTTP Apache. Les modules peuvent être inclus de manière statique ou dynamique avec le noyau. Pour une inclusion statique, le code source du module doit être ajouté à la distribution source du serveur et compiler l'ensemble du serveur. Les modules inclus dynamiquement ajoutent des fonctionnalités au serveur en étant chargés en tant que bibliothèques partagées lors du démarrage ou du redémarrage du serveur. Dans ce cas, le module mod_so fournit la fonctionnalité permettant d'ajouter des modules de manière dynamique. Dans une distribution actuelle d'Apache 2.0 ou d'Apache 1.3, toutes les fonctionnalités du serveur, sauf très basiques, ont été déplacées vers des modules.
 
-
+•Protocole : Hart
+Facile à utiliser et largement déployé, HART est un protocole de communication bidirectionnelle qui établit la communication entre les instruments de terrain HART et les systèmes de contrôle-commande ou les interfaces de communication. Ce protocole comprend deux voies de communication simultanée : analogique et numérique. Le système hôte convertit la valeur mesurée en variable de procédé, et les informations numériques sont superposées au signal analogique de l'appareil.
+Sérialiseur : Usart / Uart
+En langage courant, c'est le composant utilisé pour faire la liaison entre l'ordinateur et le port série. L'ordinateur envoie les données en parallèle (autant de fils que de bits de données). Il faut donc transformer ces données pour les faire passer à travers une liaison série qui utilise un seul fil pour faire passer tous les bits de données.
 
 
 

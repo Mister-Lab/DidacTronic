@@ -52,4 +52,4 @@ Lorsqu'un signal est appliqué à l'entrée de l'ampli-op, il est amplifié et l
 Les ampli-ops ont de nombreuses applications dans les domaines de l'électronique analogique et numérique. Ils peuvent être utilisés dans les amplificateurs audio, les filtres, les oscillateurs, les comparateurs, les convertisseurs analogique-numérique et numérique-analogique, et dans de nombreux autres circuits électroniques.
 
 
- [-Ectro(-____(-0000-000-))]
+

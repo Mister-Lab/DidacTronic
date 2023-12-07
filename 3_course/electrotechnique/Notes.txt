@@ -162,7 +162,7 @@ Il existe trois façons pour réaliser la prise de terre: Un interrupteur diffé
 
 
 
-
+Le pouvoir de coupure d’un disjoncteur (noté Pdc) correspond à l’intensité maximale à laquelle il va assurer sa fonction de coupure du courant en cas de court-circuit. C’est donc en mesurant cette intensité de court-circuit (notée Icc) que l’on peut en déterminer le pouvoir de coupure nécessaire au disjoncteur. En effet, "Pdc" doit être plus grand que "Icc" pour garantir la sécurité de l’installation autrement il collera. Bien sur réglera le déclencheur du disjoncteur sur un courant(nominal) In inferieur à Icc.
 
 
 
